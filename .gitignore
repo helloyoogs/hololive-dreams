@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 이미지 파일 로컬에서만 스크립트로 생성
+/public/assetbundles/

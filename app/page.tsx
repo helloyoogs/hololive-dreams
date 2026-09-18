@@ -1,69 +1,58 @@
-import Image from "next/image";
+import cardsData from '@/data/cards.json';
+import { Card } from '@/types/card';
 
 export default function Home() {
+  // JSON 내부의 cards 객체에서 값(카드 객체들)만 배열로 추출합니다.
+  const rawCardsObj = (cardsData as any).cards || {};
+  const cards: Card[] = Object.values(rawCardsObj);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <main className="min-h-screen bg-gray-950 text-white p-8">
+      <div className="max-w-7xl mx-auto">
+        <header className="mb-8">
+          <h1 className="text-3xl font-extrabold tracking-tight">Hololive Dreams</h1>
+          <p className="text-gray-400 mt-2">카드 도감 및 덱 편성 시뮬레이터 (포트폴리오)</p>
+          <div className="mt-4 text-sm text-indigo-400">
+            총 로드된 카드 수: {cards.length}개
+          </div>
+        </header>
+
+        {/* 카드 그리드 영역 */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
+          {cards.map((card) => (
+            <div 
+              key={card.id} 
+              className="bg-gray-900 border border-gray-800 rounded-xl p-3 flex flex-col items-center hover:border-indigo-500 transition-all shadow-lg"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+              {/* 이미지 영역 (원본 사이트 썸네일 경로 활용) */}
+              <div className="w-full bg-gray-800 rounded-lg overflow-hidden relative mb-2 flex items-center justify-center">
+                <img 
+  src={`/cdn.holodori.dev/assets/${card.image}_unsquished.webp`}
+  alt={card.name}
+className="object-cover w-full aspect-[1.77778/1] aspect-[16/9]"
+  loading="lazy"
+/>
+                <span className="absolute top-2 right-2 bg-black/60 backdrop-blur-md px-2 py-0.5 rounded text-xs font-bold text-yellow-400">
+                  ★ {card.rarity}
+                </span>
+              </div>
+
+              {/* 텍스트 정보 */}
+              <span className="text-xs text-gray-400 font-medium truncate w-full text-center">
+                {card.character}
+              </span>
+              <h3 className="text-sm font-bold truncate w-full text-center mt-0.5" title={card.name}>
+                {card.name}
+              </h3>
+              
+              {/* 속성 배지 */}
+              <span className="mt-2 text-[10px] px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">
+                {card.attributeName}
+              </span>
+            </div>
+          ))}
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
