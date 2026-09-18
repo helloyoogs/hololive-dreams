@@ -34,7 +34,7 @@
     margin: 2rem;
     text-align: center;
     display: flex;
-    gap: 2rem;
+    gap: 10px;
     align-items: center;
     justify-content: center;
   }
@@ -50,14 +50,14 @@
 
   .card-badges {
     position: absolute;
-    top: 4px;
-    left: 4px;
+    top: -6px;
+    left: -6px;
     align-items: center;
     pointer-events: none;
   }
 
   .card-badge {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
   }
 }
