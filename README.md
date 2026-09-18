@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+##작업 목차
+- 카드 성능 , 카드 유형별, 카드 속성별 -> 검색, 필터링
+- 곡 길이, 가수, 길이 -> 검색, 필터링
+- 카드 덱 편성
+- 덱 편성에 따른 총 점수
 
 ## Getting Started
 
