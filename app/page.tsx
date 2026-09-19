@@ -20,7 +20,7 @@ export default function Home() {
       {/* 배경 이미지 영역 */}
       <div className="card-content-area">
         {/* 카드 그리드 영역 */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-[120rem] mx-auto ">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-[120rem] mx-auto px-2">
           {cards.map((card) => (
             <div
               key={card.id}
@@ -31,19 +31,19 @@ export default function Home() {
                 <img
                   src={`/cdn.holodori.dev/assets/${card.image}_unsquished.webp`}
                   alt={card.name}
-                  className="object-cover w-full rounded-sm aspect-[16/9] rounded-sm border border-color-transparent"
+                  className="object-cover w-full rounded-sm aspect-[16/9]"
                   loading="lazy"
                 />
                 <div className="card-badges">
                   <img className="card-badge" alt={card.attributeName} src={`/api.holodori.best/manual_assets/${card.attributeIcon}.webp`} />
                 </div>
-                <span className="absolute bottom-0 left-[-5px] flex-col -space-y-1.5">
+                <span className="absolute bottom-[-3px] left-[-5px] flex-col -space-y-1.5">
                   {Array.from({ length: card.rarity }).map((_, i) => (
                     <img
                       key={i}
                       src="/api.holodori.best/manual_assets/rarity-star.webp"
                       alt="star"
-                      className="w-6 h-6 drop-shadow-md"
+                      className="w-[1.5rem] h-[1.5rem] drop-shadow-md"
                     />
                   ))}
                 </span>
@@ -56,11 +56,6 @@ export default function Home() {
               <h3 className="text-sm font-bold truncate w-full text-center mt-0.5 text-black-100" title={card.name}>
                 {card.name}
               </h3>
-
-              {/* 속성 배지 */}
-              <span className="mt-2 text-[10px] px-2 py-0.5 rounded-full bg-indigo-950 text-indigo-300 border border-indigo-800">
-                {card.attributeName}ddd
-              </span>
             </div>
           ))}
         </div>
