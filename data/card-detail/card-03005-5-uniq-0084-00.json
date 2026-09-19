@@ -1,0 +1,320 @@
+{
+    "id": "card-03005-5-uniq-0084-00",
+    "name": "Chill Sunny Holiday",
+    "character": "Anya Melfissa",
+    "characterId": "chr-03005",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 440,
+        "sense": 263,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03005-5-uniq-0084-00/img_card_full_03005-5-uniq-0084-00",
+    "thumb": "assetbundles/img_card_thumb_03005-5-uniq-0084-00/img_card_thumb_03005-5-uniq-0084-00",
+    "group": {
+        "name": "ID Gen 2",
+        "color1": "06DA9E",
+        "color2": "72F4D0"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 2",
+            "color1": "06DA9E",
+            "color2": "72F4D0"
+        }
+    ],
+    "order": 184,
+    "charOrder": 138,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Performance UP 32% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Performance UP [highlight]43[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 90%. Every 19s with a High Probability chance.",
+                "For 7s, Score UP [highlight]110[/highlight]%. Every 19s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 110,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Tribal Oasis",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Performance UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Summer and this live aren't over yet, okay? Let’s enjoy every last bit of it together!",
+            "audio": "resources/vo_live_dial_card_03005_03005-5-uniq-0084-00_myself.acb/vo_live_dial_card_03005_03005-5-uniq-0084-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Ugh...! It's really the peak of summer, huh?\nI seriously can't go anywhere without my portable fan...\nHm? What's up? Oh! Is that watermelon juice?!\nIs that for me? Wow, you're a lifesaver!\n...Huh? Jump in the water after this? Hmm... I'm feeling lazy, but I did skip it last time, so... Alright, let's do it!\nActually, drifting off while the waves rock me sounds pretty nice too.\nAhahaha, okay, now I'm actually getting hyped!",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_situation.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Nothing beats an air conditioner during summer!",
+            "audio": "resources/vo_live_cmn_card_03005_03005-5-uniq-0084-00_skill-card.acb/vo_live_cmn_card_03005_03005-5-uniq-0084-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Hm? My swimsuit? You think it suits me? Ahaha, thanks~",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-001.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Alright, time to go floating. I’m gonna grab a serious nap on my floatie while the waves rock me back and forth!",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-002.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Wait, scratch that. I'll take this one instead. It looks way better for napping.",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-003.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "The sun is so warm and the ocean feels great... It's the perfect balance... I could totally pass out right now...",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-004.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "*yawn* Okay, let's get moving. Once we're back on the beach, let's take a nap.",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-005.acb/vo_card_cmn_03005_03005-5-uniq-0084-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03005-5-uniq-0084-00.usm/mov_card_full_0_03005-5-uniq-0084-00/mov_card_full_0_03005-5-uniq-0084-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03005-5-uniq-0084-00.usm/mov_card_full_1_03005-5-uniq-0084-00/mov_card_full_1_03005-5-uniq-0084-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03005-5-uniq-0084-00.usm/mov_card_sign_03005-5-uniq-0084-00/mov_card_sign_03005-5-uniq-0084-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03005-5-uniq-0084-00.usm/mov_card_sign_03005-5-uniq-0084-00/mov_card_sign_03005-5-uniq-0084-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

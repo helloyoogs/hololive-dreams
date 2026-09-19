@@ -1,0 +1,228 @@
+{
+    "id": "card-00034-3-nrml-0027-00",
+    "name": "We are hololive!",
+    "character": "Omaru Polka",
+    "characterId": "chr-00034",
+    "rarity": 3,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 302,
+        "sense": 268,
+        "technique": 430
+    },
+    "levelGroupId": "grp-card-level-rarity_3-05",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_00034-3-nrml-0027-00/img_card_full_00034-3-nrml-0027-00",
+    "thumb": "assetbundles/img_card_thumb_00034-3-nrml-0027-00/img_card_thumb_00034-3-nrml-0027-00",
+    "group": {
+        "name": "Gen 5",
+        "color1": "FF79AB",
+        "color2": "FFA6C7"
+    },
+    "groups": [
+        {
+            "name": "Gen 5",
+            "color1": "FF79AB",
+            "color2": "FFA6C7"
+        }
+    ],
+    "order": 26,
+    "charOrder": 128,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3403,
+        3591,
+        3779,
+        3967,
+        4155,
+        4343,
+        4531,
+        4719,
+        4907,
+        5095,
+        5283,
+        5471,
+        5659,
+        5847,
+        6035,
+        6223,
+        6411,
+        6599,
+        6788,
+        6977,
+        7185,
+        7393,
+        7601,
+        7809,
+        8017,
+        8225,
+        8433,
+        8641,
+        8849,
+        9057,
+        9265,
+        9473,
+        9681,
+        9889,
+        10097,
+        10305,
+        10513,
+        10721,
+        10929,
+        11137,
+        11345,
+        11553,
+        11762,
+        11971,
+        12180,
+        12389,
+        12598,
+        12807,
+        13016,
+        13225,
+        13434,
+        13643,
+        13852,
+        14061,
+        14270,
+        14479,
+        14688,
+        14897,
+        15106,
+        15315
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-05",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 10% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Technique UP [highlight]20[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 40%. Every 17s with a Low Probability chance.",
+                "For 6s, Score UP [highlight]50[/highlight]%. Every 17s with a [highlight]Medium Probability[/highlight] chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 60%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]75[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 60,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 75,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 10,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 20,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_5"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

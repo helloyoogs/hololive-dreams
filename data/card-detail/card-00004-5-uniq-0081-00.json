@@ -1,0 +1,320 @@
+{
+    "id": "card-00004-5-uniq-0081-00",
+    "name": "Mystic Sun Swing",
+    "character": "Aki Rosenthal",
+    "characterId": "chr-00004",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 302,
+        "sense": 268,
+        "technique": 430
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00004-5-uniq-0081-00/img_card_full_00004-5-uniq-0081-00",
+    "thumb": "assetbundles/img_card_thumb_00004-5-uniq-0081-00/img_card_thumb_00004-5-uniq-0081-00",
+    "group": {
+        "name": "Gen 1",
+        "color1": "FF6FC6",
+        "color2": "FF24CC"
+    },
+    "groups": [
+        {
+            "name": "Gen 1",
+            "color1": "FF6FC6",
+            "color2": "FF24CC"
+        }
+    ],
+    "order": 182,
+    "charOrder": 106,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 32% to 2 Gen 1 Members.",
+                "Grants Technique UP [highlight]43[/highlight]% to 2 Gen 1 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 90%. Every 24s with a High Probability chance.",
+                "For 9s, Score UP [highlight]105[/highlight]%. Every 24s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. With 2 or more Gen 1 Members, Skill Activation Rate UP 40%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. With 2 or more Gen 1 Members, Skill Activation Rate UP [highlight]45[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gen_1"
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 45,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gen_1"
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 105,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_1",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_1",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 210% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]260[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Prism Allure",
+            "descriptions": [
+                "With 2 or more Gen 1 Members, Grants Technique UP 135% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "How to add a splash of color to summer you say? Leave it to me.♪",
+            "audio": "resources/vo_live_dial_card_00004_00004-5-uniq-0081-00_myself.acb/vo_live_dial_card_00004_00004-5-uniq-0081-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Did you know? I opened a beach hut the other day!\nHouston, do you read me?\nGeez! I get that swaying in the hammock is the best ever, but it's not nice to half-listen when a girl's talking!\nYa sure about your attitude here? I mean, right now, you could have sexy Aki-chan all to yourself...\nWho knows if you'll get a chance like this ever again... Isn't it a waste to just fall asleep?\nPfft, ahaha! Just kidding~♪ I teased you because I wanted a bit of attention. My bad!\nSo...shall we continue our little private chat?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_situation.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Nope. Nobody's sleeping on my watch!",
+            "audio": "resources/vo_live_cmn_card_00004_00004-5-uniq-0081-00_skill-card.acb/vo_live_cmn_card_00004_00004-5-uniq-0081-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Have a taste of my swimsuit aura~♪ Mwah~♡ ...Oh wait, was that a bit too intense for you?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-001.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Both of these drinks are MINE!♪ Heehee~♪ Just kidding, here's your share!",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-002.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Ya know, I was dozing off a bit earlier too~♪ But, keep it a secret between us, okay?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-003.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Wanna go down to the shoreline? Sure, big sis here will go with you.",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-004.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Talk about relaxation maxxing~♪ Let's come back here again for some spiritual healing sessions. Of course, together with me!",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-005.acb/vo_card_cmn_00004_00004-5-uniq-0081-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00004-5-uniq-0081-00.usm/mov_card_full_0_00004-5-uniq-0081-00/mov_card_full_0_00004-5-uniq-0081-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00004-5-uniq-0081-00.usm/mov_card_full_1_00004-5-uniq-0081-00/mov_card_full_1_00004-5-uniq-0081-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00004-5-uniq-0081-00.usm/mov_card_sign_00004-5-uniq-0081-00/mov_card_sign_00004-5-uniq-0081-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00004-5-uniq-0081-00.usm/mov_card_sign_00004-5-uniq-0081-00/mov_card_sign_00004-5-uniq-0081-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

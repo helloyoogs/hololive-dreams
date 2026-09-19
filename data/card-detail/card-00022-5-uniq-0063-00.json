@@ -1,0 +1,320 @@
+{
+    "id": "card-00022-5-uniq-0063-00",
+    "name": "Serene Wave Knight",
+    "character": "Shirogane Noel",
+    "characterId": "chr-00022",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 430,
+        "sense": 302,
+        "technique": 268
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00022-5-uniq-0063-00/img_card_full_00022-5-uniq-0063-00",
+    "thumb": "assetbundles/img_card_thumb_00022-5-uniq-0063-00/img_card_thumb_00022-5-uniq-0063-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 165,
+    "charOrder": 119,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Gen 3 Members, Grants Score Support Effect of 9% to 2 Gen 3 Members.",
+                "With 2 or more Gen 3 Members, Grants Score Support Effect of [highlight]12[/highlight]% to 2 Gen 3 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 100%. Every 21s with a High Probability chance.",
+                "For 7s, Score UP [highlight]120[/highlight]%. Every 21s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. With 2 or more Gen 3 Members, Skill Activation Rate UP 40%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. With 2 or more Gen 3 Members, Skill Activation Rate UP [highlight]45[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gen_3"
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 45,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gen_3"
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 21,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 21,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 9,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_3",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_3"
+            },
+            {
+                "value": 12,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_3",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_3"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Soleil Kiss",
+            "descriptions": [
+                "With 2 or more Gen 3 Members, Grants Performance UP 135% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Let’s enjoy summer together this year, \nand the next, and also the one after that!",
+            "audio": "resources/vo_live_dial_card_00022_00022-5-uniq-0063-00_myself.acb/vo_live_dial_card_00022_00022-5-uniq-0063-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Heeeey, what are you doing? Come over here and let’s take a dip in the sea!\nAh, there you are! Here, sit. Feels nice, right?\nEverytime the waves come at me, I feel like it's tickling my waists!♪\nI was moving around a lot last time, so it’s also nice to take it easy like this, too~♪\nWha..? Whooooa!\nOh, that wave crashed right over my head... Hehehe, I'm completely soaked.\nWell, now that's happened... Why don’t we have a water fight~?",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_situation.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Look at the Dancho summer dance steps!",
+            "audio": "resources/vo_live_cmn_card_00022_00022-5-uniq-0063-00_skill-card.acb/vo_live_cmn_card_00022_00022-5-uniq-0063-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "You are staring at me so much! Do you perhaps like my swimsuit look?",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-001.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "My speed is boosted in the swimsuit! Look at my steps! Yay, yay, yaaay!",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-002.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "A soft serve ice cream at the beach is just something else. Oh, no! It will spill!",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-003.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Hey, hey! Let’s lie on a floaty and just drift around.",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-004.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Lying down like this makes us really close. Kind of exciting, hehe.",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-005.acb/vo_card_cmn_00022_00022-5-uniq-0063-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00022-5-uniq-0063-00.usm/mov_card_full_0_00022-5-uniq-0063-00/mov_card_full_0_00022-5-uniq-0063-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00022-5-uniq-0063-00.usm/mov_card_full_1_00022-5-uniq-0063-00/mov_card_full_1_00022-5-uniq-0063-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00022-5-uniq-0063-00.usm/mov_card_sign_00022-5-uniq-0063-00/mov_card_sign_00022-5-uniq-0063-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00022-5-uniq-0063-00.usm/mov_card_sign_00022-5-uniq-0063-00/mov_card_sign_00022-5-uniq-0063-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

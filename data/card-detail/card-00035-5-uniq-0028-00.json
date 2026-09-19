@@ -1,0 +1,320 @@
+{
+    "id": "card-00035-5-uniq-0028-00",
+    "name": "Commanding Genius",
+    "character": "La+ Darknesss",
+    "characterId": "chr-00035",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 278,
+        "sense": 302,
+        "technique": 420
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00035-5-uniq-0028-00/img_card_full_00035-5-uniq-0028-00",
+    "thumb": "assetbundles/img_card_thumb_00035-5-uniq-0028-00/img_card_thumb_00035-5-uniq-0028-00",
+    "group": {
+        "name": "holoX",
+        "color1": "BD5BE4",
+        "color2": "8700BD"
+    },
+    "groups": [
+        {
+            "name": "holoX",
+            "color1": "BD5BE4",
+            "color2": "8700BD"
+        }
+    ],
+    "order": 135,
+    "charOrder": 129,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more holoX Members, Grants All Stats UP 25% to self.",
+                "With 2 or more holoX Members, Grants All Stats UP [highlight]33[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 105%. Every 18s with a Medium Probability chance.",
+                "For 6s, Score UP [highlight]125[/highlight]%. Every 18s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 110%.",
+                "For 12s, Grants Score Support Effect of [highlight]135[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 135,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 105,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 18,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 18,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 25,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            },
+            {
+                "value": 33,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-holox"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Purple Supremacy",
+            "descriptions": [
+                "With 2 or more holoX Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "This idol's gonna conquer the world! Just you wait!",
+            "audio": "resources/vo_live_dial_card_00035_00035-5-uniq-0028-00_myself.acb/vo_live_dial_card_00035_00035-5-uniq-0028-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Hahahahaha!\nWe must hurry and finish the holoX World Domination Weapon, Black Schwarz!\nIf we pull this off, then the world will truly be in the hands of holoX!\nIt is I, La+ Darknesss who commands these cheers!\nLet's plan our world domination... Oh! Snack time!\nUmm... Let's come up with a strategy tomorrow!\nYou get to live another day, humans. Hahahahaha!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_situation.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Ready to see what I've got?",
+            "audio": "resources/vo_live_cmn_card_00035_00035-5-uniq-0028-00_skill-card.acb/vo_live_cmn_card_00035_00035-5-uniq-0028-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Have you ever seen anything as majestic as my cloak?",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-001.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "There's nothing stylish about hiding your cowlick under a hat.",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-002.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I want to be showered with confetti when I appear on stage! That's an order!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-003.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Hey! Do we have a plan for world domination yet? Today's the day!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-004.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Your commander is thirsty! Bring me something to drink!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-005.acb/vo_card_cmn_00035_00035-5-uniq-0028-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00035-5-uniq-0028-00.usm/mov_card_full_0_00035-5-uniq-0028-00/mov_card_full_0_00035-5-uniq-0028-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00035-5-uniq-0028-00.usm/mov_card_full_1_00035-5-uniq-0028-00/mov_card_full_1_00035-5-uniq-0028-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00035-5-uniq-0028-00.usm/mov_card_sign_00035-5-uniq-0028-00/mov_card_sign_00035-5-uniq-0028-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00035-5-uniq-0028-00.usm/mov_card_sign_00035-5-uniq-0028-00/mov_card_sign_00035-5-uniq-0028-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

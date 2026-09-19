@@ -1,0 +1,320 @@
+{
+    "id": "card-00012-5-uniq-0062-00",
+    "name": "Vibrant Sun Splash!",
+    "character": "Oozora Subaru",
+    "characterId": "chr-00012",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 306,
+        "sense": 400,
+        "technique": 294
+    },
+    "levelGroupId": "grp-card-level-rarity_5-02",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00012-5-uniq-0062-00/img_card_full_00012-5-uniq-0062-00",
+    "thumb": "assetbundles/img_card_thumb_00012-5-uniq-0062-00/img_card_thumb_00012-5-uniq-0062-00",
+    "group": {
+        "name": "Gen 2",
+        "color1": "225AFF",
+        "color2": "7197FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 2",
+            "color1": "225AFF",
+            "color2": "7197FF"
+        }
+    ],
+    "order": 163,
+    "charOrder": 113,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5269,
+        5481,
+        5693,
+        5905,
+        6117,
+        6329,
+        6541,
+        6753,
+        6965,
+        7178,
+        7391,
+        7604,
+        7817,
+        8030,
+        8243,
+        8456,
+        8669,
+        8882,
+        9095,
+        9308,
+        9521,
+        9734,
+        9947,
+        10160,
+        10373,
+        10586,
+        10799,
+        11012,
+        11225,
+        11438,
+        11651,
+        11864,
+        12077,
+        12290,
+        12503,
+        12716,
+        12929,
+        13142,
+        13355,
+        13568,
+        13821,
+        14074,
+        14327,
+        14580,
+        14833,
+        15086,
+        15339,
+        15592,
+        15845,
+        16098,
+        16351,
+        16604,
+        16857,
+        17110,
+        17363,
+        17616,
+        17869,
+        18122,
+        18376,
+        18630,
+        18884,
+        19138,
+        19392,
+        19646,
+        19900,
+        20154,
+        20408,
+        20662,
+        20916,
+        21170,
+        21424,
+        21678,
+        21932,
+        22186,
+        22440,
+        22694,
+        22948,
+        23202,
+        23456,
+        23710
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-02",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants All Stats UP 11% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants All Stats UP [highlight]15[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 45%. Every 17s with a Medium Probability chance. With a Combo of 40 or more, Score UP 90%.",
+                "For 7s, Score UP [highlight]55[/highlight]%. Every 17s with a Medium Probability chance. With a Combo of 40 or more, Score UP [highlight]105[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 17,
+                "upScoreUp": 90,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 17,
+                "upScoreUp": 105,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 11,
+                "stat": "all",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 15,
+                "stat": "all",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "The Longing Sun",
+            "descriptions": [
+                "Grants Score Support Effect of 60% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Get loud, play around, and laugh along with me! \nLet's enjoy summer!",
+            "audio": "resources/vo_live_dial_card_00012_00012-5-uniq-0062-00_myself.acb/vo_live_dial_card_00012_00012-5-uniq-0062-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "This is sooo nice! The seaside is the best!!!\nWhat do you want to do? I had fun floating around last time, wanna do that?\nWha...? Heeeeey! Why are you the only ones with lifesavers!\nThat is not fair! I will bring a lifesaver too! Give me a minute. Hooooaaawaaaa?!\nI think I dropped my sunglasses in the ocean?!\nDon’t be floating around like nothing is happening! Help me look for them!",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_situation.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Don’t let the heat beat you!",
+            "audio": "resources/vo_live_cmn_card_00012_00012-5-uniq-0062-00_skill-card.acb/vo_live_cmn_card_00012_00012-5-uniq-0062-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "It is really easy to move around in a swimsuit! Hehe!",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-001.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "I won't let a little water resistance beat me! Full on dash! Wooooooah!",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-002.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Break time, break time~♪ And my towel is...oh snap! I forgot my towel!",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-003.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Thank you for the towel! You really saved me! As a thank you, I will give you some shaved ice! Here!",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-004.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "The wind feels so nice~♪ Why are you staring at me like that...? I’m getting embarrassed...",
+            "audio": "resources/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-005.acb/vo_card_cmn_00012_00012-5-uniq-0062-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00012-5-uniq-0062-00.usm/mov_card_full_0_00012-5-uniq-0062-00/mov_card_full_0_00012-5-uniq-0062-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00012-5-uniq-0062-00.usm/mov_card_full_1_00012-5-uniq-0062-00/mov_card_full_1_00012-5-uniq-0062-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00012-5-uniq-0062-00.usm/mov_card_sign_00012-5-uniq-0062-00/mov_card_sign_00012-5-uniq-0062-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00012-5-uniq-0062-00.usm/mov_card_sign_00012-5-uniq-0062-00/mov_card_sign_00012-5-uniq-0062-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

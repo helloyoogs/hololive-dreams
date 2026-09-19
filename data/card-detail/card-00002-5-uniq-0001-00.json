@@ -1,0 +1,320 @@
+{
+    "id": "card-00002-5-uniq-0001-00",
+    "name": "High-Tech Victory V",
+    "character": "Robocosan",
+    "characterId": "chr-00002",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 430,
+        "sense": 268,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00002-5-uniq-0001-00/img_card_full_00002-5-uniq-0001-00",
+    "thumb": "assetbundles/img_card_thumb_00002-5-uniq-0001-00/img_card_thumb_00002-5-uniq-0001-00",
+    "group": {
+        "name": "Gen 0",
+        "color1": "93C2FF",
+        "color2": "6E92FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 0",
+            "color1": "93C2FF",
+            "color2": "6E92FF"
+        }
+    ],
+    "order": 110,
+    "charOrder": 102,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 75%. Every 18s with a High Probability chance.",
+                "For 8s, Score UP [highlight]90[/highlight]%. Every 18s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. When LIFE is 1000 or higher, Skill Activation Rate UP 45%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. When LIFE is 1000 or higher, Skill Activation Rate UP [highlight]55[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 45,
+                "actRateUpType": "LIFE_GTE",
+                "actRateUpThreshold": 1000,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 55,
+                "actRateUpType": "LIFE_GTE",
+                "actRateUpThreshold": 1000,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 75,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 18,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 18,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_0"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Holosuit-VHPR",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "This moment we shared is a gift... \nThank you, from the bottom of my heart!",
+            "audio": "resources/vo_live_dial_card_00002_00002-5-uniq-0001-00_myself.acb/vo_live_dial_card_00002_00002-5-uniq-0001-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Woohoo! Did you see that? Did you? I won again!\nWell, could you really expect anything else from someone as high-spec as me?\nAll right, let's keep this winning streak alive! Let's make a new Roboco legend! Woohoo!\nAre you watching? 'Cause I'm gonna show you something totally wild, hehe!\nHey, wait?! Why did the game start on its own?!\nUgh, don't do that! Oh nooo! My winning streak!",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_situation.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Updating high-spec!",
+            "audio": "resources/vo_live_cmn_card_00002_00002-5-uniq-0001-00_skill-card.acb/vo_live_cmn_card_00002_00002-5-uniq-0001-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Well? Well? Am I sexy? Am I?",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-001.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Don't you just love my pink coat? And what could be hiding underneath... Hehe, so naughty!",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-002.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Gotta train my gaming muscles if I'm gonna set a new Roboco legend! Here we go!",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-003.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Phew, I'm pooped... Maybe a few head pats would help re-energize me... Meow!",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-004.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks for always supporting me through my special training. I'll give you a head pat as thanks!",
+            "audio": "resources/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-005.acb/vo_card_cmn_00002_00002-5-uniq-0001-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00002-5-uniq-0001-00.usm/mov_card_full_0_00002-5-uniq-0001-00/mov_card_full_0_00002-5-uniq-0001-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00002-5-uniq-0001-00.usm/mov_card_full_1_00002-5-uniq-0001-00/mov_card_full_1_00002-5-uniq-0001-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00002-5-uniq-0001-00.usm/mov_card_sign_00002-5-uniq-0001-00/mov_card_sign_00002-5-uniq-0001-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00002-5-uniq-0001-00.usm/mov_card_sign_00002-5-uniq-0001-00/mov_card_sign_00002-5-uniq-0001-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

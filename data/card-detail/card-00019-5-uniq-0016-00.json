@@ -1,0 +1,320 @@
+{
+    "id": "card-00019-5-uniq-0016-00",
+    "name": "Playful Rabbit Field",
+    "character": "Usada Pekora",
+    "characterId": "chr-00019",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 283,
+        "sense": 307,
+        "technique": 410
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00019-5-uniq-0016-00/img_card_full_00019-5-uniq-0016-00",
+    "thumb": "assetbundles/img_card_thumb_00019-5-uniq-0016-00/img_card_thumb_00019-5-uniq-0016-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 124,
+    "charOrder": 117,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants All Stats UP 24% to self.",
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants All Stats UP [highlight]32[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 95%. Every 30s with a Medium Probability chance.",
+                "For [highlight]12[/highlight]s, Score UP [highlight]105[/highlight]%. Every 30s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 46,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 105,
+                "prob": 46,
+                "duration": 12,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 24,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            },
+            {
+                "value": 32,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 110% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]160[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Anarchy Rabbit",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants All Stats UP 30% to all. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "You heard it here, folks! \nThis is the beginning of our Pekora Story!",
+            "audio": "resources/vo_live_dial_card_00019_00019-5-uniq-0016-00_myself.acb/vo_live_dial_card_00019_00019-5-uniq-0016-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Mwa ha ha ha... Complete at last, peko!\nBehold! The Pekorization is complete! As of this moment, this place shall now be known as... Pekoland 2!\nNow to pekorize the next place, and the next, and soon the entire world will belong to Peko-ra! Peeeko peko peko!\nHuh...? I'm being invoiced? You mean I gotta foot the bill?\nLet's see... HAAAHH?!?! Isn't that too many zeroes?! Waah, I'm gonna go broke!\nWhat a rip off! I've been totally screwed!",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_situation.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Peko-peko-peko!",
+            "audio": "resources/vo_live_cmn_card_00019_00019-5-uniq-0016-00_skill-card.acb/vo_live_cmn_card_00019_00019-5-uniq-0016-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "All wrapped up in a pretty blue ribbon! Hey, aren't I just the cutest gift?",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-001.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "I've got a new rule for Pekoland... Well, just use your common sense!",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-002.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I've got a new plan! Heehee, this is just between you and me, peko!",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-003.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I need your help for my new plan, peko! You won't wanna miss this, I promise, peko!",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-004.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thank you... um... for always having my back, peko!",
+            "audio": "resources/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-005.acb/vo_card_cmn_00019_00019-5-uniq-0016-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00019-5-uniq-0016-00.usm/mov_card_full_0_00019-5-uniq-0016-00/mov_card_full_0_00019-5-uniq-0016-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00019-5-uniq-0016-00.usm/mov_card_full_1_00019-5-uniq-0016-00/mov_card_full_1_00019-5-uniq-0016-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00019-5-uniq-0016-00.usm/mov_card_sign_00019-5-uniq-0016-00/mov_card_sign_00019-5-uniq-0016-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00019-5-uniq-0016-00.usm/mov_card_sign_00019-5-uniq-0016-00/mov_card_sign_00019-5-uniq-0016-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

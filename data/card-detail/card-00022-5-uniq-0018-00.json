@@ -1,0 +1,320 @@
+{
+    "id": "card-00022-5-uniq-0018-00",
+    "name": "Gentle Breeze Knight",
+    "character": "Shirogane Noel",
+    "characterId": "chr-00022",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 294,
+        "sense": 400,
+        "technique": 306
+    },
+    "levelGroupId": "grp-card-level-rarity_5-02",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00022-5-uniq-0018-00/img_card_full_00022-5-uniq-0018-00",
+    "thumb": "assetbundles/img_card_thumb_00022-5-uniq-0018-00/img_card_thumb_00022-5-uniq-0018-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 126,
+    "charOrder": 119,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5269,
+        5481,
+        5693,
+        5905,
+        6117,
+        6329,
+        6541,
+        6753,
+        6965,
+        7178,
+        7391,
+        7604,
+        7817,
+        8030,
+        8243,
+        8456,
+        8669,
+        8882,
+        9095,
+        9308,
+        9521,
+        9734,
+        9947,
+        10160,
+        10373,
+        10586,
+        10799,
+        11012,
+        11225,
+        11438,
+        11651,
+        11864,
+        12077,
+        12290,
+        12503,
+        12716,
+        12929,
+        13142,
+        13355,
+        13568,
+        13821,
+        14074,
+        14327,
+        14580,
+        14833,
+        15086,
+        15339,
+        15592,
+        15845,
+        16098,
+        16351,
+        16604,
+        16857,
+        17110,
+        17363,
+        17616,
+        17869,
+        18122,
+        18376,
+        18630,
+        18884,
+        19138,
+        19392,
+        19646,
+        19900,
+        20154,
+        20408,
+        20662,
+        20916,
+        21170,
+        21424,
+        21678,
+        21932,
+        22186,
+        22440,
+        22694,
+        22948,
+        23202,
+        23456,
+        23710
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-02",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants All Stats UP 24% to self.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants All Stats UP [highlight]32[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 50%. Every 19s with a Medium Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP 100%.",
+                "For 7s, Score UP [highlight]60[/highlight]%. Every 19s with a Medium Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 100,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 120,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 24,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 32,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 55% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]105[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Aile Blanche",
+            "descriptions": [
+                "Grants Score Support Effect of 60% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I'll keep training, keep levelling, \nso we can all reach peak joy!",
+            "audio": "resources/vo_live_dial_card_00022_00022-5-uniq-0018-00_myself.acb/vo_live_dial_card_00022_00022-5-uniq-0018-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Wah, are you okay?! You must be shocked to suddenly trip like that?\nYou’re not injured, right? ...Yeah, you seem to be fine.\nGood! That’s a relief. Oh, but your knee is turning red.\nIn times like this... There, there. See, makes the pain all go away!\nHehehe... Now just stand back up!\nHere, take Dancho’s hand. You can put your weight on me.\n...And there you go! Wh-Wh-What?! Oh dear... Now Dancho fell over too LOL",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_situation.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Let's do this!",
+            "audio": "resources/vo_live_cmn_card_00022_00022-5-uniq-0018-00_skill-card.acb/vo_live_cmn_card_00022_00022-5-uniq-0018-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "How's this outfit? Does it make your Dancho look tough?",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-001.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Next time you feel you’re about to fall over, bring your foot out and plant it firmly on the ground!",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-002.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Oh, wow! You’ve walked a distance but you’re still full of energy! Nice stamina.",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-003.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Eh, you’re giving Dancho water? Thanks! This will blow away the aches!",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-004.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks accompanying on a walk today! Let’s go again some time!",
+            "audio": "resources/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-005.acb/vo_card_cmn_00022_00022-5-uniq-0018-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00022-5-uniq-0018-00.usm/mov_card_full_0_00022-5-uniq-0018-00/mov_card_full_0_00022-5-uniq-0018-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00022-5-uniq-0018-00.usm/mov_card_full_1_00022-5-uniq-0018-00/mov_card_full_1_00022-5-uniq-0018-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00022-5-uniq-0018-00.usm/mov_card_sign_00022-5-uniq-0018-00/mov_card_sign_00022-5-uniq-0018-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00022-5-uniq-0018-00.usm/mov_card_sign_00022-5-uniq-0018-00/mov_card_sign_00022-5-uniq-0018-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

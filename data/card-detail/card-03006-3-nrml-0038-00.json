@@ -1,0 +1,228 @@
+{
+    "id": "card-03006-3-nrml-0038-00",
+    "name": "We are hololive!",
+    "character": "Pavolia Reine",
+    "characterId": "chr-03006",
+    "rarity": 3,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 410,
+        "sense": 283,
+        "technique": 307
+    },
+    "levelGroupId": "grp-card-level-rarity_3-03",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_03006-3-nrml-0038-00/img_card_full_03006-3-nrml-0038-00",
+    "thumb": "assetbundles/img_card_thumb_03006-3-nrml-0038-00/img_card_thumb_03006-3-nrml-0038-00",
+    "group": {
+        "name": "ID Gen 2",
+        "color1": "06DA9E",
+        "color2": "72F4D0"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 2",
+            "color1": "06DA9E",
+            "color2": "72F4D0"
+        }
+    ],
+    "order": 36,
+    "charOrder": 139,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3418,
+        3606,
+        3794,
+        3983,
+        4172,
+        4361,
+        4550,
+        4739,
+        4928,
+        5117,
+        5306,
+        5495,
+        5684,
+        5873,
+        6062,
+        6251,
+        6440,
+        6629,
+        6818,
+        7007,
+        7216,
+        7425,
+        7634,
+        7843,
+        8052,
+        8261,
+        8470,
+        8679,
+        8888,
+        9097,
+        9306,
+        9515,
+        9724,
+        9933,
+        10142,
+        10351,
+        10560,
+        10769,
+        10978,
+        11187,
+        11396,
+        11605,
+        11814,
+        12023,
+        12232,
+        12441,
+        12650,
+        12860,
+        13070,
+        13280,
+        13490,
+        13700,
+        13910,
+        14120,
+        14330,
+        14540,
+        14750,
+        14960,
+        15170,
+        15380
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-03",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Performance UP 7% to 3 [attribute=cute]Cute Type[/attribute] Members.",
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Performance UP [highlight]14[/highlight]% to 3 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 35%. Every 30s with a Medium Probability chance.",
+                "For [highlight]13[/highlight]s, Score UP [highlight]40[/highlight]%. Every 30s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 50%. Restores 300 LIFE.",
+                "For 8s, Grants Score Support Effect of [highlight]70[/highlight]%. Restores [highlight]400[/highlight] LIFE."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 70,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 46,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 40,
+                "prob": 46,
+                "duration": 13,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 7,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            },
+            {
+                "value": 14,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_2"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

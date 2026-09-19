@@ -1,0 +1,320 @@
+{
+    "id": "card-06002-5-uniq-0058-00",
+    "name": "Parade of Smiles",
+    "character": "Otonose Kanade",
+    "characterId": "chr-06002",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 302,
+        "sense": 430,
+        "technique": 268
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_06002-5-uniq-0058-00/img_card_full_06002-5-uniq-0058-00",
+    "thumb": "assetbundles/img_card_thumb_06002-5-uniq-0058-00/img_card_thumb_06002-5-uniq-0058-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 159,
+    "charOrder": 159,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 32% to 2 ReGLOSS Members.",
+                "Grants Sense UP [highlight]43[/highlight]% to 2 ReGLOSS Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 12s, Score UP 75%. Every 27s with a High Probability chance.",
+                "For 12s, Score UP [highlight]90[/highlight]%. Every 27s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. With a Combo of 100 or more, Skill Activation Rate UP 45%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. With a Combo of 100 or more, Skill Activation Rate UP [highlight]55[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 45,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 55,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 75,
+                "prob": 55,
+                "duration": 12,
+                "cooldown": 27,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 12,
+                "cooldown": 27,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Girly Distortion",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Sense UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I hope my song touches each and every one of you.",
+            "audio": "resources/vo_live_dial_card_06002_06002-5-uniq-0058-00_myself.acb/vo_live_dial_card_06002_06002-5-uniq-0058-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Attention you lot! We need to HYPE UP this amusement park with the power of music!\nGot it? Then while you work, I’m gonna have some fun! Laters!\nGahaha! What is this? The instrument is too small!\nToo small! Too small! *bwehs a lot*\nOkay, okay! It was just a joke! Please, don’t get mad at me...\nFinally my turn! You better keep up with me you lot!\nOtonose Kanade’s Marching Band Squad, deploy!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_situation.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Do-re-mi-fa-so-la-ti-do!",
+            "audio": "resources/vo_live_cmn_card_06002_06002-5-uniq-0058-00_skill-card.acb/vo_live_cmn_card_06002_06002-5-uniq-0058-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Did you fell for me already? GAHAHA! Feast your eyes on me as much as you want ♪",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-001.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "I’m so hungry!! Hey, I can smell food on you! GIVE ME YOUR LUNCH!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-002.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "You almost tripped just now, didn’t you? Pffft! I saw that perfectly~",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-003.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Music really is fun ♪ I love playing songs with everyone!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-004.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "You know, I want to sing a song with everyone’s performace next time! Is that okay~?",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-005.acb/vo_card_cmn_06002_06002-5-uniq-0058-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_06002-5-uniq-0058-00.usm/mov_card_full_0_06002-5-uniq-0058-00/mov_card_full_0_06002-5-uniq-0058-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_06002-5-uniq-0058-00.usm/mov_card_full_1_06002-5-uniq-0058-00/mov_card_full_1_06002-5-uniq-0058-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_06002-5-uniq-0058-00.usm/mov_card_sign_06002-5-uniq-0058-00/mov_card_sign_06002-5-uniq-0058-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_06002-5-uniq-0058-00.usm/mov_card_sign_06002-5-uniq-0058-00/mov_card_sign_06002-5-uniq-0058-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

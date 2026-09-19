@@ -1,0 +1,228 @@
+{
+    "id": "card-06005-3-nrml-0061-00",
+    "name": "We are hololive!",
+    "character": "Todoroki Hajime",
+    "characterId": "chr-06005",
+    "rarity": 3,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 278,
+        "sense": 420,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_3-04",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_06005-3-nrml-0061-00/img_card_full_06005-3-nrml-0061-00",
+    "thumb": "assetbundles/img_card_thumb_06005-3-nrml-0061-00/img_card_thumb_06005-3-nrml-0061-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 54,
+    "charOrder": 162,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3411,
+        3599,
+        3787,
+        3975,
+        4163,
+        4351,
+        4539,
+        4727,
+        4915,
+        5103,
+        5291,
+        5480,
+        5669,
+        5858,
+        6047,
+        6236,
+        6425,
+        6614,
+        6803,
+        6992,
+        7200,
+        7408,
+        7616,
+        7824,
+        8032,
+        8241,
+        8450,
+        8659,
+        8868,
+        9077,
+        9286,
+        9495,
+        9704,
+        9913,
+        10122,
+        10331,
+        10540,
+        10749,
+        10958,
+        11167,
+        11376,
+        11585,
+        11794,
+        12003,
+        12212,
+        12421,
+        12630,
+        12839,
+        13048,
+        13257,
+        13466,
+        13675,
+        13884,
+        14093,
+        14302,
+        14511,
+        14720,
+        14929,
+        15138,
+        15347
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-04",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 10% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Sense UP [highlight]20[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 40%. Every 17s with a Low Probability chance.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 17s with a Low Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 40%. Restores 300 LIFE.",
+                "For 10s, Grants Score Support Effect of [highlight]55[/highlight]%. Restores [highlight]400[/highlight] LIFE."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 10,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 20,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

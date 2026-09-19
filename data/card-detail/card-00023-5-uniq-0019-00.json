@@ -1,0 +1,320 @@
+{
+    "id": "card-00023-5-uniq-0019-00",
+    "name": "Siren Marine Blue",
+    "character": "Houshou Marine",
+    "characterId": "chr-00023",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 278,
+        "sense": 302,
+        "technique": 420
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00023-5-uniq-0019-00/img_card_full_00023-5-uniq-0019-00",
+    "thumb": "assetbundles/img_card_thumb_00023-5-uniq-0019-00/img_card_thumb_00023-5-uniq-0019-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 127,
+    "charOrder": 120,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Gen 3 Members, Grants Score Support Effect of 9% to 2 Gen 3 Members.",
+                "With 2 or more Gen 3 Members, Grants Score Support Effect of [highlight]12[/highlight]% to 2 Gen 3 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 95%. Every 23s with a High Probability chance.",
+                "For 8s, Score UP [highlight]115[/highlight]%. Every 23s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. Skill Activation Rate UP 35%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. Skill Activation Rate UP [highlight]40[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 35,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 9,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_3",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_3"
+            },
+            {
+                "value": 12,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_3",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_3"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Crimson Captain",
+            "descriptions": [
+                "With 2 or more Gen 3 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Swear it on your life, your soul, your lips... \nForever, and only me!",
+            "audio": "resources/vo_live_dial_card_00023_00023-5-uniq-0019-00_myself.acb/vo_live_dial_card_00023_00023-5-uniq-0019-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "The sky is as clear as it gets, and the breeze is perfect. Truly a perfect day for sailing~♪\nToday our goal is a no-man island southwest, heading toward treasure we've never seen, yohoho!\nHey hey ♪ Are you paying attention at your captain’s captains~?\nMy plump tights, maybe? Or my world-famous body?\nYou should be focused doing deck work instead of thinking with it, you bad boys.\nWith that said, make sure to come to the captain's room later!\nSome one sure is in need of correction! ♪",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_situation.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Take this! Sexy beam!",
+            "audio": "resources/vo_live_cmn_card_00023_00023-5-uniq-0019-00_skill-card.acb/vo_live_cmn_card_00023_00023-5-uniq-0019-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Iyaan ♡ Even though the captain’s sexy, aren’t you staring a little too much ☆",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-001.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Hnnnn ♪ My pants are super tight~ ♪",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-002.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Oh no! My chest feels soo tight! My clothes are about to burst off!",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-003.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "To think you’d do this to me ♡ With you, I can go anywhere ♡",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-004.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I'm sorry, my crewmates. My clothes didn’t burst off, but my heart has. Please, do as you like with the captain ♡",
+            "audio": "resources/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-005.acb/vo_card_cmn_00023_00023-5-uniq-0019-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00023-5-uniq-0019-00.usm/mov_card_full_0_00023-5-uniq-0019-00/mov_card_full_0_00023-5-uniq-0019-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00023-5-uniq-0019-00.usm/mov_card_full_1_00023-5-uniq-0019-00/mov_card_full_1_00023-5-uniq-0019-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00023-5-uniq-0019-00.usm/mov_card_sign_00023-5-uniq-0019-00/mov_card_sign_00023-5-uniq-0019-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00023-5-uniq-0019-00.usm/mov_card_sign_00023-5-uniq-0019-00/mov_card_sign_00023-5-uniq-0019-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "id": "card-00037-5-uniq-0030-00",
+    "name": "Assistant’s Muse",
+    "character": "Hakui Koyori",
+    "characterId": "chr-00037",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 307,
+        "sense": 410,
+        "technique": 283
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00037-5-uniq-0030-00/img_card_full_00037-5-uniq-0030-00",
+    "thumb": "assetbundles/img_card_thumb_00037-5-uniq-0030-00/img_card_thumb_00037-5-uniq-0030-00",
+    "group": {
+        "name": "holoX",
+        "color1": "BD5BE4",
+        "color2": "8700BD"
+    },
+    "groups": [
+        {
+            "name": "holoX",
+            "color1": "BD5BE4",
+            "color2": "8700BD"
+        }
+    ],
+    "order": 137,
+    "charOrder": 131,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Sense UP 32% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Sense UP [highlight]43[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 95%. Every 23s with a High Probability chance.",
+                "For 8s, Score UP [highlight]115[/highlight]%. Every 23s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. When LIFE is 1000 or higher, Skill Activation Rate UP 45%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. When LIFE is 1000 or higher, Skill Activation Rate UP [highlight]55[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 45,
+                "actRateUpType": "LIFE_GTE",
+                "actRateUpThreshold": 1000,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 55,
+                "actRateUpType": "LIFE_GTE",
+                "actRateUpThreshold": 1000,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-holox"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Mystic Science Lab",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP 30% to all. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "No reaction in the universe could tear us apart! \nI love you so much!",
+            "audio": "resources/vo_live_dial_card_00037_00037-5-uniq-0030-00_myself.acb/vo_live_dial_card_00037_00037-5-uniq-0030-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Whoa! How's everyone?!\nThanks for coming~♪\n...Hmph! I can't hear you~\nNeeds more Koyorium, I'd say~\nOh, no! More supplies! MORE SUPPLIES!\nGive you Koyorium sickness,\nKoyo always on your mind~♪\nA plan worthy of the brains of holoX!\nSo, here's some fresh Koyorium!\nLove yooou! ♡ Mm-wah! ♡",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_situation.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Substantiated with evidence. Q.E.D.",
+            "audio": "resources/vo_live_cmn_card_00037_00037-5-uniq-0030-00_skill-card.acb/vo_live_cmn_card_00037_00037-5-uniq-0030-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "This outfit is...\nZuno! Cute pink and white♪",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-001.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Inside Mr. Assistant's pouch is...\nKoyo love?",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-002.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Try until you get results! Go for it!",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-003.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Break time?\nSit next to me, maybe?",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-004.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks for all your help!\nGratitude♪",
+            "audio": "resources/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-005.acb/vo_card_cmn_00037_00037-5-uniq-0030-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00037-5-uniq-0030-00.usm/mov_card_full_0_00037-5-uniq-0030-00/mov_card_full_0_00037-5-uniq-0030-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00037-5-uniq-0030-00.usm/mov_card_full_1_00037-5-uniq-0030-00/mov_card_full_1_00037-5-uniq-0030-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00037-5-uniq-0030-00.usm/mov_card_sign_00037-5-uniq-0030-00/mov_card_sign_00037-5-uniq-0030-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00037-5-uniq-0030-00.usm/mov_card_sign_00037-5-uniq-0030-00/mov_card_sign_00037-5-uniq-0030-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "id": "card-00036-5-uniq-0078-00",
+    "name": "Relaxing Executive",
+    "character": "Takane Lui",
+    "characterId": "chr-00036",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 268,
+        "sense": 430,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00036-5-uniq-0078-00/img_card_full_00036-5-uniq-0078-00",
+    "thumb": "assetbundles/img_card_thumb_00036-5-uniq-0078-00/img_card_thumb_00036-5-uniq-0078-00",
+    "group": {
+        "name": "holoX",
+        "color1": "BD5BE4",
+        "color2": "8700BD"
+    },
+    "groups": [
+        {
+            "name": "holoX",
+            "color1": "BD5BE4",
+            "color2": "8700BD"
+        }
+    ],
+    "order": 179,
+    "charOrder": 130,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more holoX Members, Grants Score Support Effect of 9% to 2 holoX Members.",
+                "With 2 or more holoX Members, Grants Score Support Effect of [highlight]12[/highlight]% to 2 holoX Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 105%. Every 28s with a High Probability chance.",
+                "For 9s, Score UP [highlight]125[/highlight]%. Every 28s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 11s, Grants Score Support Effect of 110%. With 2 or more holoX Members, Skill Activation Rate UP 40%.",
+                "For 11s, Grants Score Support Effect of [highlight]130[/highlight]%. With 2 or more holoX Members, Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 11,
+                "actRateUp": 40,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-holox"
+            },
+            {
+                "scoreUp": 130,
+                "duration": 11,
+                "actRateUp": 50,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-holox"
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 105,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 28,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 28,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 9,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-holox",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            },
+            {
+                "value": 12,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-holox",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-holox"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Ocean Elegance",
+            "descriptions": [
+                "With 2 or more holoX Members, Grants Sense UP 135% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I'm so glad I get to spend this summer with everyone... Let's enjoy it to the fullest!",
+            "audio": "resources/vo_live_dial_card_00036_00036-5-uniq-0078-00_myself.acb/vo_live_dial_card_00036_00036-5-uniq-0078-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "The salt-scented sea breeze... The sound of waves caressing my ears... And the twins bathing in the sea ever so delightfully... \nIs this what they call paradise? Shouldn't life be charging for a view like this?\nWait, whaaaat?! The twins are waving at me?!\nWha-What should I do?!\n...Okay, okay. I'll just naturally, calmly, wave back at them, as if nothing happened...\nAaaah?! They waved back even harder?!\nGoodness gracious! For a wall like me to be blessed like this...!",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_situation.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Hawk Eyes: Summer Mode activated!",
+            "audio": "resources/vo_live_cmn_card_00036_00036-5-uniq-0078-00_skill-card.acb/vo_live_cmn_card_00036_00036-5-uniq-0078-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "My heart can't take any more happiness right now...! I'll step out for a sec...",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-001.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Ahh, the breeze feels so nice! Mhmm, 'tis the smell of summer!",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-002.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "My glowing skin is beautiful? Hehe, buttering me up won't get you anything!",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-003.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I get wanting to play in the sea, but better not today. You didn't bring a towel, did you?",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-004.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Maybe we should bring a lunch box for our next walk. I'll make potato salad and sandwiches!",
+            "audio": "resources/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-005.acb/vo_card_cmn_00036_00036-5-uniq-0078-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00036-5-uniq-0078-00.usm/mov_card_full_0_00036-5-uniq-0078-00/mov_card_full_0_00036-5-uniq-0078-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00036-5-uniq-0078-00.usm/mov_card_full_1_00036-5-uniq-0078-00/mov_card_full_1_00036-5-uniq-0078-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00036-5-uniq-0078-00.usm/mov_card_sign_00036-5-uniq-0078-00/mov_card_sign_00036-5-uniq-0078-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00036-5-uniq-0078-00.usm/mov_card_sign_00036-5-uniq-0078-00/mov_card_sign_00036-5-uniq-0078-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

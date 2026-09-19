@@ -1,0 +1,320 @@
+{
+    "id": "card-00014-5-uniq-0013-00",
+    "name": "Calming Nightscape",
+    "character": "Ookami Mio",
+    "characterId": "chr-00014",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 302,
+        "sense": 420,
+        "technique": 278
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00014-5-uniq-0013-00/img_card_full_00014-5-uniq-0013-00",
+    "thumb": "assetbundles/img_card_thumb_00014-5-uniq-0013-00/img_card_thumb_00014-5-uniq-0013-00",
+    "group": {
+        "name": "GAMERS",
+        "color1": "63B6FF",
+        "color2": "0089FF"
+    },
+    "groups": [
+        {
+            "name": "GAMERS",
+            "color1": "63B6FF",
+            "color2": "0089FF"
+        }
+    ],
+    "order": 121,
+    "charOrder": 114,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more GAMERS Members, Grants Score Support Effect of 9% to 2 GAMERS Members.",
+                "With 2 or more GAMERS Members, Grants Score Support Effect of [highlight]12[/highlight]% to 2 GAMERS Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 100%. Every 27s with a High Probability chance.",
+                "For 9s, Score UP [highlight]120[/highlight]%. Every 27s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 9,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gamers",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gamers"
+            },
+            {
+                "value": 12,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gamers",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gamers"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gamers"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Crimson Camellia",
+            "descriptions": [
+                "With 2 or more GAMERS Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "We don't need no crystal balls to see the fun \nwe're about to have!",
+            "audio": "resources/vo_live_dial_card_00014_00014-5-uniq-0013-00_myself.acb/vo_live_dial_card_00014_00014-5-uniq-0013-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "What do you think about this place? It has a nice atmosphere, it’s quiet, stylish, and the view is great.\nIt’s the perfect place to talk at a relaxed pace, right? Hey, what’s wrong? You look kinda tense.\nAre you nervous? Oh, come to think of it, didn’t you say this kind of place is a first for you?\nOkay, no worries! I’ll take the lead today!\nYou just need to relax!\nI guess that’s not so easy right away, huh? Well, for now, let’s just make a toast ♪",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_situation.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "You can't stop the wolf!",
+            "audio": "resources/vo_live_cmn_card_00014_00014-5-uniq-0013-00_skill-card.acb/vo_live_cmn_card_00014_00014-5-uniq-0013-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Isn’t this outfit a little too mature for me? I‘m not really sure it suits me...",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-001.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Dining out at night just feels so special... But homemade meals at home are nice too ♪",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-002.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "If you want, I can listen to your concerns, since we’re next to each other anyways ♪",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-003.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I see. You’ve been through a lot and you did your best. *headpats*",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-004.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks a lot for today. I’m lucky to have spent such a fun time ♪",
+            "audio": "resources/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-005.acb/vo_card_cmn_00014_00014-5-uniq-0013-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00014-5-uniq-0013-00.usm/mov_card_full_0_00014-5-uniq-0013-00/mov_card_full_0_00014-5-uniq-0013-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00014-5-uniq-0013-00.usm/mov_card_full_1_00014-5-uniq-0013-00/mov_card_full_1_00014-5-uniq-0013-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00014-5-uniq-0013-00.usm/mov_card_sign_00014-5-uniq-0013-00/mov_card_sign_00014-5-uniq-0013-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00014-5-uniq-0013-00.usm/mov_card_sign_00014-5-uniq-0013-00/mov_card_sign_00014-5-uniq-0013-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

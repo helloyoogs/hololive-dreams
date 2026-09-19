@@ -1,0 +1,320 @@
+{
+    "id": "card-00018-5-uniq-0004-00",
+    "name": "Comet Heart Stealer",
+    "character": "Hoshimachi Suisei",
+    "characterId": "chr-00018",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 263,
+        "sense": 297,
+        "technique": 440
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00018-5-uniq-0004-00/img_card_full_00018-5-uniq-0004-00",
+    "thumb": "assetbundles/img_card_thumb_00018-5-uniq-0004-00/img_card_thumb_00018-5-uniq-0004-00",
+    "group": {
+        "name": "Gen 0",
+        "color1": "93C2FF",
+        "color2": "6E92FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 0",
+            "color1": "93C2FF",
+            "color2": "6E92FF"
+        }
+    ],
+    "order": 113,
+    "charOrder": 105,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 30% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Technique UP [highlight]41[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 50%. Every 29s with a High Probability chance. When LIFE is 600 or higher, Score UP 100%.",
+                "For 10s, Score UP [highlight]60[/highlight]%. Every 29s with a High Probability chance. When LIFE is 600 or higher, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 29,
+                "upScoreUp": 100,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 29,
+                "upScoreUp": 120,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_0"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Starry Night",
+            "descriptions": [
+                "Grants Technique UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I'll keep going, and if you'll keep giving me your support, \nthat's all I need!",
+            "audio": "resources/vo_live_dial_card_00018_00018-5-uniq-0004-00_myself.acb/vo_live_dial_card_00018_00018-5-uniq-0004-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Time flies when you're having fun! It's sad it has to end, but this is the last song!\nThanks to all of you, we had such a great show!\nAll those penlights waving in the dark makes the hall look like a starry night sky!\nEvery single one of you is a shining star to me! I want my voice to reach all of you!\nDon't take your eyes off me! I'll show you just how bright I can shine!\nI don't want to hear that I was too bright to see, okay?",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_situation.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "C'mon, are you feeling it?",
+            "audio": "resources/vo_live_cmn_card_00018_00018-5-uniq-0004-00_skill-card.acb/vo_live_cmn_card_00018_00018-5-uniq-0004-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "I'm loving the cool colors. Aren't they great?",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-001.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Sparkle sparkle!☆ I'm shining super bright, wrapped in the night sky!",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-002.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Hydration is important! Let's work towards our goals together!",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-003.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Are you ready, everyone? Scream loud enough to reach the stars!",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-004.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thank you for coming today! I'll keep singing my heart out for you!",
+            "audio": "resources/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-005.acb/vo_card_cmn_00018_00018-5-uniq-0004-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00018-5-uniq-0004-00.usm/mov_card_full_0_00018-5-uniq-0004-00/mov_card_full_0_00018-5-uniq-0004-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00018-5-uniq-0004-00.usm/mov_card_full_1_00018-5-uniq-0004-00/mov_card_full_1_00018-5-uniq-0004-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00018-5-uniq-0004-00.usm/mov_card_sign_00018-5-uniq-0004-00/mov_card_sign_00018-5-uniq-0004-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00018-5-uniq-0004-00.usm/mov_card_sign_00018-5-uniq-0004-00/mov_card_sign_00018-5-uniq-0004-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

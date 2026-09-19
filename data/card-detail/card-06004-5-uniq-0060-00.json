@@ -1,0 +1,320 @@
+{
+    "id": "card-06004-5-uniq-0060-00",
+    "name": "Luminary of Arts",
+    "character": "Juufuutei Raden",
+    "characterId": "chr-06004",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 297,
+        "sense": 440,
+        "technique": 263
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_06004-5-uniq-0060-00/img_card_full_06004-5-uniq-0060-00",
+    "thumb": "assetbundles/img_card_thumb_06004-5-uniq-0060-00/img_card_thumb_06004-5-uniq-0060-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 161,
+    "charOrder": 161,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 32% to 2 ReGLOSS Members.",
+                "Grants Sense UP [highlight]43[/highlight]% to 2 ReGLOSS Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 50%. Every 22s with a High Probability chance. When LIFE is 600 or higher, Score UP 95%.",
+                "For 8s, Score UP [highlight]55[/highlight]%. Every 22s with a High Probability chance. When LIFE is 600 or higher, Score UP [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 22,
+                "upScoreUp": 95,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 22,
+                "upScoreUp": 115,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Vintage Romantic",
+            "descriptions": [
+                "Grants Sense UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thank you, everyone! \nI hope to continue our great relations together!",
+            "audio": "resources/vo_live_dial_card_06004_06004-5-uniq-0060-00_myself.acb/vo_live_dial_card_06004_06004-5-uniq-0060-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "We’ve arrived! I really wanted to check this exhibition!!\nLook at this magnificient piece! It’s the highlight of this exhibition!\nHow is it? Oh, I see I see! That’s a different impression not even I would dare to think about!\nNo, no, you’re totally right! Any impression you have is the correct one!\nThere are as many ways to interpret art as there are people. Just enjoy it however your heart feels! Let’s dive deeper into this world!",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_situation.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Just as expected, shime-shimeji!",
+            "audio": "resources/vo_live_cmn_card_06004_06004-5-uniq-0060-00_skill-card.acb/vo_live_cmn_card_06004_06004-5-uniq-0060-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "This is Juufuutei Raden’s new look! Please continue to support me from now on!",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-001.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Shhh! Be quiet in the museum... OH I WANTED TO SEE THAT ONE SO MUCH!",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-002.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Wow, a workshop! Do you think I can drop by?",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-003.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "If you visit a museum, it is imperative to check out the souvenir shop! It’s this way, hurry!",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-004.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I have plenty of other museums I like too~ ♪ If you want, let’s go together again sometime!",
+            "audio": "resources/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-005.acb/vo_card_cmn_06004_06004-5-uniq-0060-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_06004-5-uniq-0060-00.usm/mov_card_full_0_06004-5-uniq-0060-00/mov_card_full_0_06004-5-uniq-0060-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_06004-5-uniq-0060-00.usm/mov_card_full_1_06004-5-uniq-0060-00/mov_card_full_1_06004-5-uniq-0060-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_06004-5-uniq-0060-00.usm/mov_card_sign_06004-5-uniq-0060-00/mov_card_sign_06004-5-uniq-0060-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_06004-5-uniq-0060-00.usm/mov_card_sign_06004-5-uniq-0060-00/mov_card_sign_06004-5-uniq-0060-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

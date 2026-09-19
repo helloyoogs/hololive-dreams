@@ -1,0 +1,320 @@
+{
+    "id": "card-00021-5-uniq-0064-00",
+    "name": "Sparks at Sunset",
+    "character": "Shiranui Flare",
+    "characterId": "chr-00021",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 302,
+        "sense": 268,
+        "technique": 430
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00021-5-uniq-0064-00/img_card_full_00021-5-uniq-0064-00",
+    "thumb": "assetbundles/img_card_thumb_00021-5-uniq-0064-00/img_card_thumb_00021-5-uniq-0064-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 164,
+    "charOrder": 118,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 50%. Every 33s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP 105%.",
+                "For 11s, Score UP [highlight]60[/highlight]%. Every 33s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. Skill Activation Rate UP 35%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. Skill Activation Rate UP [highlight]40[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 35,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 33,
+                "upScoreUp": 105,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 33,
+                "upScoreUp": 125,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 110% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]160[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "You're My Sunflower",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Technique UP 80% to all. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Don’t let the heat beat you! I will give you all my energy!",
+            "audio": "resources/vo_live_dial_card_00021_00021-5-uniq-0064-00_myself.acb/vo_live_dial_card_00021_00021-5-uniq-0064-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "The sun has gone down. I guess it's time for that thing. Ta-da! Fireworks!\nI wanted to do them last time we came to the beach. Here, there are many so you can pick any.\nI will have this one and this one. Let’s light them together! One, two...\nOh, look! It is so pretty!\nBehold! A double firework wielder! Just kidding!\nOh, that one is the color-changing type. That's nice... Let me hold it for a bit.",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_situation.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Let's get even more fired up!",
+            "audio": "resources/vo_live_cmn_card_00021_00021-5-uniq-0064-00_skill-card.acb/vo_live_cmn_card_00021_00021-5-uniq-0064-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "I decided to place some sunflowers around since it's summer. Nice, huh?",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-001.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "I am right here! Try and catch me! Ahaha~♪ You ended up falling down! Are you alright?",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-002.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I just found some pretty shells! Since I found two, I’ll give you one!",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-003.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "The sparklers are the best to finish. Whoever drops it first has to pay for ice creams afterwards.",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-004.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "That was really moving, hehe. Thank you, it’s become a lovely summer memory.",
+            "audio": "resources/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-005.acb/vo_card_cmn_00021_00021-5-uniq-0064-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00021-5-uniq-0064-00.usm/mov_card_full_0_00021-5-uniq-0064-00/mov_card_full_0_00021-5-uniq-0064-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00021-5-uniq-0064-00.usm/mov_card_full_1_00021-5-uniq-0064-00/mov_card_full_1_00021-5-uniq-0064-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00021-5-uniq-0064-00.usm/mov_card_sign_00021-5-uniq-0064-00/mov_card_sign_00021-5-uniq-0064-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00021-5-uniq-0064-00.usm/mov_card_sign_00021-5-uniq-0064-00/mov_card_sign_00021-5-uniq-0064-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

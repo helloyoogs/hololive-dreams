@@ -1,0 +1,257 @@
+{
+    "id": "card-00032-4-cmmn-0000-00",
+    "name": "Majestic Roar",
+    "character": "Shishiro Botan",
+    "characterId": "chr-00032",
+    "rarity": 4,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 253,
+        "sense": 297,
+        "technique": 450
+    },
+    "levelGroupId": "grp-card-level-rarity_4-07",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_00032-4-cmmn-0000-00/img_card_full_00032-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_00032-4-cmmn-0000-00/img_card_thumb_00032-4-cmmn-0000-00",
+    "group": {
+        "name": "Gen 5",
+        "color1": "FF79AB",
+        "color2": "FFA6C7"
+    },
+    "groups": [
+        {
+            "name": "Gen 5",
+            "color1": "FF79AB",
+            "color2": "FFA6C7"
+        }
+    ],
+    "order": 79,
+    "charOrder": 127,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4432,
+        4645,
+        4859,
+        5073,
+        5287,
+        5501,
+        5715,
+        5929,
+        6143,
+        6357,
+        6571,
+        6785,
+        6999,
+        7213,
+        7427,
+        7641,
+        7855,
+        8069,
+        8283,
+        8497,
+        8711,
+        8925,
+        9139,
+        9353,
+        9567,
+        9781,
+        9995,
+        10209,
+        10423,
+        10637,
+        10869,
+        11101,
+        11333,
+        11565,
+        11797,
+        12029,
+        12261,
+        12493,
+        12725,
+        12957,
+        13189,
+        13421,
+        13653,
+        13886,
+        14119,
+        14352,
+        14585,
+        14818,
+        15051,
+        15284,
+        15517,
+        15750,
+        15983,
+        16216,
+        16449,
+        16682,
+        16915,
+        17148,
+        17381,
+        17614,
+        17846,
+        18079,
+        18312,
+        18545,
+        18778,
+        19011,
+        19244,
+        19477,
+        19710,
+        19943
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-07",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Gen 5 Members, Grants Technique UP 23% to 2 Gen 5 Members.",
+                "With 2 or more Gen 5 Members, Grants Technique UP [highlight]34[/highlight]% to 2 Gen 5 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 35%. Every 30s with a Medium Probability chance. When LIFE is 600 or higher, Score UP 65%.",
+                "For 11s, Score UP [highlight]40[/highlight]%. Every 30s with a Medium Probability chance. When LIFE is 600 or higher, Score UP [highlight]85[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 110%.",
+                "For 8s, Grants Score Support Effect of [highlight]140[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 140,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 46,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 65,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 40,
+                "prob": 46,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 85,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 23,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_5",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_5"
+            },
+            {
+                "value": 34,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_5",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_5"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_5"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Technique UP 100% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

@@ -1,0 +1,228 @@
+{
+    "id": "card-03004-3-nrml-0036-00",
+    "name": "We are hololive!",
+    "character": "Kureiji Ollie",
+    "characterId": "chr-03004",
+    "rarity": 3,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 248,
+        "sense": 460,
+        "technique": 292
+    },
+    "levelGroupId": "grp-card-level-rarity_3-08",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_03004-3-nrml-0036-00/img_card_full_03004-3-nrml-0036-00",
+    "thumb": "assetbundles/img_card_thumb_03004-3-nrml-0036-00/img_card_thumb_03004-3-nrml-0036-00",
+    "group": {
+        "name": "ID Gen 2",
+        "color1": "06DA9E",
+        "color2": "72F4D0"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 2",
+            "color1": "06DA9E",
+            "color2": "72F4D0"
+        }
+    ],
+    "order": 34,
+    "charOrder": 137,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3382,
+        3568,
+        3754,
+        3941,
+        4128,
+        4315,
+        4502,
+        4689,
+        4876,
+        5063,
+        5250,
+        5437,
+        5624,
+        5811,
+        5998,
+        6185,
+        6372,
+        6559,
+        6746,
+        6933,
+        7140,
+        7347,
+        7554,
+        7761,
+        7968,
+        8175,
+        8382,
+        8589,
+        8796,
+        9003,
+        9210,
+        9417,
+        9624,
+        9831,
+        10038,
+        10245,
+        10452,
+        10659,
+        10866,
+        11073,
+        11280,
+        11487,
+        11694,
+        11901,
+        12108,
+        12315,
+        12522,
+        12729,
+        12936,
+        13143,
+        13350,
+        13557,
+        13764,
+        13971,
+        14178,
+        14386,
+        14594,
+        14802,
+        15010,
+        15218
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-08",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Sense UP 7% to 3 [attribute=happy]Happy Type[/attribute] Members.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Sense UP [highlight]14[/highlight]% to 3 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 50%. Every 25s with a Low Probability chance.",
+                "For 7s, Score UP [highlight]70[/highlight]%. Every 25s with a Low Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 60%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]75[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 60,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 75,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 37,
+                "duration": 7,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 70,
+                "prob": 37,
+                "duration": 7,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 7,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 14,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_2"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

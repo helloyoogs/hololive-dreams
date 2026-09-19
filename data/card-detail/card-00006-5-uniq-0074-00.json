@@ -1,0 +1,326 @@
+{
+    "id": "card-00006-5-uniq-0074-00",
+    "name": "Twinkle on the Shore",
+    "character": "Shirakami Fubuki",
+    "characterId": "chr-00006",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 263,
+        "sense": 440,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00006-5-uniq-0074-00/img_card_full_00006-5-uniq-0074-00",
+    "thumb": "assetbundles/img_card_thumb_00006-5-uniq-0074-00/img_card_thumb_00006-5-uniq-0074-00",
+    "group": {
+        "name": "GAMERS",
+        "color1": "63B6FF",
+        "color2": "0089FF"
+    },
+    "groups": [
+        {
+            "name": "GAMERS",
+            "color1": "63B6FF",
+            "color2": "0089FF"
+        },
+        {
+            "name": "Gen 1",
+            "color1": "FF6FC6",
+            "color2": "FF24CC"
+        }
+    ],
+    "order": 175,
+    "charOrder": 108,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 13s, Score UP 95%. Every 35s with a Medium Probability chance.",
+                "For 13s, Score UP [highlight]115[/highlight]%. Every 35s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 110%.",
+                "For 12s, Grants Score Support Effect of [highlight]135[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 135,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 46,
+                "duration": 13,
+                "cooldown": 35,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "prob": 46,
+                "duration": 13,
+                "cooldown": 35,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gamers",
+        "grp-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "1UP Sporty",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Sense UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Hi Friends! Let's make memories that can only be created during summer together!",
+            "audio": "resources/vo_live_dial_card_00006_00006-5-uniq-0074-00_myself.acb/vo_live_dial_card_00006_00006-5-uniq-0074-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Heaven! Absolute heaven, I tell you! The cold ocean water feels so good...♪\nOh! And thank you for inviting me today! I'm gonna enjoy the ocean to the fullest!\nShould we start with the basics then? We can always splash water at each other, or we can continue lazing away here...\nYou what? You want to have a RACE on the beach?!\nYou know who you are asking, right? I survived THAT jungle, ya know? Hehe... I’ll accept your challenge!\nOn the count of three... UOOHHHH!!! LIKE HELL I’LL LOOOOOOSE!",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_situation.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Kon Kon SPLAAASH!",
+            "audio": "resources/vo_live_cmn_card_00006_00006-5-uniq-0074-00_skill-card.acb/vo_live_cmn_card_00006_00006-5-uniq-0074-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Eheheh, what do you think? It's my swimsuit! Aren't you staring way too much?!",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-001.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Hah hah... Dammit, I lost again! You run so fast I can’t keep up!",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-002.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Is that Ramune?! And it’s for me? What a lifesaver! My throat is completely parched...",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-003.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Ehehe~ Ramune~♪ Shake it a bit...and heads up! Delish!",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-004.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Hey, hey, wanna go back in? This time we can float around lazily on a floatie or something~♪",
+            "audio": "resources/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-005.acb/vo_card_cmn_00006_00006-5-uniq-0074-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00006-5-uniq-0074-00.usm/mov_card_full_0_00006-5-uniq-0074-00/mov_card_full_0_00006-5-uniq-0074-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00006-5-uniq-0074-00.usm/mov_card_full_1_00006-5-uniq-0074-00/mov_card_full_1_00006-5-uniq-0074-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00006-5-uniq-0074-00.usm/mov_card_sign_00006-5-uniq-0074-00/mov_card_sign_00006-5-uniq-0074-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00006-5-uniq-0074-00.usm/mov_card_sign_00006-5-uniq-0074-00/mov_card_sign_00006-5-uniq-0074-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

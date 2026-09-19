@@ -1,0 +1,257 @@
+{
+    "id": "card-00036-4-cmmn-0000-00",
+    "name": "Strategic Prodigy",
+    "character": "Takane Lui",
+    "characterId": "chr-00036",
+    "rarity": 4,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 400,
+        "sense": 306,
+        "technique": 294
+    },
+    "levelGroupId": "grp-card-level-rarity_4-02",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_00036-4-cmmn-0000-00/img_card_full_00036-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_00036-4-cmmn-0000-00/img_card_thumb_00036-4-cmmn-0000-00",
+    "group": {
+        "name": "holoX",
+        "color1": "BD5BE4",
+        "color2": "8700BD"
+    },
+    "groups": [
+        {
+            "name": "holoX",
+            "color1": "BD5BE4",
+            "color2": "8700BD"
+        }
+    ],
+    "order": 82,
+    "charOrder": 130,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4479,
+        4695,
+        4911,
+        5127,
+        5343,
+        5559,
+        5775,
+        5991,
+        6207,
+        6423,
+        6639,
+        6855,
+        7071,
+        7287,
+        7503,
+        7719,
+        7935,
+        8151,
+        8367,
+        8583,
+        8799,
+        9015,
+        9231,
+        9447,
+        9664,
+        9881,
+        10098,
+        10315,
+        10532,
+        10749,
+        10984,
+        11219,
+        11454,
+        11689,
+        11924,
+        12159,
+        12394,
+        12629,
+        12864,
+        13099,
+        13334,
+        13569,
+        13804,
+        14039,
+        14274,
+        14509,
+        14744,
+        14979,
+        15214,
+        15449,
+        15684,
+        15919,
+        16154,
+        16389,
+        16624,
+        16859,
+        17094,
+        17329,
+        17564,
+        17799,
+        18034,
+        18269,
+        18504,
+        18739,
+        18974,
+        19210,
+        19446,
+        19682,
+        19918,
+        20154
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-02",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more holoX Members, Grants Performance UP 23% to 2 holoX Members.",
+                "With 2 or more holoX Members, Grants Performance UP [highlight]34[/highlight]% to 2 holoX Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 40%. Every 25s with a Medium Probability chance. With a Combo of 40 or more, Score UP 75%.",
+                "For 8s, Score UP [highlight]50[/highlight]%. Every 25s with a Medium Probability chance. With a Combo of 40 or more, Score UP [highlight]95[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 110%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 25,
+                "upScoreUp": 75,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 25,
+                "upScoreUp": 95,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 23,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-holox",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            },
+            {
+                "value": 34,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-holox",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-holox"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-holox"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 115% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]165[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Score Support Effect of 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

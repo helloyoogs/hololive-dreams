@@ -1,0 +1,257 @@
+{
+    "id": "card-00011-4-cmmn-0000-00",
+    "name": "Dr. Allure's Live",
+    "character": "Yuzuki Choco",
+    "characterId": "chr-00011",
+    "rarity": 4,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 292,
+        "sense": 248,
+        "technique": 460
+    },
+    "levelGroupId": "grp-card-level-rarity_4-08",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_00011-4-cmmn-0000-00/img_card_full_00011-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_00011-4-cmmn-0000-00/img_card_thumb_00011-4-cmmn-0000-00",
+    "group": {
+        "name": "Gen 2",
+        "color1": "225AFF",
+        "color2": "7197FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 2",
+            "color1": "225AFF",
+            "color2": "7197FF"
+        }
+    ],
+    "order": 65,
+    "charOrder": 112,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4422,
+        4635,
+        4848,
+        5061,
+        5274,
+        5487,
+        5700,
+        5913,
+        6126,
+        6339,
+        6552,
+        6765,
+        6978,
+        7191,
+        7404,
+        7617,
+        7831,
+        8045,
+        8259,
+        8473,
+        8687,
+        8901,
+        9115,
+        9329,
+        9543,
+        9757,
+        9971,
+        10185,
+        10399,
+        10613,
+        10845,
+        11077,
+        11309,
+        11541,
+        11773,
+        12005,
+        12237,
+        12469,
+        12701,
+        12933,
+        13165,
+        13397,
+        13629,
+        13861,
+        14093,
+        14325,
+        14557,
+        14789,
+        15021,
+        15253,
+        15485,
+        15717,
+        15949,
+        16181,
+        16413,
+        16645,
+        16877,
+        17109,
+        17341,
+        17573,
+        17805,
+        18037,
+        18270,
+        18503,
+        18736,
+        18969,
+        19202,
+        19435,
+        19668,
+        19901
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-08",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 20% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Technique UP [highlight]30[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 35%. Every 28s with a High Probability chance. With a Combo of 40 or more, Score UP 70%.",
+                "For [highlight]10[/highlight]s, Score UP [highlight]40[/highlight]%. Every 28s with a High Probability chance. With a Combo of 40 or more, Score UP [highlight]80[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 110%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 28,
+                "upScoreUp": 70,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 40,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 28,
+                "upScoreUp": 80,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 20,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 30,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 115% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]165[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Technique UP 100% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

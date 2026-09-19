@@ -1,0 +1,228 @@
+{
+    "id": "card-00004-3-nrml-0005-00",
+    "name": "We are hololive!",
+    "character": "Aki Rosenthal",
+    "characterId": "chr-00004",
+    "rarity": 3,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 450,
+        "sense": 253,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_3-07",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_00004-3-nrml-0005-00/img_card_full_00004-3-nrml-0005-00",
+    "thumb": "assetbundles/img_card_thumb_00004-3-nrml-0005-00/img_card_thumb_00004-3-nrml-0005-00",
+    "group": {
+        "name": "Gen 1",
+        "color1": "FF6FC6",
+        "color2": "FF24CC"
+    },
+    "groups": [
+        {
+            "name": "Gen 1",
+            "color1": "FF6FC6",
+            "color2": "FF24CC"
+        }
+    ],
+    "order": 6,
+    "charOrder": 106,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3389,
+        3576,
+        3763,
+        3950,
+        4137,
+        4324,
+        4511,
+        4698,
+        4885,
+        5072,
+        5259,
+        5446,
+        5633,
+        5820,
+        6007,
+        6195,
+        6383,
+        6571,
+        6759,
+        6947,
+        7154,
+        7361,
+        7568,
+        7775,
+        7982,
+        8189,
+        8396,
+        8603,
+        8810,
+        9017,
+        9224,
+        9431,
+        9638,
+        9845,
+        10052,
+        10259,
+        10467,
+        10675,
+        10883,
+        11091,
+        11299,
+        11507,
+        11715,
+        11923,
+        12131,
+        12339,
+        12547,
+        12755,
+        12963,
+        13171,
+        13379,
+        13587,
+        13795,
+        14003,
+        14211,
+        14419,
+        14627,
+        14835,
+        15043,
+        15251
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-07",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Performance UP 7% to 3 [attribute=pure]Pure Type[/attribute] Members.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Performance UP [highlight]14[/highlight]% to 3 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 5s, Score UP 50%. Every 20s with a Medium Probability chance.",
+                "For [highlight]7[/highlight]s, Score UP 50%. Every 20s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 60%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]75[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 60,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 75,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 5,
+                "cooldown": 20,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 20,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 7,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 14,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_1"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

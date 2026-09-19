@@ -1,0 +1,320 @@
+{
+    "id": "card-00010-5-uniq-0010-00",
+    "name": "Spirit Realm Lantern",
+    "character": "Nakiri Ayame",
+    "characterId": "chr-00010",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 400,
+        "sense": 306,
+        "technique": 294
+    },
+    "levelGroupId": "grp-card-level-rarity_5-02",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00010-5-uniq-0010-00/img_card_full_00010-5-uniq-0010-00",
+    "thumb": "assetbundles/img_card_thumb_00010-5-uniq-0010-00/img_card_thumb_00010-5-uniq-0010-00",
+    "group": {
+        "name": "Gen 2",
+        "color1": "225AFF",
+        "color2": "7197FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 2",
+            "color1": "225AFF",
+            "color2": "7197FF"
+        }
+    ],
+    "order": 118,
+    "charOrder": 111,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5269,
+        5481,
+        5693,
+        5905,
+        6117,
+        6329,
+        6541,
+        6753,
+        6965,
+        7178,
+        7391,
+        7604,
+        7817,
+        8030,
+        8243,
+        8456,
+        8669,
+        8882,
+        9095,
+        9308,
+        9521,
+        9734,
+        9947,
+        10160,
+        10373,
+        10586,
+        10799,
+        11012,
+        11225,
+        11438,
+        11651,
+        11864,
+        12077,
+        12290,
+        12503,
+        12716,
+        12929,
+        13142,
+        13355,
+        13568,
+        13821,
+        14074,
+        14327,
+        14580,
+        14833,
+        15086,
+        15339,
+        15592,
+        15845,
+        16098,
+        16351,
+        16604,
+        16857,
+        17110,
+        17363,
+        17616,
+        17869,
+        18122,
+        18376,
+        18630,
+        18884,
+        19138,
+        19392,
+        19646,
+        19900,
+        20154,
+        20408,
+        20662,
+        20916,
+        21170,
+        21424,
+        21678,
+        21932,
+        22186,
+        22440,
+        22694,
+        22948,
+        23202,
+        23456,
+        23710
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-02",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Performance UP 30% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Performance UP [highlight]41[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 50%. Every 29s with a High Probability chance. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Score UP 100%.",
+                "For 10s, Score UP [highlight]60[/highlight]%. Every 29s with a High Probability chance. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 29,
+                "upScoreUp": 100,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 2,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 29,
+                "upScoreUp": 120,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 2,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Demon Spider Lily",
+            "descriptions": [
+                "Grants Score Support Effect of 60% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I'm gonna do my best so you all know just how grateful I am!",
+            "audio": "resources/vo_live_dial_card_00010_00010-5-uniq-0010-00_myself.acb/vo_live_dial_card_00010_00010-5-uniq-0010-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Woah! It’s so pretty and magical!\nTo think such a place existed... I’m so glad we made a little detour!\n*sniff sniff sniff* Something smells really nice~ Ah, the smell came from my flowers all along. Hehe…\nThanks for picking out these flowers for me ♪ I’ll make sure to display them carefully when I get back to my room ♪\nBut before that… Wanna explore around here a bit more? Really? Yay!\nAlright then! Should we start with that path? Or maybe this one? Hmm, decisions decisions... Eeny, meeny, miny, moe, catch a demon by the toe, eeny, meeny, miny, moe ♪",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_situation.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "That's me again!",
+            "audio": "resources/vo_live_cmn_card_00010_00010-5-uniq-0010-00_skill-card.acb/vo_live_cmn_card_00010_00010-5-uniq-0010-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Quiz time! How many butterflies are on this kimono? The answer is…a bunch of them!",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-001.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Did you like my quizmono? Ahahaha!",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-002.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Sorry, were you saying something? I didn’t catch any of it.",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-003.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Urk! A full moon! My demon power is...not awakening anytime soon ♪",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-004.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Y-Yeah, let’s head home… Um, hey! Will you go out with me again sometime?",
+            "audio": "resources/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-005.acb/vo_card_cmn_00010_00010-5-uniq-0010-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00010-5-uniq-0010-00.usm/mov_card_full_0_00010-5-uniq-0010-00/mov_card_full_0_00010-5-uniq-0010-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00010-5-uniq-0010-00.usm/mov_card_full_1_00010-5-uniq-0010-00/mov_card_full_1_00010-5-uniq-0010-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00010-5-uniq-0010-00.usm/mov_card_sign_00010-5-uniq-0010-00/mov_card_sign_00010-5-uniq-0010-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00010-5-uniq-0010-00.usm/mov_card_sign_00010-5-uniq-0010-00/mov_card_sign_00010-5-uniq-0010-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

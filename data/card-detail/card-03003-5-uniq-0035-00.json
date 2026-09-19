@@ -1,0 +1,320 @@
+{
+    "id": "card-03003-5-uniq-0035-00",
+    "name": "Sunlit Cosmos Palette",
+    "character": "Airani Iofifteen",
+    "characterId": "chr-03003",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 302,
+        "sense": 268,
+        "technique": 430
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03003-5-uniq-0035-00/img_card_full_03003-5-uniq-0035-00",
+    "thumb": "assetbundles/img_card_thumb_03003-5-uniq-0035-00/img_card_thumb_03003-5-uniq-0035-00",
+    "group": {
+        "name": "ID Gen 1",
+        "color1": "FF7E06",
+        "color2": "FFAD61"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 1",
+            "color1": "FF7E06",
+            "color2": "FFAD61"
+        }
+    ],
+    "order": 141,
+    "charOrder": 136,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 30% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Technique UP [highlight]41[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 100%. Every 17s with a Medium Probability chance.",
+                "For 6s, Score UP [highlight]120[/highlight]%. Every 17s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. With a Combo of 100 or more, Skill Activation Rate UP 45%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. With a Combo of 100 or more, Skill Activation Rate UP [highlight]55[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 45,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 55,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Vivid Heart Sketch",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Technique UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Your supports mean the world to me! And as\na special treat... Quality time with yours truly!♡",
+            "audio": "resources/vo_live_dial_card_03003_03003-5-uniq-0035-00_myself.acb/vo_live_dial_card_03003_03003-5-uniq-0035-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "So... I'm gonna paint this part red... Oh, welcome!\nSorry, I'm still working on this drawing right now.\nJust a little bit more and I'll be done, then we can start the drawing lesson.\nSo just hang out and relax till I finish.\nLet’s see, next I’ll put this here... Hmm? Hey, hey! Stop staring so much, you're making me blush!\nYou were looking at me just now, weren't you? Ah, wait... don't tell me.. You've fallen for the way I look when I'm drawing~?\nDon't hide it, just say it! You silly, hehe...",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_situation.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Hey, aren't you staring at me a little bit too much?♪",
+            "audio": "resources/vo_live_cmn_card_03003_03003-5-uniq-0035-00_skill-card.acb/vo_live_cmn_card_03003_03003-5-uniq-0035-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Hehe, this outer's super cute, right♪ And check out this zettairyouiki too~",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-001.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Okay, let's get started with my drawing class! Stand up, bow~",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-002.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Oh nice! Those are nice color combinations! I love it!",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-003.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Is your drawing finished? Oh, hey, not bad! My score for you is... a 100 with a gold star!",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-004.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Wanna draw together with me next time? The theme should be... 'Love,' maybe?",
+            "audio": "resources/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-005.acb/vo_card_cmn_03003_03003-5-uniq-0035-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03003-5-uniq-0035-00.usm/mov_card_full_0_03003-5-uniq-0035-00/mov_card_full_0_03003-5-uniq-0035-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03003-5-uniq-0035-00.usm/mov_card_full_1_03003-5-uniq-0035-00/mov_card_full_1_03003-5-uniq-0035-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03003-5-uniq-0035-00.usm/mov_card_sign_03003-5-uniq-0035-00/mov_card_sign_03003-5-uniq-0035-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03003-5-uniq-0035-00.usm/mov_card_sign_03003-5-uniq-0035-00/mov_card_sign_03003-5-uniq-0035-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

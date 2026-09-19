@@ -1,0 +1,320 @@
+{
+    "id": "card-06002-5-uniq-0066-00",
+    "name": "Breezy Smile Chords",
+    "character": "Otonose Kanade",
+    "characterId": "chr-06002",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 440,
+        "sense": 263,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_06002-5-uniq-0066-00/img_card_full_06002-5-uniq-0066-00",
+    "thumb": "assetbundles/img_card_thumb_06002-5-uniq-0066-00/img_card_thumb_06002-5-uniq-0066-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 167,
+    "charOrder": 159,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP 32% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP [highlight]43[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 100%. Every 23s with a Medium Probability chance.",
+                "For 8s, Score UP [highlight]120[/highlight]%. Every 23s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 110% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]160[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Sunflower Symphony",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "We’ll make some noise this summer! \nEveryone, play with me!",
+            "audio": "resources/vo_live_dial_card_06002_06002-5-uniq-0066-00_myself.acb/vo_live_dial_card_06002_06002-5-uniq-0066-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Heheheh... Behold... Kanade’s most coolest watergun!\nWe splashed around together last time. But now, with this, you’re all getting soaked head to toe! Gahahahaha!\nWh-Whaaaaat?! A bigger watergun than MINE?!\nThat is playing dirty! I didn't know you had something like THAT!!!\nWell if it comes to that...I’d looove to try out that watergun of yours! Wanna trade?\nOh, you don’t? You’re stingy! You stupid-head!\nOh, you’re angry now? Better make a quick escape!♪",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_situation.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "It’s summer and Kanade is here! Yaaay!",
+            "audio": "resources/vo_live_cmn_card_06002_06002-5-uniq-0066-00_skill-card.acb/vo_live_cmn_card_06002_06002-5-uniq-0066-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "We are at the seaside! Let's play rough all day long!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-001.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Gahaha! What do you think? I look so clean-cut in my swimsuit! Ga-hahaha!♪",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-002.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "You want to buy shaved ice for meee! You want to buy shaved ice for meee! Heheh!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-003.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Let’s make a sandcastle together! Come ooon! Pleasee!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-004.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Oh, you’re leaving so soon? Well, okay. Let’s come together another time. Promise!",
+            "audio": "resources/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-005.acb/vo_card_cmn_06002_06002-5-uniq-0066-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_06002-5-uniq-0066-00.usm/mov_card_full_0_06002-5-uniq-0066-00/mov_card_full_0_06002-5-uniq-0066-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_06002-5-uniq-0066-00.usm/mov_card_full_1_06002-5-uniq-0066-00/mov_card_full_1_06002-5-uniq-0066-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_06002-5-uniq-0066-00.usm/mov_card_sign_06002-5-uniq-0066-00/mov_card_sign_06002-5-uniq-0066-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_06002-5-uniq-0066-00.usm/mov_card_sign_06002-5-uniq-0066-00/mov_card_sign_06002-5-uniq-0066-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

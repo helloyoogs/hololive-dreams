@@ -1,0 +1,320 @@
+{
+    "id": "card-03004-5-uniq-0073-00",
+    "name": "Crazy Summer Dive",
+    "character": "Kureiji Ollie",
+    "characterId": "chr-03004",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 268,
+        "sense": 430,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03004-5-uniq-0073-00/img_card_full_03004-5-uniq-0073-00",
+    "thumb": "assetbundles/img_card_thumb_03004-5-uniq-0073-00/img_card_thumb_03004-5-uniq-0073-00",
+    "group": {
+        "name": "ID Gen 2",
+        "color1": "06DA9E",
+        "color2": "72F4D0"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 2",
+            "color1": "06DA9E",
+            "color2": "72F4D0"
+        }
+    ],
+    "order": 172,
+    "charOrder": 137,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Sense UP 32% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Sense UP [highlight]43[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 90%. Every 19s with a High Probability chance.",
+                "For 7s, Score UP [highlight]110[/highlight]%. Every 19s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 110,
+                "prob": 55,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "CRAZY SHOCK!",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Sense UP 80% to all. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Summer hasn’t even started! Let’s get crazy!",
+            "audio": "resources/vo_live_dial_card_03004_03004-5-uniq-0073-00_myself.acb/vo_live_dial_card_03004_03004-5-uniq-0073-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "So many fish! And the coral's super beautiful! Eveything is amazing!\nWow! This fish looks like me!\nAren’t you looking at me way too much?\nOh, I know you are captivated by my swimsuit body but... Oh my! ♡\nYou know, I bought this swimsuit with my senpai and...\nWait, that’s not it, right? Ahaha! Sorry, sorry! We were talking about the underwater speed swimming match!\nLet’s do this! On your marks... GOOOOOOOOOO!",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_situation.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "C-C-C-CRAZY HOT SUMMER!",
+            "audio": "resources/vo_live_cmn_card_03004_03004-5-uniq-0073-00_skill-card.acb/vo_live_cmn_card_03004_03004-5-uniq-0073-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Swimsuit zombie ON STAGE! It looks good on me, right? You think so too, RIGHT?",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-001.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "My leg came off! AHHHHH! I'm sinking in the water! WAIT FOR ME!!",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-002.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Next up is underwater tag. After that, let’s have an underwater stare contests! LET'S GO!",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-003.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "We definitely need a break. Wanna chill with me on the floatie?",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-004.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I wanna go again with you! Is that okay!? If you say no, I’ll eat you up!",
+            "audio": "resources/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-005.acb/vo_card_cmn_03004_03004-5-uniq-0073-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03004-5-uniq-0073-00.usm/mov_card_full_0_03004-5-uniq-0073-00/mov_card_full_0_03004-5-uniq-0073-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03004-5-uniq-0073-00.usm/mov_card_full_1_03004-5-uniq-0073-00/mov_card_full_1_03004-5-uniq-0073-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03004-5-uniq-0073-00.usm/mov_card_sign_03004-5-uniq-0073-00/mov_card_sign_03004-5-uniq-0073-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03004-5-uniq-0073-00.usm/mov_card_sign_03004-5-uniq-0073-00/mov_card_sign_03004-5-uniq-0073-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "id": "card-00035-5-uniq-0082-00",
+    "name": "Leader’s Secret Pool",
+    "character": "La+ Darknesss",
+    "characterId": "chr-00035",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 430,
+        "sense": 302,
+        "technique": 268
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00035-5-uniq-0082-00/img_card_full_00035-5-uniq-0082-00",
+    "thumb": "assetbundles/img_card_thumb_00035-5-uniq-0082-00/img_card_thumb_00035-5-uniq-0082-00",
+    "group": {
+        "name": "holoX",
+        "color1": "BD5BE4",
+        "color2": "8700BD"
+    },
+    "groups": [
+        {
+            "name": "holoX",
+            "color1": "BD5BE4",
+            "color2": "8700BD"
+        }
+    ],
+    "order": 183,
+    "charOrder": 129,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 50%. Every 32s with a High Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP 100%.",
+                "For 11s, Score UP [highlight]60[/highlight]%. Every 32s with a High Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 15s, Grants Score Support Effect of 80%. Skill Activation Rate UP 25%.",
+                "For 15s, Grants Score Support Effect of [highlight]95[/highlight]%. Skill Activation Rate UP [highlight]35[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 80,
+                "duration": 15,
+                "actRateUp": 25,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 95,
+                "duration": 15,
+                "actRateUp": 35,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 32,
+                "upScoreUp": 100,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 32,
+                "upScoreUp": 120,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-holox"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Sweet & Spicy",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Performance UP 80% to all. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Follow me! Those pesky humans are exhausted by the heat so...it's the perfect chance to enact WORLD DOMINATION!",
+            "audio": "resources/vo_live_dial_card_00035_00035-5-uniq-0082-00_myself.acb/vo_live_dial_card_00035_00035-5-uniq-0082-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Uhyooo, this feels sooo good~♪\nI thought summer was all about lazing around in my room, but just soaking in the water is pretty much top tier, too~♪\nIt would be perfect if you could smile gently like before...while you also coldly insult me~♪\nHm? Whazzat? You've brought some ice-cold watermelon for me?!\nA job well done! Hurry up, bring it here!\nOh, by the way, could you also pass me some cold juice? A-And make sure it's the fizzy kind!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_situation.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Beat the heat...and feast your eyes upon me!",
+            "audio": "resources/vo_live_cmn_card_00035_00035-5-uniq-0082-00_skill-card.acb/vo_live_cmn_card_00035_00035-5-uniq-0082-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "I-It's not like I put on a swimsuit j-just for you or anything! Well...? Is it tsuntsun enough for your heart to melt?",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-001.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Aaah, this is heaven~♪ Hey, hey, fan me with that fan!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-002.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Ugh, my hair's totally soaked! Well, it'll dry if I leave it under this scorching heat...",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-003.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "You're a lifesaver! Now I don't even have to use a hairdryer myself!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-004.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "So sleepy~ How can I get this tired from just playing? Hey, you! Take me to my room!",
+            "audio": "resources/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-005.acb/vo_card_cmn_00035_00035-5-uniq-0082-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00035-5-uniq-0082-00.usm/mov_card_full_0_00035-5-uniq-0082-00/mov_card_full_0_00035-5-uniq-0082-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00035-5-uniq-0082-00.usm/mov_card_full_1_00035-5-uniq-0082-00/mov_card_full_1_00035-5-uniq-0082-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00035-5-uniq-0082-00.usm/mov_card_sign_00035-5-uniq-0082-00/mov_card_sign_00035-5-uniq-0082-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00035-5-uniq-0082-00.usm/mov_card_sign_00035-5-uniq-0082-00/mov_card_sign_00035-5-uniq-0082-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

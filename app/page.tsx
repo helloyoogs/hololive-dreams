@@ -24,7 +24,7 @@ export default function Home() {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="border border-white-a90 bg-white-a90 rounded-xl p-2 flex flex-col items-center hover:border-blue-100 transition-all shadow-lg"
+              className="border border-white-a90 bg-white-a90 rounded-xl p-2 flex flex-col items-center"
             >
               {/* 이미지 영역 (원본 사이트 썸네일 경로 활용) */}
               <div className="w-full bg-gray-800 relative mb-2 flex items-center justify-center">
@@ -56,6 +56,11 @@ export default function Home() {
               <h3 className="text-sm font-bold truncate w-full text-center mt-0.5 text-black-100" title={card.name}>
                 {card.name}
               </h3>
+
+              {/* 상세 정보 버튼 */}
+              <span className={"card-detail-btn"}>
+                상세 정보
+              </span>
             </div>
           ))}
         </div>

@@ -1,0 +1,320 @@
+{
+    "id": "card-04013-5-uniq-0052-00",
+    "name": "Library Inquisitor",
+    "character": "Shiori Novella",
+    "characterId": "chr-04013",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 440,
+        "sense": 297,
+        "technique": 263
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04013-5-uniq-0052-00/img_card_full_04013-5-uniq-0052-00",
+    "thumb": "assetbundles/img_card_thumb_04013-5-uniq-0052-00/img_card_thumb_04013-5-uniq-0052-00",
+    "group": {
+        "name": "Advent",
+        "color1": "7C7EC9",
+        "color2": "223C87"
+    },
+    "groups": [
+        {
+            "name": "Advent",
+            "color1": "7C7EC9",
+            "color2": "223C87"
+        }
+    ],
+    "order": 154,
+    "charOrder": 153,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Performance UP 32% to 2 Advent Members.",
+                "Grants Performance UP [highlight]43[/highlight]% to 2 Advent Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 50%. Every 32s with a High Probability chance. With a Combo of 40 or more, Score UP 100%.",
+                "For 11s, Score UP [highlight]60[/highlight]%. Every 32s with a High Probability chance. With a Combo of 40 or more, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 32,
+                "upScoreUp": 100,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 32,
+                "upScoreUp": 120,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-advent",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-advent",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-advent"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 210% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]260[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Archive of Wisdom",
+            "descriptions": [
+                "Grants Performance UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "I want more memories with you.\nLet's create more memories together!♪",
+            "audio": "resources/vo_live_dial_card_04013_04013-5-uniq-0052-00_myself.acb/vo_live_dial_card_04013_04013-5-uniq-0052-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Oh, wow. I haven't read this one, but I've heard good things about it.\nI'm still reeling from the final plot twist from my last book! ...Hmm? What's up?\nOh, can't find a book you like?\nWell, it can certainly be hard, what with the sheer number of books in this library. Oh, I know!\nHow about I pick for you? What genres do you like?\nMystery? Sci-fi? Or maaaybe... you like derivatives, just like me?\nHehe, books are always the best mysteries. You never know what you're gonna get until you read them!",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_situation.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Are you ready? Let's play!!",
+            "audio": "resources/vo_live_cmn_card_04013_04013-5-uniq-0052-00_skill-card.acb/vo_live_cmn_card_04013_04013-5-uniq-0052-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Do you like my outfit? It's kinda goth and kinda cool, and the frills are pretty cute!",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-001.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "I love how dark it is in this library. I can sneak up behind people as much as I want in here!",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-002.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Hey, I'd like to try something out from this book... Would you let me dissect you, please?",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-003.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Ah, I'm reading that one as well. And the final book is... Haha, I know, I know. I won't spoil it.",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-004.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Let's go to that library again sometime. Promise? Don't you dare go by yourself now... Heehee.",
+            "audio": "resources/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-005.acb/vo_card_cmn_04013_04013-5-uniq-0052-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04013-5-uniq-0052-00.usm/mov_card_full_0_04013-5-uniq-0052-00/mov_card_full_0_04013-5-uniq-0052-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04013-5-uniq-0052-00.usm/mov_card_full_1_04013-5-uniq-0052-00/mov_card_full_1_04013-5-uniq-0052-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04013-5-uniq-0052-00.usm/mov_card_sign_04013-5-uniq-0052-00/mov_card_sign_04013-5-uniq-0052-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04013-5-uniq-0052-00.usm/mov_card_sign_04013-5-uniq-0052-00/mov_card_sign_04013-5-uniq-0052-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

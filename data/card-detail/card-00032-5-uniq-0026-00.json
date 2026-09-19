@@ -1,0 +1,320 @@
+{
+    "id": "card-00032-5-uniq-0026-00",
+    "name": "Lion’s Deadeye",
+    "character": "Shishiro Botan",
+    "characterId": "chr-00032",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 410,
+        "sense": 283,
+        "technique": 307
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00032-5-uniq-0026-00/img_card_full_00032-5-uniq-0026-00",
+    "thumb": "assetbundles/img_card_thumb_00032-5-uniq-0026-00/img_card_thumb_00032-5-uniq-0026-00",
+    "group": {
+        "name": "Gen 5",
+        "color1": "FF79AB",
+        "color2": "FFA6C7"
+    },
+    "groups": [
+        {
+            "name": "Gen 5",
+            "color1": "FF79AB",
+            "color2": "FFA6C7"
+        }
+    ],
+    "order": 133,
+    "charOrder": 127,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP 32% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Performance UP [highlight]43[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 50%. Every 27s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP 105%.",
+                "For 9s, Score UP [highlight]60[/highlight]%. Every 27s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 105,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 125,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_5"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 200% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]250[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "WH Lion Vanguard",
+            "descriptions": [
+                "Grants All Stats UP 45% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Couldn't have done it without you! \nOkay, who's ready to party?",
+            "audio": "resources/vo_live_dial_card_00032_00032-5-uniq-0026-00_myself.acb/vo_live_dial_card_00032_00032-5-uniq-0026-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Where could the enemy be hiding...?\nOh my... Don’t you know it’s dangerous to peek out from behind the barricade like that?\nHide properly and stay out the line of sight. Huh? Your face is really pale... Are you nervous, by any chance?\nI see, I see! Don’t worry~ Even if things get tough, I’ll definitely protect you!\nAh, there they are! What are they doing hiding in a spot like that~\nC’mon, let’s go take them out!",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_situation.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Take this! Paon!",
+            "audio": "resources/vo_live_cmn_card_00032_00032-5-uniq-0026-00_skill-card.acb/vo_live_cmn_card_00032_00032-5-uniq-0026-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Isn’t this outfit cool~? It really gives you some “Commencing attack!” military vibes ♪",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-001.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Enemy spotted! Lock on! That’s one down!",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-002.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "What a close one... Thank you for helping out! I’ll definitely repay you for this!",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-003.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Phew~ I’m so pooped. What do you say about having some ramen on the way back?",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-004.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Next time I’ll also leave my back to you, partner ♪",
+            "audio": "resources/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-005.acb/vo_card_cmn_00032_00032-5-uniq-0026-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00032-5-uniq-0026-00.usm/mov_card_full_0_00032-5-uniq-0026-00/mov_card_full_0_00032-5-uniq-0026-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00032-5-uniq-0026-00.usm/mov_card_full_1_00032-5-uniq-0026-00/mov_card_full_1_00032-5-uniq-0026-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00032-5-uniq-0026-00.usm/mov_card_sign_00032-5-uniq-0026-00/mov_card_sign_00032-5-uniq-0026-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00032-5-uniq-0026-00.usm/mov_card_sign_00032-5-uniq-0026-00/mov_card_sign_00032-5-uniq-0026-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

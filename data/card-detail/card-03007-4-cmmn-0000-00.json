@@ -1,0 +1,257 @@
+{
+    "id": "card-03007-4-cmmn-0000-00",
+    "name": "Whimsical Glee",
+    "character": "Vestia Zeta",
+    "characterId": "chr-03007",
+    "rarity": 4,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 297,
+        "sense": 450,
+        "technique": 253
+    },
+    "levelGroupId": "grp-card-level-rarity_4-07",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_03007-4-cmmn-0000-00/img_card_full_03007-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_03007-4-cmmn-0000-00/img_card_thumb_03007-4-cmmn-0000-00",
+    "group": {
+        "name": "ID Gen 3",
+        "color1": "07DBE2",
+        "color2": "A7F4F6"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 3",
+            "color1": "07DBE2",
+            "color2": "A7F4F6"
+        }
+    ],
+    "order": 91,
+    "charOrder": 140,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4432,
+        4645,
+        4859,
+        5073,
+        5287,
+        5501,
+        5715,
+        5929,
+        6143,
+        6357,
+        6571,
+        6785,
+        6999,
+        7213,
+        7427,
+        7641,
+        7855,
+        8069,
+        8283,
+        8497,
+        8711,
+        8925,
+        9139,
+        9353,
+        9567,
+        9781,
+        9995,
+        10209,
+        10423,
+        10637,
+        10869,
+        11101,
+        11333,
+        11565,
+        11797,
+        12029,
+        12261,
+        12493,
+        12725,
+        12957,
+        13189,
+        13421,
+        13653,
+        13886,
+        14119,
+        14352,
+        14585,
+        14818,
+        15051,
+        15284,
+        15517,
+        15750,
+        15983,
+        16216,
+        16449,
+        16682,
+        16915,
+        17148,
+        17381,
+        17614,
+        17846,
+        18079,
+        18312,
+        18545,
+        18778,
+        19011,
+        19244,
+        19477,
+        19710,
+        19943
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-07",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 20% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Sense UP [highlight]30[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 14s, Score UP 30%. Every 34s with a High Probability chance. With a Combo of 40 or more, Score UP 55%.",
+                "For 14s, Score UP [highlight]35[/highlight]%. Every 34s with a High Probability chance. With a Combo of 40 or more, Score UP [highlight]70[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 11s, Grants Score Support Effect of 80%.",
+                "For [highlight]14[/highlight]s, Grants Score Support Effect of 80%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 80,
+                "duration": 11,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 80,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 30,
+                "prob": 55,
+                "duration": 14,
+                "cooldown": 34,
+                "upScoreUp": 55,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 35,
+                "prob": 55,
+                "duration": 14,
+                "cooldown": 34,
+                "upScoreUp": 70,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 20,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 30,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 115% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]165[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Sense UP 100% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

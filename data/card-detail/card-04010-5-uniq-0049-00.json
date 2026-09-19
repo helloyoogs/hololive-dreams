@@ -1,0 +1,320 @@
+{
+    "id": "card-04010-5-uniq-0049-00",
+    "name": "Clock Tower Warden",
+    "character": "Ouro Kronii",
+    "characterId": "chr-04010",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 294,
+        "sense": 400,
+        "technique": 306
+    },
+    "levelGroupId": "grp-card-level-rarity_5-02",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04010-5-uniq-0049-00/img_card_full_04010-5-uniq-0049-00",
+    "thumb": "assetbundles/img_card_thumb_04010-5-uniq-0049-00/img_card_thumb_04010-5-uniq-0049-00",
+    "group": {
+        "name": "Promise",
+        "color1": "E6F37F",
+        "color2": "B3C905"
+    },
+    "groups": [
+        {
+            "name": "Promise",
+            "color1": "E6F37F",
+            "color2": "B3C905"
+        }
+    ],
+    "order": 152,
+    "charOrder": 150,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5269,
+        5481,
+        5693,
+        5905,
+        6117,
+        6329,
+        6541,
+        6753,
+        6965,
+        7178,
+        7391,
+        7604,
+        7817,
+        8030,
+        8243,
+        8456,
+        8669,
+        8882,
+        9095,
+        9308,
+        9521,
+        9734,
+        9947,
+        10160,
+        10373,
+        10586,
+        10799,
+        11012,
+        11225,
+        11438,
+        11651,
+        11864,
+        12077,
+        12290,
+        12503,
+        12716,
+        12929,
+        13142,
+        13355,
+        13568,
+        13821,
+        14074,
+        14327,
+        14580,
+        14833,
+        15086,
+        15339,
+        15592,
+        15845,
+        16098,
+        16351,
+        16604,
+        16857,
+        17110,
+        17363,
+        17616,
+        17869,
+        18122,
+        18376,
+        18630,
+        18884,
+        19138,
+        19392,
+        19646,
+        19900,
+        20154,
+        20408,
+        20662,
+        20916,
+        21170,
+        21424,
+        21678,
+        21932,
+        22186,
+        22440,
+        22694,
+        22948,
+        23202,
+        23456,
+        23710
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-02",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 30% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Sense UP [highlight]41[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 12s, Score UP 50%. Every 33s with a High Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP 95%.",
+                "For 12s, Score UP [highlight]55[/highlight]%. Every 33s with a High Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 12,
+                "cooldown": 33,
+                "upScoreUp": 95,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 55,
+                "duration": 12,
+                "cooldown": 33,
+                "upScoreUp": 115,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-promise"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Timeless Sentinel",
+            "descriptions": [
+                "Grants Score Support Effect of 60% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thank you for filling my empty tank with joy. \nI really appreciate you all.",
+            "audio": "resources/vo_live_dial_card_04010_04010-5-uniq-0049-00_myself.acb/vo_live_dial_card_04010_04010-5-uniq-0049-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Watch your step. If you fall from this height, there'll be no saving you, you know?\nStill, wanting to join me on my rounds... you certainly have interesting preferences, don't you?\nBut, it was worth making the journey up here, I'd say. Just look at that. The night sky is absolutely stunning...\nYou couldn't possibly see it this beautifully from any other vantage point.\nSo, what do you say? While we're here, shall we take a moment to admire it? Don't worry, we still have plenty of time.\nAnd besides, gazing at the night sky together like this... It holds special meaning for me.",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_situation.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "God, I love Kronii",
+            "audio": "resources/vo_live_cmn_card_04010_04010-5-uniq-0049-00_skill-card.acb/vo_live_cmn_card_04010_04010-5-uniq-0049-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "I picked out an outfit that's convenient for patrols. What do you think? It's fashionable and impressive, right?",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-001.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Oh, a shooting star! I'm not lying. Come on, where were you looking?",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-002.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Shhh... keep it down. The clock's mechanism sounds fine. Well, I should probably get back to work.",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-003.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "How about we try patrolling a different area next time? It'll definitely be fun if we go together.",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-004.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "People say that happy moments pass in the blink of an eye, but... hehe, that really is the case, isn't it?",
+            "audio": "resources/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-005.acb/vo_card_cmn_04010_04010-5-uniq-0049-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04010-5-uniq-0049-00.usm/mov_card_full_0_04010-5-uniq-0049-00/mov_card_full_0_04010-5-uniq-0049-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04010-5-uniq-0049-00.usm/mov_card_full_1_04010-5-uniq-0049-00/mov_card_full_1_04010-5-uniq-0049-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04010-5-uniq-0049-00.usm/mov_card_sign_04010-5-uniq-0049-00/mov_card_sign_04010-5-uniq-0049-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04010-5-uniq-0049-00.usm/mov_card_sign_04010-5-uniq-0049-00/mov_card_sign_04010-5-uniq-0049-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

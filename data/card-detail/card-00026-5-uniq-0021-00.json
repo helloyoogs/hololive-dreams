@@ -1,0 +1,320 @@
+{
+    "id": "card-00026-5-uniq-0021-00",
+    "name": "Woolly Smile Festival",
+    "character": "Tsunomaki Watame",
+    "characterId": "chr-00026",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 410,
+        "sense": 283,
+        "technique": 307
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00026-5-uniq-0021-00/img_card_full_00026-5-uniq-0021-00",
+    "thumb": "assetbundles/img_card_thumb_00026-5-uniq-0021-00/img_card_thumb_00026-5-uniq-0021-00",
+    "group": {
+        "name": "Gen 4",
+        "color1": "FFB22F",
+        "color2": "FFDA6A"
+    },
+    "groups": [
+        {
+            "name": "Gen 4",
+            "color1": "FFB22F",
+            "color2": "FFDA6A"
+        }
+    ],
+    "order": 128,
+    "charOrder": 122,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 45%. Every 15s with a Medium Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP 90%.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 15s with a Medium Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP [highlight]110[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 11s, Grants Score Support Effect of 120%.",
+                "For 11s, Grants Score Support Effect of [highlight]145[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 11,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 11,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 90,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 110,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_4"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Woolly Fluffy Sheep",
+            "descriptions": [
+                "Grants All Stats UP 45% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thank you! \nYou'll keep making dreams come true with me, right?",
+            "audio": "resources/vo_live_dial_card_00026_00026-5-uniq-0021-00_myself.acb/vo_live_dial_card_00026_00026-5-uniq-0021-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Welcome to Watame’s concert~ ♪ Are you enjoying it? Getting hyped? Are you feeling the Watavibes?\nWhat amazing cheer power! Everyone's expressions are shining just like the sun ♪\nSeeing everyone’s smiles makes me teary... But no, no! It’s TOO soon to cry!\nAfter all, the concert has just begun! Alright, everyone, are you ready?\nLet’s unite our hearts together as one! We’re gonna have fun and become one big, big family!",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_situation.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "It's a never-ending do do do drive!",
+            "audio": "resources/vo_live_cmn_card_00026_00026-5-uniq-0021-00_skill-card.acb/vo_live_cmn_card_00026_00026-5-uniq-0021-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Do you like this outfit? It’s all so fluffy and cute...just like me!",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-001.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "There’s so many green in this, its like an all-you-can-eat buffet of green!",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-002.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Raise both hands~ Swing them left and right~ Then stretch them both and get pumped!",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-003.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Wh-What an incredible sense of unity! Is this the power of our bond?",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-004.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "No one can take anyone's place! Everyone is an important part of Watame’s family!",
+            "audio": "resources/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-005.acb/vo_card_cmn_00026_00026-5-uniq-0021-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00026-5-uniq-0021-00.usm/mov_card_full_0_00026-5-uniq-0021-00/mov_card_full_0_00026-5-uniq-0021-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00026-5-uniq-0021-00.usm/mov_card_full_1_00026-5-uniq-0021-00/mov_card_full_1_00026-5-uniq-0021-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00026-5-uniq-0021-00.usm/mov_card_sign_00026-5-uniq-0021-00/mov_card_sign_00026-5-uniq-0021-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00026-5-uniq-0021-00.usm/mov_card_sign_00026-5-uniq-0021-00/mov_card_sign_00026-5-uniq-0021-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

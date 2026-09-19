@@ -1,0 +1,320 @@
+{
+    "id": "card-03002-5-uniq-0034-00",
+    "name": "Lunar Songstress",
+    "character": "Moona Hoshinova",
+    "characterId": "chr-03002",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 278,
+        "sense": 420,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03002-5-uniq-0034-00/img_card_full_03002-5-uniq-0034-00",
+    "thumb": "assetbundles/img_card_thumb_03002-5-uniq-0034-00/img_card_thumb_03002-5-uniq-0034-00",
+    "group": {
+        "name": "ID Gen 1",
+        "color1": "FF7E06",
+        "color2": "FFAD61"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 1",
+            "color1": "FF7E06",
+            "color2": "FFAD61"
+        }
+    ],
+    "order": 140,
+    "charOrder": 135,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more ID Gen 1 Members, Grants Sense UP 34% to 2 ID Gen 1 Members.",
+                "With 2 or more ID Gen 1 Members, Grants Sense UP [highlight]45[/highlight]% to 2 ID Gen 1 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 90%. Every 30s with a High Probability chance.",
+                "For 11s, Score UP [highlight]110[/highlight]%. Every 30s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. Skill Activation Rate UP 35%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. Skill Activation Rate UP [highlight]40[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 35,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 110,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 34,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-indonesia-gen_1",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_1"
+            },
+            {
+                "value": 45,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-indonesia-gen_1",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_1"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 55% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]105[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Moon Enchantress",
+            "descriptions": [
+                "With 2 or more ID Gen 1 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thank you, everyone. \nYour collective support allows me to glow.",
+            "audio": "resources/vo_live_dial_card_03002_03002-5-uniq-0034-00_myself.acb/vo_live_dial_card_03002_03002-5-uniq-0034-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Attention, mortals! The Moon Goddess has graced you with her presence! On your knees, peasants!\nJust kidding!♪ Everyone, thank you for coming to Moona's live today!\nLet's enjoy it together until the end!\nWell then, it's about time...for the Moon Goddess to descend to Earth!\n...Huh? Hey, why am I not coming down?!\n...Oh. Right! I was supposed to start singing up here first.\nW-well, let's start over. Music, start!",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_situation.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "It's Moona dayo~♪",
+            "audio": "resources/vo_live_cmn_card_03002_03002-5-uniq-0034-00_skill-card.acb/vo_live_cmn_card_03002_03002-5-uniq-0034-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Check me out, adorned with starry sky. Pretty cool, right? Hehe~",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-001.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Alright, time for a moonwalk. Wheee~ ♪",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-002.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I'm like a different person when singing? Hey now! What are you implying about my usual self?!",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-003.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Ehehe, singing is really fun after all~♪ I wish this moment could last forever!",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-004.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I was nervous at first, but your cheers kept me going. From the bottom of my heart, thank you...",
+            "audio": "resources/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-005.acb/vo_card_cmn_03002_03002-5-uniq-0034-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03002-5-uniq-0034-00.usm/mov_card_full_0_03002-5-uniq-0034-00/mov_card_full_0_03002-5-uniq-0034-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03002-5-uniq-0034-00.usm/mov_card_full_1_03002-5-uniq-0034-00/mov_card_full_1_03002-5-uniq-0034-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03002-5-uniq-0034-00.usm/mov_card_sign_03002-5-uniq-0034-00/mov_card_sign_03002-5-uniq-0034-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03002-5-uniq-0034-00.usm/mov_card_sign_03002-5-uniq-0034-00/mov_card_sign_03002-5-uniq-0034-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

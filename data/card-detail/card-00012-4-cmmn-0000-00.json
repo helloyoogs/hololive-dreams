@@ -1,0 +1,257 @@
+{
+    "id": "card-00012-4-cmmn-0000-00",
+    "name": "Radiant Soul Jam",
+    "character": "Oozora Subaru",
+    "characterId": "chr-00012",
+    "rarity": 4,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 253,
+        "sense": 450,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_4-07",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_00012-4-cmmn-0000-00/img_card_full_00012-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_00012-4-cmmn-0000-00/img_card_thumb_00012-4-cmmn-0000-00",
+    "group": {
+        "name": "Gen 2",
+        "color1": "225AFF",
+        "color2": "7197FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 2",
+            "color1": "225AFF",
+            "color2": "7197FF"
+        }
+    ],
+    "order": 66,
+    "charOrder": 113,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4432,
+        4645,
+        4859,
+        5073,
+        5287,
+        5501,
+        5715,
+        5929,
+        6143,
+        6357,
+        6571,
+        6785,
+        6999,
+        7213,
+        7427,
+        7641,
+        7855,
+        8069,
+        8283,
+        8497,
+        8711,
+        8925,
+        9139,
+        9353,
+        9567,
+        9781,
+        9995,
+        10209,
+        10423,
+        10637,
+        10869,
+        11101,
+        11333,
+        11565,
+        11797,
+        12029,
+        12261,
+        12493,
+        12725,
+        12957,
+        13189,
+        13421,
+        13653,
+        13886,
+        14119,
+        14352,
+        14585,
+        14818,
+        15051,
+        15284,
+        15517,
+        15750,
+        15983,
+        16216,
+        16449,
+        16682,
+        16915,
+        17148,
+        17381,
+        17614,
+        17846,
+        18079,
+        18312,
+        18545,
+        18778,
+        19011,
+        19244,
+        19477,
+        19710,
+        19943
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-07",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 20% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Sense UP [highlight]30[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 35%. Every 34s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP 70%.",
+                "For 11s, Score UP [highlight]45[/highlight]%. Every 34s with a High Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP [highlight]90[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 110%.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 34,
+                "upScoreUp": 70,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 45,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 34,
+                "upScoreUp": 90,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 20,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 30,
+                "stat": "sense",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 160% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]210[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Sense UP 100% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

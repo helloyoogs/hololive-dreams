@@ -1,0 +1,228 @@
+{
+    "id": "card-04001-3-nrml-0042-00",
+    "name": "We are hololive!",
+    "character": "Mori Calliope",
+    "characterId": "chr-04001",
+    "rarity": 3,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 307,
+        "sense": 283,
+        "technique": 410
+    },
+    "levelGroupId": "grp-card-level-rarity_3-03",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_04001-3-nrml-0042-00/img_card_full_04001-3-nrml-0042-00",
+    "thumb": "assetbundles/img_card_thumb_04001-3-nrml-0042-00/img_card_thumb_04001-3-nrml-0042-00",
+    "group": {
+        "name": "Myth",
+        "color1": "D6BE78",
+        "color2": "C19D33"
+    },
+    "groups": [
+        {
+            "name": "Myth",
+            "color1": "D6BE78",
+            "color2": "C19D33"
+        }
+    ],
+    "order": 40,
+    "charOrder": 143,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3418,
+        3606,
+        3794,
+        3983,
+        4172,
+        4361,
+        4550,
+        4739,
+        4928,
+        5117,
+        5306,
+        5495,
+        5684,
+        5873,
+        6062,
+        6251,
+        6440,
+        6629,
+        6818,
+        7007,
+        7216,
+        7425,
+        7634,
+        7843,
+        8052,
+        8261,
+        8470,
+        8679,
+        8888,
+        9097,
+        9306,
+        9515,
+        9724,
+        9933,
+        10142,
+        10351,
+        10560,
+        10769,
+        10978,
+        11187,
+        11396,
+        11605,
+        11814,
+        12023,
+        12232,
+        12441,
+        12650,
+        12860,
+        13070,
+        13280,
+        13490,
+        13700,
+        13910,
+        14120,
+        14330,
+        14540,
+        14750,
+        14960,
+        15170,
+        15380
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-03",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Technique UP 7% to 3 [attribute=happy]Happy Type[/attribute] Members.",
+                "With 2 or more [attribute=happy]Happy Type[/attribute] Members, Grants Technique UP [highlight]14[/highlight]% to 3 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 40%. Every 17s with a Low Probability chance.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 17s with a Low Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 40%. Restores 300 LIFE.",
+                "For 10s, Grants Score Support Effect of [highlight]55[/highlight]%. Restores [highlight]400[/highlight] LIFE."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 7,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            },
+            {
+                "value": 14,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 3,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-myth"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

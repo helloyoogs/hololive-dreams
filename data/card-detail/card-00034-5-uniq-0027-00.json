@@ -1,0 +1,320 @@
+{
+    "id": "card-00034-5-uniq-0027-00",
+    "name": "Polka’s Phantasm",
+    "character": "Omaru Polka",
+    "characterId": "chr-00034",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 283,
+        "sense": 410,
+        "technique": 307
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00034-5-uniq-0027-00/img_card_full_00034-5-uniq-0027-00",
+    "thumb": "assetbundles/img_card_thumb_00034-5-uniq-0027-00/img_card_thumb_00034-5-uniq-0027-00",
+    "group": {
+        "name": "Gen 5",
+        "color1": "FF79AB",
+        "color2": "FFA6C7"
+    },
+    "groups": [
+        {
+            "name": "Gen 5",
+            "color1": "FF79AB",
+            "color2": "FFA6C7"
+        }
+    ],
+    "order": 134,
+    "charOrder": 128,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 50%. Every 21s with a Medium Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP 95%.",
+                "For 8s, Score UP [highlight]55[/highlight]%. Every 21s with a Medium Probability chance. With 2 or more [attribute=happy]Happy Type[/attribute] Members, Score UP [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 21,
+                "upScoreUp": 95,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 21,
+                "upScoreUp": 115,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 3,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_5"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 110% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]160[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Carnival Overlord",
+            "descriptions": [
+                "Grants All Stats UP 45% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "You think I'm cool up here? \nYou're like a thousand times cooler for coming to see me!",
+            "audio": "resources/vo_live_dial_card_00034_00034-5-uniq-0027-00_myself.acb/vo_live_dial_card_00034_00034-5-uniq-0027-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Yo yo! How's it going? Welcome to Polka's circus!\nWho's ready to have a roaring good time? I've got some wicked sick illusions for you today!\nWhat sort? Oh my, dear guest. You're not supposed to ask me that!\nA gift is only exciting because of the lead-up to it, right? The same with tricks!\nSo you'll just have to wait and see. I promise it'll be a night to remember!\nAnd do you hear that? It's...showtime!",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_situation.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "I'm not about to let a little bad energy stop me!",
+            "audio": "resources/vo_live_cmn_card_00034_00034-5-uniq-0027-00_skill-card.acb/vo_live_cmn_card_00034_00034-5-uniq-0027-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "And what do we have here in my hat? Why it's a...dove!",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-001.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Whoo! Crowd's gone wild! This is sick! So glad we did this.",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-002.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "What kind of circus shall I do next? Hey, what would you like to see?",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-003.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "You'll come watch me next time, right? Right?! You know what happens when you don't come and watch me...",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-004.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thank y'all for supporting Polka! I'm gonna make it smiles all round!",
+            "audio": "resources/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-005.acb/vo_card_cmn_00034_00034-5-uniq-0027-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00034-5-uniq-0027-00.usm/mov_card_full_0_00034-5-uniq-0027-00/mov_card_full_0_00034-5-uniq-0027-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00034-5-uniq-0027-00.usm/mov_card_full_1_00034-5-uniq-0027-00/mov_card_full_1_00034-5-uniq-0027-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00034-5-uniq-0027-00.usm/mov_card_sign_00034-5-uniq-0027-00/mov_card_sign_00034-5-uniq-0027-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00034-5-uniq-0027-00.usm/mov_card_sign_00034-5-uniq-0027-00/mov_card_sign_00034-5-uniq-0027-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

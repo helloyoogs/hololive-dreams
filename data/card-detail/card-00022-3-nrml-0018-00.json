@@ -1,0 +1,228 @@
+{
+    "id": "card-00022-3-nrml-0018-00",
+    "name": "We are hololive!",
+    "character": "Shirogane Noel",
+    "characterId": "chr-00022",
+    "rarity": 3,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 390,
+        "sense": 311,
+        "technique": 299
+    },
+    "levelGroupId": "grp-card-level-rarity_3-01",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_00022-3-nrml-0018-00/img_card_full_00022-3-nrml-0018-00",
+    "thumb": "assetbundles/img_card_thumb_00022-3-nrml-0018-00/img_card_thumb_00022-3-nrml-0018-00",
+    "group": {
+        "name": "Gen 3",
+        "color1": "5BC72E",
+        "color2": "C6EE91"
+    },
+    "groups": [
+        {
+            "name": "Gen 3",
+            "color1": "5BC72E",
+            "color2": "C6EE91"
+        }
+    ],
+    "order": 18,
+    "charOrder": 119,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3432,
+        3621,
+        3810,
+        3999,
+        4188,
+        4377,
+        4566,
+        4756,
+        4946,
+        5136,
+        5326,
+        5516,
+        5706,
+        5896,
+        6086,
+        6276,
+        6466,
+        6656,
+        6846,
+        7036,
+        7246,
+        7456,
+        7666,
+        7876,
+        8086,
+        8296,
+        8506,
+        8716,
+        8926,
+        9136,
+        9346,
+        9556,
+        9766,
+        9976,
+        10186,
+        10396,
+        10606,
+        10816,
+        11026,
+        11236,
+        11446,
+        11656,
+        11866,
+        12076,
+        12286,
+        12496,
+        12706,
+        12916,
+        13126,
+        13336,
+        13546,
+        13756,
+        13967,
+        14178,
+        14389,
+        14600,
+        14811,
+        15022,
+        15233,
+        15444
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-01",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants All Stats UP 8% to self.",
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants All Stats UP [highlight]16[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 40%. Every 17s with a Low Probability chance.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 17s with a Low Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 45%. GOOD or higher becomes PERFECT.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]60[/highlight]%. GOOD or higher becomes PERFECT."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 40,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 37,
+                "duration": 6,
+                "cooldown": 17,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            },
+            {
+                "value": 16,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 1,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_3"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

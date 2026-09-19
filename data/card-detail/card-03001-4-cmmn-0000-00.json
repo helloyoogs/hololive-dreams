@@ -1,0 +1,257 @@
+{
+    "id": "card-03001-4-cmmn-0000-00",
+    "name": "Roundtail Rhythm",
+    "character": "Ayunda Risu",
+    "characterId": "chr-03001",
+    "rarity": 4,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 292,
+        "sense": 460,
+        "technique": 248
+    },
+    "levelGroupId": "grp-card-level-rarity_4-08",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_03001-4-cmmn-0000-00/img_card_full_03001-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_03001-4-cmmn-0000-00/img_card_thumb_03001-4-cmmn-0000-00",
+    "group": {
+        "name": "ID Gen 1",
+        "color1": "FF7E06",
+        "color2": "FFAD61"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 1",
+            "color1": "FF7E06",
+            "color2": "FFAD61"
+        }
+    ],
+    "order": 85,
+    "charOrder": 134,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4422,
+        4635,
+        4848,
+        5061,
+        5274,
+        5487,
+        5700,
+        5913,
+        6126,
+        6339,
+        6552,
+        6765,
+        6978,
+        7191,
+        7404,
+        7617,
+        7831,
+        8045,
+        8259,
+        8473,
+        8687,
+        8901,
+        9115,
+        9329,
+        9543,
+        9757,
+        9971,
+        10185,
+        10399,
+        10613,
+        10845,
+        11077,
+        11309,
+        11541,
+        11773,
+        12005,
+        12237,
+        12469,
+        12701,
+        12933,
+        13165,
+        13397,
+        13629,
+        13861,
+        14093,
+        14325,
+        14557,
+        14789,
+        15021,
+        15253,
+        15485,
+        15717,
+        15949,
+        16181,
+        16413,
+        16645,
+        16877,
+        17109,
+        17341,
+        17573,
+        17805,
+        18037,
+        18270,
+        18503,
+        18736,
+        18969,
+        19202,
+        19435,
+        19668,
+        19901
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-08",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 3 or more [attribute=pure]Pure Type[/attribute] Members, Grants Score Support Effect of 4% to 3 [attribute=pure]Pure Type[/attribute] Members.",
+                "With 3 or more [attribute=pure]Pure Type[/attribute] Members, Grants Score Support Effect of [highlight]6[/highlight]% to 3 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 30%. Every 23s with a Medium Probability chance. When LIFE is 600 or higher, Score UP 55%.",
+                "For 10s, Score UP [highlight]35[/highlight]%. Every 23s with a Medium Probability chance. When LIFE is 600 or higher, Score UP [highlight]70[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 9s, Grants Score Support Effect of 85%. With 2 or more [attribute=pure]Pure Type[/attribute] Members, GOOD or higher becomes PERFECT.",
+                "For 9s, Grants Score Support Effect of [highlight]110[/highlight]%. With 2 or more [attribute=pure]Pure Type[/attribute] Members, GOOD or higher becomes PERFECT."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 85,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 110,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 30,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 23,
+                "upScoreUp": 55,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 35,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 23,
+                "upScoreUp": 70,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 4,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 3,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 6,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 3,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 165% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]215[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants All Stats UP 35% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

@@ -1,0 +1,320 @@
+{
+    "id": "card-03009-5-uniq-0041-00",
+    "name": "Rain-Dance Oracle",
+    "character": "Kobo Kanaeru",
+    "characterId": "chr-03009",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 410,
+        "sense": 307,
+        "technique": 283
+    },
+    "levelGroupId": "grp-card-level-rarity_5-03",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03009-5-uniq-0041-00/img_card_full_03009-5-uniq-0041-00",
+    "thumb": "assetbundles/img_card_thumb_03009-5-uniq-0041-00/img_card_thumb_03009-5-uniq-0041-00",
+    "group": {
+        "name": "ID Gen 3",
+        "color1": "07DBE2",
+        "color2": "A7F4F6"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 3",
+            "color1": "07DBE2",
+            "color2": "A7F4F6"
+        }
+    ],
+    "order": 147,
+    "charOrder": 142,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5258,
+        5470,
+        5682,
+        5894,
+        6106,
+        6318,
+        6530,
+        6742,
+        6954,
+        7166,
+        7378,
+        7590,
+        7802,
+        8014,
+        8226,
+        8438,
+        8650,
+        8862,
+        9074,
+        9286,
+        9498,
+        9710,
+        9922,
+        10134,
+        10346,
+        10558,
+        10770,
+        10983,
+        11196,
+        11409,
+        11622,
+        11835,
+        12048,
+        12261,
+        12474,
+        12687,
+        12900,
+        13113,
+        13326,
+        13539,
+        13792,
+        14045,
+        14298,
+        14551,
+        14804,
+        15057,
+        15310,
+        15563,
+        15816,
+        16069,
+        16322,
+        16575,
+        16828,
+        17081,
+        17334,
+        17587,
+        17840,
+        18093,
+        18346,
+        18599,
+        18852,
+        19105,
+        19358,
+        19611,
+        19864,
+        20117,
+        20370,
+        20623,
+        20876,
+        21129,
+        21382,
+        21635,
+        21888,
+        22141,
+        22394,
+        22647,
+        22900,
+        23153,
+        23407,
+        23661
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-03",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP 24% to self.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP [highlight]32[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 45%. Every 15s with a Medium Probability chance. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Score UP 90%.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 15s with a Medium Probability chance. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Score UP [highlight]110[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 110%.",
+                "For 12s, Grants Score Support Effect of [highlight]135[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 135,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 90,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 2,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 110,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 2,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 24,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 32,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Raindance Oracle",
+            "descriptions": [
+                "Grants All Stats UP 45% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Feeling down? No worries! \nKobo will turn everyone's hearts into blue skies!",
+            "audio": "resources/vo_live_dial_card_03009_03009-5-uniq-0041-00_myself.acb/vo_live_dial_card_03009_03009-5-uniq-0041-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Ta-da! Look at that blue sky!\nI was just about to use my Rain Shaman powers, but the rain already stopped!\n...Wait? Oooooh! There's a rainbow over there! Whoooaaa it looks amazing!\nI wanna see that rainbow up close! And then, like, climb on it and slide down!\nCome on! Let's go after it!\nHurry up ♪ We gotta move fast, If we don't hurry, it’s gonna disappeaaar!",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_situation.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Call me Princess Kobo!!!",
+            "audio": "resources/vo_live_cmn_card_03009_03009-5-uniq-0041-00_skill-card.acb/vo_live_cmn_card_03009_03009-5-uniq-0041-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Hey, what do you think of my outfit? Hehe, cool, right?",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-001.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Oh! I found a puddle! Okay, here we go—JUUUMP!",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-002.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I'm starviiiing... Wait, you're buying me ramen?! Yaaaaay ♪",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-003.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Huh, it's raining?! Umbrella... Where's my umbrella... Oh no, I left it at the ramen place!",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-004.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks for sharing your umbrella with me! Hehe, gotta watch out or we'll bump shoulders~",
+            "audio": "resources/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-005.acb/vo_card_cmn_03009_03009-5-uniq-0041-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03009-5-uniq-0041-00.usm/mov_card_full_0_03009-5-uniq-0041-00/mov_card_full_0_03009-5-uniq-0041-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03009-5-uniq-0041-00.usm/mov_card_full_1_03009-5-uniq-0041-00/mov_card_full_1_03009-5-uniq-0041-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03009-5-uniq-0041-00.usm/mov_card_sign_03009-5-uniq-0041-00/mov_card_sign_03009-5-uniq-0041-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03009-5-uniq-0041-00.usm/mov_card_sign_03009-5-uniq-0041-00/mov_card_sign_03009-5-uniq-0041-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

@@ -60,4 +60,22 @@
     width: 35px;
     height: 35px;
   }
+
+  .card-detail-btn {
+    width: 100%;
+    border: 1px solid theme('colors.blue.100');
+    color: theme('colors.blue.100');
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-radius: 9999px;
+    padding: 0.125rem 0.5rem;
+    margin-top: 0.25rem;
+    text-align: center;
+    transition: background-color 0.2s, color 0.2s;
+  }
+
+  .card-detail-btn:hover {
+    background-color: theme('colors.blue.100');
+    color: #ffffff;
+  }
 }

@@ -1,0 +1,320 @@
+{
+    "id": "card-00016-5-uniq-0076-00",
+    "name": "Parasol Stray Cat",
+    "character": "Nekomata Okayu",
+    "characterId": "chr-00016",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 430,
+        "sense": 268,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00016-5-uniq-0076-00/img_card_full_00016-5-uniq-0076-00",
+    "thumb": "assetbundles/img_card_thumb_00016-5-uniq-0076-00/img_card_thumb_00016-5-uniq-0076-00",
+    "group": {
+        "name": "GAMERS",
+        "color1": "63B6FF",
+        "color2": "0089FF"
+    },
+    "groups": [
+        {
+            "name": "GAMERS",
+            "color1": "63B6FF",
+            "color2": "0089FF"
+        }
+    ],
+    "order": 177,
+    "charOrder": 115,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Performance UP 32% to 2 GAMERS Members.",
+                "Grants Performance UP [highlight]43[/highlight]% to 2 GAMERS Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 95%. Every 28s with a High Probability chance.",
+                "For 10s, Score UP [highlight]110[/highlight]%. Every 28s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 11s, Grants Score Support Effect of 110%. With 2 or more GAMERS Members, Skill Activation Rate UP 40%.",
+                "For 11s, Grants Score Support Effect of [highlight]130[/highlight]%. With 2 or more GAMERS Members, Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 11,
+                "actRateUp": 40,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gamers"
+            },
+            {
+                "scoreUp": 130,
+                "duration": 11,
+                "actRateUp": 50,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-gamers"
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 28,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 110,
+                "prob": 55,
+                "duration": 10,
+                "cooldown": 28,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gamers",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "performance",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gamers",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gamers"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Salty Breeze Runway",
+            "descriptions": [
+                "With 2 or more GAMERS Members, Grants Performance UP 135% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Wanna fall into a fleeting summer love with me? Nah... Just kidding!♡",
+            "audio": "resources/vo_live_dial_card_00016_00016-5-uniq-0076-00_myself.acb/vo_live_dial_card_00016_00016-5-uniq-0076-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "I survived a deserted island...only to lose to a simple summer beach sun... *thud*\nKidding, kidding, I’m fine.\nMore importantly, how’s my swimsuit? Does it make your heart race?\nThose are some nice eyes! They’re saying “Okayu’s swimsuit is supreme!”\nCome on, I can tell even if you try to hide it~♪\nIt’s just a shame, though... Had you told me, I would’ve asked you to rub some sunscreen on me~♪\nMaaaybe... I’ll just put it on myself? What should I do, hmm?\nAhaha, you’re getting flustered from just a little tease? Perhaps...you secretly like being teased...♪",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_situation.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Nyaning on the beach~♪",
+            "audio": "resources/vo_live_cmn_card_00016_00016-5-uniq-0076-00_skill-card.acb/vo_live_cmn_card_00016_00016-5-uniq-0076-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "In reality, these paw prints in my swimsuit are touching me from the inside.♡ Just kidding!",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-001.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Are you the type who gets excited seeing tan lines after summer break?",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-002.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Where do you think you’re looking at, you naughty! ...There, I figured you wanted me to say it.♡",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-003.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Time for some ol’ watermelon splitting! Where is it? Where is it? Is it over here? YAAH!",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-004.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "How was your summer beach trip with me? Have you fallen for me yet?",
+            "audio": "resources/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-005.acb/vo_card_cmn_00016_00016-5-uniq-0076-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00016-5-uniq-0076-00.usm/mov_card_full_0_00016-5-uniq-0076-00/mov_card_full_0_00016-5-uniq-0076-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00016-5-uniq-0076-00.usm/mov_card_full_1_00016-5-uniq-0076-00/mov_card_full_1_00016-5-uniq-0076-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00016-5-uniq-0076-00.usm/mov_card_sign_00016-5-uniq-0076-00/mov_card_sign_00016-5-uniq-0076-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00016-5-uniq-0076-00.usm/mov_card_sign_00016-5-uniq-0076-00/mov_card_sign_00016-5-uniq-0076-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

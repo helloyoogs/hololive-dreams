@@ -1,0 +1,320 @@
+{
+    "id": "card-03007-5-uniq-0039-00",
+    "name": "Sunny Cat Syndicate",
+    "character": "Vestia Zeta",
+    "characterId": "chr-03007",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 420,
+        "sense": 278,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03007-5-uniq-0039-00/img_card_full_03007-5-uniq-0039-00",
+    "thumb": "assetbundles/img_card_thumb_03007-5-uniq-0039-00/img_card_thumb_03007-5-uniq-0039-00",
+    "group": {
+        "name": "ID Gen 3",
+        "color1": "07DBE2",
+        "color2": "A7F4F6"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 3",
+            "color1": "07DBE2",
+            "color2": "A7F4F6"
+        }
+    ],
+    "order": 145,
+    "charOrder": 140,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more ID Gen 3 Members, Grants All Stats UP 25% to self.",
+                "With 2 or more ID Gen 3 Members, Grants All Stats UP [highlight]33[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 75%. Every 25s with a High Probability chance.",
+                "For 11s, Score UP [highlight]90[/highlight]%. Every 25s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 75,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 90,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 25,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_3"
+            },
+            {
+                "value": 33,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_3"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Noir Operative",
+            "descriptions": [
+                "With 2 or more ID Gen 3 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Nyahaha♪ How about I treat you guys to something special?\n",
+            "audio": "resources/vo_live_dial_card_03007_03007-5-uniq-0039-00_myself.acb/vo_live_dial_card_03007_03007-5-uniq-0039-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Meow meow, wanna take a little nap on my lap? Geez, you're such a clingy kitty. So cute~\n...Huh, why are you staring at me like that? Could it be...you want to cuddle up to me like this kitty?\nToo bad! My lap is the kitty's special seat, so no can do~\nBut in exchange... I've got a cat wand! I'll give you some tickles with this~\nTickle tickle, tickle tickle~ Ahahaha! Hey, don't run away!",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_situation.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "You're about to see what this agent can really do!",
+            "audio": "resources/vo_live_cmn_card_03007_03007-5-uniq-0039-00_skill-card.acb/vo_live_cmn_card_03007_03007-5-uniq-0039-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "How is it? Zeta with off-shoulder style, cute... I mean, cool, right?",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-001.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Let's play rock-paper-scissors! The loser gets tickled! I'll throw scissors, so you throw paper, alright?",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-002.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Which kitty do you like? Huh, why are you looking at me... Wait! Don't treat me like a cat!",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-003.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Did you buy cat food for the kitties? Wow, nice! You're more reliable than I thought.",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-004.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Mission alert! Today you're staying to play with me the whole time! Got it?!",
+            "audio": "resources/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-005.acb/vo_card_cmn_03007_03007-5-uniq-0039-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03007-5-uniq-0039-00.usm/mov_card_full_0_03007-5-uniq-0039-00/mov_card_full_0_03007-5-uniq-0039-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03007-5-uniq-0039-00.usm/mov_card_full_1_03007-5-uniq-0039-00/mov_card_full_1_03007-5-uniq-0039-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03007-5-uniq-0039-00.usm/mov_card_sign_03007-5-uniq-0039-00/mov_card_sign_03007-5-uniq-0039-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03007-5-uniq-0039-00.usm/mov_card_sign_03007-5-uniq-0039-00/mov_card_sign_03007-5-uniq-0039-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

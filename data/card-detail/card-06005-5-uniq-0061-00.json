@@ -1,0 +1,320 @@
+{
+    "id": "card-06005-5-uniq-0061-00",
+    "name": "Bancho’s Soft Grace",
+    "character": "Todoroki Hajime",
+    "characterId": "chr-06005",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 440,
+        "sense": 297,
+        "technique": 263
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_06005-5-uniq-0061-00/img_card_full_06005-5-uniq-0061-00",
+    "thumb": "assetbundles/img_card_thumb_06005-5-uniq-0061-00/img_card_thumb_06005-5-uniq-0061-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 162,
+    "charOrder": 162,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Performance UP 30% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Performance UP [highlight]41[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 50%. Every 26s with a High Probability chance. With a Combo of 40 or more, Score UP 100%.",
+                "For 9s, Score UP [highlight]60[/highlight]%. Every 26s with a High Probability chance. With a Combo of 40 or more, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 26,
+                "upScoreUp": 100,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 26,
+                "upScoreUp": 120,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "performance",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Sweet Badass Style",
+            "descriptions": [
+                "Grants Performance UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Keep on cheering for me until my name\nresounds throughout the universe!\nUntil then, ride on, purple road!",
+            "audio": "resources/vo_live_dial_card_06005_06005-5-uniq-0061-00_myself.acb/vo_live_dial_card_06005_06005-5-uniq-0061-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Who ish it? Ooh, we have a newbie.\nI'm Todoroki Hajime! The number one badass in the universe!\nYo! S'good to meetcha!\nAsh a token of our budding friendship... Here. Go on, give it a try.\nIt's shweet, and it'll knock yer shocks off! Nyahahaha!\nWell? Dyu like me? I'm cool, yeah? You shee how badass I really am?\nHey, don't just shtand there. Come sit wiv me and eat candy.",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_situation.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "I am the purple lightning bolt!",
+            "audio": "resources/vo_live_cmn_card_06005_06005-5-uniq-0061-00_skill-card.acb/vo_live_cmn_card_06005_06005-5-uniq-0061-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "I am not a bayby! I am a BADASS! Ishn't it obvious?",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-001.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Heehee! I think thish hat ish gonna make me even more badass!",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-002.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Eh? You like my shmile? Nyahaha! You shilly!",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-003.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I'm free all day today. So letsh play, play, plaaay!",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-004.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I like playing wiv you! I like getting to experience the prime of our youthsh together!",
+            "audio": "resources/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-005.acb/vo_card_cmn_06005_06005-5-uniq-0061-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_06005-5-uniq-0061-00.usm/mov_card_full_0_06005-5-uniq-0061-00/mov_card_full_0_06005-5-uniq-0061-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_06005-5-uniq-0061-00.usm/mov_card_full_1_06005-5-uniq-0061-00/mov_card_full_1_06005-5-uniq-0061-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_06005-5-uniq-0061-00.usm/mov_card_sign_06005-5-uniq-0061-00/mov_card_sign_06005-5-uniq-0061-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_06005-5-uniq-0061-00.usm/mov_card_sign_06005-5-uniq-0061-00/mov_card_sign_06005-5-uniq-0061-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

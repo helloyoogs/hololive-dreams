@@ -1,0 +1,320 @@
+{
+    "id": "card-00001-5-uniq-0000-00",
+    "name": "Rainbow’s Devotion",
+    "character": "Tokino Sora",
+    "characterId": "chr-00001",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 420,
+        "sense": 302,
+        "technique": 278
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00001-5-uniq-0000-00/img_card_full_00001-5-uniq-0000-00",
+    "thumb": "assetbundles/img_card_thumb_00001-5-uniq-0000-00/img_card_thumb_00001-5-uniq-0000-00",
+    "group": {
+        "name": "Gen 0",
+        "color1": "93C2FF",
+        "color2": "6E92FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 0",
+            "color1": "93C2FF",
+            "color2": "6E92FF"
+        }
+    ],
+    "order": 109,
+    "charOrder": 101,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Gen 0 Members, Grants All Stats UP 25% to self.",
+                "With 2 or more Gen 0 Members, Grants All Stats UP [highlight]33[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 85%. Every 24s with a Medium Probability chance.",
+                "For 10s, Score UP [highlight]100[/highlight]%. Every 24s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 135%.",
+                "For 10s, Grants Score Support Effect of [highlight]160[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 135,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 160,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 85,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 100,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 25,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_0"
+            },
+            {
+                "value": 33,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_0"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_0"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 200% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]250[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Blue Soul Gradient",
+            "descriptions": [
+                "With 2 or more Gen 0 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "You guys! I'll keep running...\nWe'll keep running...",
+            "audio": "resources/vo_live_dial_card_00001_00001-5-uniq-0000-00_myself.acb/vo_live_dial_card_00001_00001-5-uniq-0000-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Thank you for coming to see me on stage today ♪ How is it? Are you enjoying it?\nI’m having so much fun! I get to sing all my favorite songs under such a beautiful blue sky!\nLook, look! A rainbow ♪\nCould it be that my singing made a rainbow appear~? Then I will make an even bigger one!\nI’d be so happy if you could follow me all the way to the end, just like racing through that blue sky!\nLet’s go! Nun nun ♪",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_situation.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "You can't stop me now!",
+            "audio": "resources/vo_live_cmn_card_00001_00001-5-uniq-0000-00_skill-card.acb/vo_live_cmn_card_00001_00001-5-uniq-0000-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Do you like this design? It looks like I trapped the sky in my outfit ♪",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-001.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Hmm, what kind of set list should I go for~? I’d better start planning it right now!",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-002.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Being able to do what I do isn’t something to take for granted... I really need to be thankful to everyone who supports me ♪",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-003.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Pffft! I thought it was a microphone, but it was a water bottle... Do not laugh at me please ♪",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-004.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Will you come to the next concert too? It’s a promise, okay?! Let’s pinky swear so you don’t forget ♪",
+            "audio": "resources/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-005.acb/vo_card_cmn_00001_00001-5-uniq-0000-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00001-5-uniq-0000-00.usm/mov_card_full_0_00001-5-uniq-0000-00/mov_card_full_0_00001-5-uniq-0000-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00001-5-uniq-0000-00.usm/mov_card_full_1_00001-5-uniq-0000-00/mov_card_full_1_00001-5-uniq-0000-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00001-5-uniq-0000-00.usm/mov_card_sign_00001-5-uniq-0000-00/mov_card_sign_00001-5-uniq-0000-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00001-5-uniq-0000-00.usm/mov_card_sign_00001-5-uniq-0000-00/mov_card_sign_00001-5-uniq-0000-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

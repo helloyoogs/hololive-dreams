@@ -1,0 +1,320 @@
+{
+    "id": "card-00015-5-uniq-0003-00",
+    "name": "Sakura Bloom",
+    "character": "Sakura Miko",
+    "characterId": "chr-00015",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 297,
+        "sense": 440,
+        "technique": 263
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00015-5-uniq-0003-00/img_card_full_00015-5-uniq-0003-00",
+    "thumb": "assetbundles/img_card_thumb_00015-5-uniq-0003-00/img_card_thumb_00015-5-uniq-0003-00",
+    "group": {
+        "name": "Gen 0",
+        "color1": "93C2FF",
+        "color2": "6E92FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 0",
+            "color1": "93C2FF",
+            "color2": "6E92FF"
+        }
+    ],
+    "order": 112,
+    "charOrder": 104,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=happy]Happy Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=happy]Happy Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 6s, Score UP 45%. Every 15s with a Medium Probability chance. With a Combo of 40 or more, Score UP 90%.",
+                "For 6s, Score UP [highlight]55[/highlight]%. Every 15s with a Medium Probability chance. With a Combo of 40 or more, Score UP [highlight]110[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 90,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 6,
+                "cooldown": 15,
+                "upScoreUp": 110,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 3,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_0"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Splendor of Cherry Blossoms",
+            "descriptions": [
+                "Grants Sense UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "From here on out, I'll keep making countless smiles bloom! \nEveryone, follow my lead!",
+            "audio": "resources/vo_live_dial_card_00015_00015-5-uniq-0003-00_myself.acb/vo_live_dial_card_00015_00015-5-uniq-0003-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "W-Whoa! The cherry blossoms are in full bloom... And they're all Miko's color!\nYou wanted me to see it! And here I was thinking you wanted to go shrine hopping all of a sudden.\nWell, isn't this a nice surprise! Hey, I'm not crying, you are! Teehee!\nWell, seeing as we're here, let's go sit under the flowers! Under their radiant and dazzling blooms.\nAh! Pahahaha! You've got a petal on your head. No, a bit more to the right...\nOh, here. Let me just get it for you. Hold still... Okay, got it!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_situation.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Is that a serious face? Not for long!",
+            "audio": "resources/vo_live_cmn_card_00015_00015-5-uniq-0003-00_skill-card.acb/vo_live_cmn_card_00015_00015-5-uniq-0003-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Check me out! Outfit in full bloom!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-001.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Miko's elite levels are goin' on up! Well come on, say something!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-002.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Ey! Ain't nobody gonna call Miko a baby now!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-003.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Ooh, look at you! You're just infatuated with me!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-004.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "I've got a place for us next time we go out. It's a date!",
+            "audio": "resources/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-005.acb/vo_card_cmn_00015_00015-5-uniq-0003-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00015-5-uniq-0003-00.usm/mov_card_full_0_00015-5-uniq-0003-00/mov_card_full_0_00015-5-uniq-0003-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00015-5-uniq-0003-00.usm/mov_card_full_1_00015-5-uniq-0003-00/mov_card_full_1_00015-5-uniq-0003-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00015-5-uniq-0003-00.usm/mov_card_sign_00015-5-uniq-0003-00/mov_card_sign_00015-5-uniq-0003-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00015-5-uniq-0003-00.usm/mov_card_sign_00015-5-uniq-0003-00/mov_card_sign_00015-5-uniq-0003-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

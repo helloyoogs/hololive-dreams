@@ -1,0 +1,257 @@
+{
+    "id": "card-06004-4-cmmn-0000-00",
+    "name": "Cultural Performer",
+    "character": "Juufuutei Raden",
+    "characterId": "chr-06004",
+    "rarity": 4,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 420,
+        "sense": 278,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_4-04",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_06004-4-cmmn-0000-00/img_card_full_06004-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_06004-4-cmmn-0000-00/img_card_thumb_06004-4-cmmn-0000-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 107,
+    "charOrder": 161,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4460,
+        4675,
+        4890,
+        5105,
+        5320,
+        5535,
+        5750,
+        5965,
+        6180,
+        6395,
+        6610,
+        6825,
+        7040,
+        7255,
+        7470,
+        7685,
+        7900,
+        8115,
+        8330,
+        8545,
+        8760,
+        8976,
+        9192,
+        9408,
+        9624,
+        9840,
+        10056,
+        10272,
+        10488,
+        10704,
+        10938,
+        11172,
+        11406,
+        11640,
+        11874,
+        12108,
+        12342,
+        12576,
+        12810,
+        13044,
+        13278,
+        13512,
+        13746,
+        13980,
+        14214,
+        14448,
+        14682,
+        14916,
+        15150,
+        15384,
+        15618,
+        15852,
+        16086,
+        16320,
+        16554,
+        16788,
+        17022,
+        17256,
+        17490,
+        17724,
+        17958,
+        18192,
+        18426,
+        18660,
+        18895,
+        19130,
+        19365,
+        19600,
+        19835,
+        20070
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-04",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP 16% to self.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP [highlight]24[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 5s, Score UP 75%. Every 16s with a Medium Probability chance.",
+                "For 5s, Score UP [highlight]95[/highlight]%. Every 16s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 11s, Grants Score Support Effect of 80%.",
+                "For [highlight]14[/highlight]s, Grants Score Support Effect of 80%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 80,
+                "duration": 11,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 80,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 75,
+                "prob": 46,
+                "duration": 5,
+                "cooldown": 16,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 95,
+                "prob": 46,
+                "duration": 5,
+                "cooldown": 16,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 16,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 24,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 160% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]210[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants All Stats UP 20% to all. With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Score Support Effect of 25% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

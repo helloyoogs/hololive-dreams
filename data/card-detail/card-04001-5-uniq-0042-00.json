@@ -1,0 +1,320 @@
+{
+    "id": "card-04001-5-uniq-0042-00",
+    "name": "Reaper’s Death Flow",
+    "character": "Mori Calliope",
+    "characterId": "chr-04001",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 420,
+        "sense": 302,
+        "technique": 278
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04001-5-uniq-0042-00/img_card_full_04001-5-uniq-0042-00",
+    "thumb": "assetbundles/img_card_thumb_04001-5-uniq-0042-00/img_card_thumb_04001-5-uniq-0042-00",
+    "group": {
+        "name": "Myth",
+        "color1": "D6BE78",
+        "color2": "C19D33"
+    },
+    "groups": [
+        {
+            "name": "Myth",
+            "color1": "D6BE78",
+            "color2": "C19D33"
+        }
+    ],
+    "order": 148,
+    "charOrder": 143,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Myth Members, Grants Score Support Effect of 9% to 2 Myth Members.",
+                "With 2 or more Myth Members, Grants Score Support Effect of [highlight]12[/highlight]% to 2 Myth Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 100%. Every 33s with a High Probability chance.",
+                "For 11s, Score UP [highlight]120[/highlight]%. Every 33s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. Skill Activation Rate UP 35%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. Skill Activation Rate UP [highlight]40[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 35,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 33,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 120,
+                "prob": 55,
+                "duration": 11,
+                "cooldown": 33,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 9,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-myth",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-myth"
+            },
+            {
+                "value": 12,
+                "stat": null,
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-myth",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-myth"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-myth"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Poetic Death Waltz",
+            "descriptions": [
+                "With 2 or more Myth Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Having you guys here makes it not scary. \nThank you for making things better.",
+            "audio": "resources/vo_live_dial_card_04001_04001-5-uniq-0042-00_myself.acb/vo_live_dial_card_04001_04001-5-uniq-0042-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Are you all fired up?! ...Haha, now that's what I call Call and Response. My energy's through the roof!\nAlright, Mori Calliope's tour is in its final phase. Let's push through and have a blast till the finish!\n...Though, don't get so caught up that you skip hydration, got it?\nDon't let your guard down for a second! If you feel sick, you won't be able to enjoy it till the end, right?\n...Alright, everyone set? Here comes the next banger! Make some noise!",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_situation.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Now it's the Reaper's turn!",
+            "audio": "resources/vo_live_cmn_card_04001_04001-5-uniq-0042-00_skill-card.acb/vo_live_cmn_card_04001_04001-5-uniq-0042-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Cool thread, right? Anyone whose eyes are captivated is getting their soul reaped... Haha, just kidding!",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-001.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Nothing beats a live performance! But... If I curse, cut me some slack~",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-002.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "How's everyone doing?! ...Wait, was the mic even on?!",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-003.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "There's no set way to vibe at a live show! Have fun your own way!",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-004.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks for showing up to the live today. I promise to bring you the sickest tracks from here on out!",
+            "audio": "resources/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-005.acb/vo_card_cmn_04001_04001-5-uniq-0042-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04001-5-uniq-0042-00.usm/mov_card_full_0_04001-5-uniq-0042-00/mov_card_full_0_04001-5-uniq-0042-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04001-5-uniq-0042-00.usm/mov_card_full_1_04001-5-uniq-0042-00/mov_card_full_1_04001-5-uniq-0042-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04001-5-uniq-0042-00.usm/mov_card_sign_04001-5-uniq-0042-00/mov_card_sign_04001-5-uniq-0042-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04001-5-uniq-0042-00.usm/mov_card_sign_04001-5-uniq-0042-00/mov_card_sign_04001-5-uniq-0042-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

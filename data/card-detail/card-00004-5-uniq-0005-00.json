@@ -1,0 +1,320 @@
+{
+    "id": "card-00004-5-uniq-0005-00",
+    "name": "Ethereal Half-Elf",
+    "character": "Aki Rosenthal",
+    "characterId": "chr-00004",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 263,
+        "sense": 440,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00004-5-uniq-0005-00/img_card_full_00004-5-uniq-0005-00",
+    "thumb": "assetbundles/img_card_thumb_00004-5-uniq-0005-00/img_card_thumb_00004-5-uniq-0005-00",
+    "group": {
+        "name": "Gen 1",
+        "color1": "FF6FC6",
+        "color2": "FF24CC"
+    },
+    "groups": [
+        {
+            "name": "Gen 1",
+            "color1": "FF6FC6",
+            "color2": "FF24CC"
+        }
+    ],
+    "order": 114,
+    "charOrder": 106,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 32% to 2 Gen 1 Members.",
+                "Grants Sense UP [highlight]43[/highlight]% to 2 Gen 1 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 50%. Every 21s with a Medium Probability chance. When LIFE is 600 or higher, Score UP 95%.",
+                "For 8s, Score UP [highlight]55[/highlight]%. Every 21s with a Medium Probability chance. When LIFE is 600 or higher, Score UP [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 21,
+                "upScoreUp": 95,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 8,
+                "cooldown": 21,
+                "upScoreUp": 115,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_1",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_1",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_1"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 220% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]270[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Bewitching Serenity",
+            "descriptions": [
+                "Grants Sense UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thank you for falling in love with me!",
+            "audio": "resources/vo_live_dial_card_00004_00004-5-uniq-0005-00_myself.acb/vo_live_dial_card_00004_00004-5-uniq-0005-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Oh? I wasn't expecting a visitor this deep in the woods... Or maybe...you're lost?\nYou'd better watch out, or the big bad half-elf is gonna get you! Ahaha, just kidding!\nAhaha, sorry. Don't mind me. And come on, don't just stand there. Wanna go for a quick dip?\nThe water's nice and refreshing! Huh? No, don't be embarrassed. What's there to be embarrassed about?\nCome on... Let me wash those nerves away!",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_situation.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "This is the path we walk!",
+            "audio": "resources/vo_live_cmn_card_00004_00004-5-uniq-0005-00_skill-card.acb/vo_live_cmn_card_00004_00004-5-uniq-0005-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Wanna see my moves? I can perform your very own little forest musical.",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-001.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Hey... Were you fawning over the back of me just now?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-002.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Phew! All that dancing has got me pooped! I'd say it's time for drinks now. Who's game?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-003.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I just...feel better with you around. Won't you stay with me...a little while longer?",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-004.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Are you sleepy? Don't worry, you can rest your head in my lap. Here, it's ready for you, hehe!",
+            "audio": "resources/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-005.acb/vo_card_cmn_00004_00004-5-uniq-0005-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00004-5-uniq-0005-00.usm/mov_card_full_0_00004-5-uniq-0005-00/mov_card_full_0_00004-5-uniq-0005-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00004-5-uniq-0005-00.usm/mov_card_full_1_00004-5-uniq-0005-00/mov_card_full_1_00004-5-uniq-0005-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00004-5-uniq-0005-00.usm/mov_card_sign_00004-5-uniq-0005-00/mov_card_sign_00004-5-uniq-0005-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00004-5-uniq-0005-00.usm/mov_card_sign_00004-5-uniq-0005-00/mov_card_sign_00004-5-uniq-0005-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

@@ -1,0 +1,257 @@
+{
+    "id": "card-06002-4-cmmn-0000-00",
+    "name": "Apex Harmony",
+    "character": "Otonose Kanade",
+    "characterId": "chr-06002",
+    "rarity": 4,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 283,
+        "sense": 307,
+        "technique": 410
+    },
+    "levelGroupId": "grp-card-level-rarity_4-03",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_06002-4-cmmn-0000-00/img_card_full_06002-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_06002-4-cmmn-0000-00/img_card_thumb_06002-4-cmmn-0000-00",
+    "group": {
+        "name": "ReGLOSS",
+        "color1": "FF5B4C",
+        "color2": "C00003"
+    },
+    "groups": [
+        {
+            "name": "ReGLOSS",
+            "color1": "FF5B4C",
+            "color2": "C00003"
+        }
+    ],
+    "order": 105,
+    "charOrder": 159,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4469,
+        4684,
+        4899,
+        5114,
+        5329,
+        5544,
+        5759,
+        5974,
+        6190,
+        6406,
+        6622,
+        6838,
+        7054,
+        7270,
+        7486,
+        7702,
+        7918,
+        8134,
+        8350,
+        8566,
+        8782,
+        8998,
+        9214,
+        9430,
+        9646,
+        9862,
+        10078,
+        10294,
+        10510,
+        10726,
+        10960,
+        11194,
+        11428,
+        11662,
+        11896,
+        12130,
+        12364,
+        12598,
+        12832,
+        13066,
+        13300,
+        13534,
+        13768,
+        14002,
+        14237,
+        14472,
+        14707,
+        14942,
+        15177,
+        15412,
+        15647,
+        15882,
+        16117,
+        16352,
+        16587,
+        16822,
+        17057,
+        17292,
+        17527,
+        17762,
+        17997,
+        18232,
+        18467,
+        18702,
+        18937,
+        19172,
+        19407,
+        19642,
+        19877,
+        20112
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-03",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more ReGLOSS Members, Grants Technique UP 23% to 2 ReGLOSS Members.",
+                "With 2 or more ReGLOSS Members, Grants Technique UP [highlight]34[/highlight]% to 2 ReGLOSS Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 65%. Every 25s with a Medium Probability chance.",
+                "For [highlight]10[/highlight]s, Score UP [highlight]75[/highlight]%. Every 25s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 9s, Grants Score Support Effect of 100%.",
+                "For 9s, Grants Score Support Effect of [highlight]125[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 125,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 65,
+                "prob": 46,
+                "duration": 9,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 75,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 25,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 23,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-regloss"
+            },
+            {
+                "value": 34,
+                "stat": "technique",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-regloss",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-regloss"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-regloss"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 160% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]210[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "With 2 or more ReGLOSS Members, Grants All Stats UP 40% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

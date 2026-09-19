@@ -1,0 +1,320 @@
+{
+    "id": "card-04003-5-uniq-0072-00",
+    "name": "Tracing Tide Memories",
+    "character": "Ninomae Ina'nis",
+    "characterId": "chr-04003",
+    "rarity": 5,
+    "attribute": 3,
+    "attributeName": "Happy",
+    "attributeIcon": "attr-happy",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 302,
+        "sense": 430,
+        "technique": 268
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04003-5-uniq-0072-00/img_card_full_04003-5-uniq-0072-00",
+    "thumb": "assetbundles/img_card_thumb_04003-5-uniq-0072-00/img_card_thumb_04003-5-uniq-0072-00",
+    "group": {
+        "name": "Myth",
+        "color1": "D6BE78",
+        "color2": "C19D33"
+    },
+    "groups": [
+        {
+            "name": "Myth",
+            "color1": "D6BE78",
+            "color2": "C19D33"
+        }
+    ],
+    "order": 174,
+    "charOrder": 145,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Sense UP 32% to 2 Myth Members.",
+                "Grants Sense UP [highlight]43[/highlight]% to 2 Myth Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 85%. Every 24s with a Medium Probability chance.",
+                "For 10s, Score UP [highlight]100[/highlight]%. Every 24s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 100%. With 2 or more Myth Members, Skill Activation Rate UP 40%.",
+                "For 12s, Grants Score Support Effect of [highlight]120[/highlight]%. With 2 or more Myth Members, Skill Activation Rate UP [highlight]45[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 100,
+                "duration": 12,
+                "actRateUp": 40,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-myth"
+            },
+            {
+                "scoreUp": 120,
+                "duration": 12,
+                "actRateUp": 45,
+                "actRateUpType": "GROUPING",
+                "actRateUpThreshold": 2,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": "grp-myth"
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 85,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 100,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 32,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-myth",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 43,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-myth",
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-myth"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 85% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]135[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Waterfront Monochrome",
+            "descriptions": [
+                "With 2 or more Myth Members, Grants Sense UP 135% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Summer passes in a blink... \nThat's why I wanna cherish every moment.",
+            "audio": "resources/vo_live_dial_card_04003_04003-5-uniq-0072-00_myself.acb/vo_live_dial_card_04003_04003-5-uniq-0072-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "WAH... Look, there're so many shells scattered everywhere. They're all so colorful and pretty.\nOooh, this seashell is all spiky and cool... I bet it’ll look pretty neat as a hair accessory.\nSo, do I look cute? ...Hey, don't just nod with such a serious face! It’s making me feel shy.\nNah, it's nothing. Come on, let's get in the ocean.\nLast time we were here, we mostly just stayed on the sand. Today, I’m really feeling like taking a dip.\nI wonder if it’s gonna be cold though... I’m actually a little nervous. Come on, go in with me?",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_situation.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Fun summer time...or as I like to call it, Tako Time!",
+            "audio": "resources/vo_live_cmn_card_04003_04003-5-uniq-0072-00_skill-card.acb/vo_live_cmn_card_04003_04003-5-uniq-0072-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Does this swimsuit look good on me? I hope you like it.",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-001.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Hmm, there doesn't seem to be any fish around... But, there's an octopus right? Don't be like that, give me a smile~",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-002.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "I wanna go a little deeper. But it's kinda scary, so I want you to hold my hand.",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-003.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "You're not thirsty...? I brought some water, so just tell me when you need any.",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-004.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Next time we come, we might find different shells. I-I mean...um... I'd really like to come with you again next time.",
+            "audio": "resources/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-005.acb/vo_card_cmn_04003_04003-5-uniq-0072-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04003-5-uniq-0072-00.usm/mov_card_full_0_04003-5-uniq-0072-00/mov_card_full_0_04003-5-uniq-0072-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04003-5-uniq-0072-00.usm/mov_card_full_1_04003-5-uniq-0072-00/mov_card_full_1_04003-5-uniq-0072-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04003-5-uniq-0072-00.usm/mov_card_sign_04003-5-uniq-0072-00/mov_card_sign_04003-5-uniq-0072-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04003-5-uniq-0072-00.usm/mov_card_sign_04003-5-uniq-0072-00/mov_card_sign_04003-5-uniq-0072-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

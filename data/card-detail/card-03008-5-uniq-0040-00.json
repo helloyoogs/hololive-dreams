@@ -1,0 +1,320 @@
+{
+    "id": "card-03008-5-uniq-0040-00",
+    "name": "Tempered Soul Forge",
+    "character": "Kaela Kovalskia",
+    "characterId": "chr-03008",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 306,
+        "sense": 294,
+        "technique": 400
+    },
+    "levelGroupId": "grp-card-level-rarity_5-02",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03008-5-uniq-0040-00/img_card_full_03008-5-uniq-0040-00",
+    "thumb": "assetbundles/img_card_thumb_03008-5-uniq-0040-00/img_card_thumb_03008-5-uniq-0040-00",
+    "group": {
+        "name": "ID Gen 3",
+        "color1": "07DBE2",
+        "color2": "A7F4F6"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 3",
+            "color1": "07DBE2",
+            "color2": "A7F4F6"
+        }
+    ],
+    "order": 146,
+    "charOrder": 141,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5269,
+        5481,
+        5693,
+        5905,
+        6117,
+        6329,
+        6541,
+        6753,
+        6965,
+        7178,
+        7391,
+        7604,
+        7817,
+        8030,
+        8243,
+        8456,
+        8669,
+        8882,
+        9095,
+        9308,
+        9521,
+        9734,
+        9947,
+        10160,
+        10373,
+        10586,
+        10799,
+        11012,
+        11225,
+        11438,
+        11651,
+        11864,
+        12077,
+        12290,
+        12503,
+        12716,
+        12929,
+        13142,
+        13355,
+        13568,
+        13821,
+        14074,
+        14327,
+        14580,
+        14833,
+        15086,
+        15339,
+        15592,
+        15845,
+        16098,
+        16351,
+        16604,
+        16857,
+        17110,
+        17363,
+        17616,
+        17869,
+        18122,
+        18376,
+        18630,
+        18884,
+        19138,
+        19392,
+        19646,
+        19900,
+        20154,
+        20408,
+        20662,
+        20916,
+        21170,
+        21424,
+        21678,
+        21932,
+        22186,
+        22440,
+        22694,
+        22948,
+        23202,
+        23456,
+        23710
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-02",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Technique UP 30% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Technique UP [highlight]41[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 7s, Score UP 50%. Every 19s with a Medium Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP 100%.",
+                "For 7s, Score UP [highlight]60[/highlight]%. Every 19s with a Medium Probability chance. With 2 or more [attribute=cute]Cute Type[/attribute] Members, Score UP [highlight]120[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 12s, Grants Score Support Effect of 110%.",
+                "For 12s, Grants Score Support Effect of [highlight]135[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 110,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 135,
+                "duration": 12,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 50,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 100,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "prob": 46,
+                "duration": 7,
+                "cooldown": 19,
+                "upScoreUp": 120,
+                "upType": "ATTRIBUTE",
+                "upThreshold": 2,
+                "upAttr": 1,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 30,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 41,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_3"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Destiny Anvil",
+            "descriptions": [
+                "Grants Score Support Effect of 60% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "You all make me so happy. I'm truly blessed to have you all.",
+            "audio": "resources/vo_live_dial_card_03008_03008-5-uniq-0040-00_myself.acb/vo_live_dial_card_03008_03008-5-uniq-0040-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Phew~ I guess this should do it. Oh, welcome! Yeah, come on in, it's fine.\nJust wrapped up some work I was tasked with... Hold up, is that the sun rising?\nWow, I did it again. Looks like I've been focused since last night.\nNah, I'm good! Not even a bit tired. I'm built different, you know!\nSo, if you're in trouble, just call me.\nI'll come right away!",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_situation.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Wanna get some help?",
+            "audio": "resources/vo_live_cmn_card_03008_03008-5-uniq-0040-00_skill-card.acb/vo_live_cmn_card_03008_03008-5-uniq-0040-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "This outfit is cool, right? Huh, cute...? Get some help!",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-001.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Alright, work's wrapped up! Time to get my game on! Ooh ooh ah ah, ooh ooh!",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-002.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "That dish looks spicy but delish! What, you're sharing? Thanks a bunch!",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-003.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "I'm about to brew some tea. Wanna join? Wait a moment, okay?",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-004.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "If you ever have any troubles, just call me.  I'll come running no matter where I am.",
+            "audio": "resources/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-005.acb/vo_card_cmn_03008_03008-5-uniq-0040-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03008-5-uniq-0040-00.usm/mov_card_full_0_03008-5-uniq-0040-00/mov_card_full_0_03008-5-uniq-0040-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03008-5-uniq-0040-00.usm/mov_card_full_1_03008-5-uniq-0040-00/mov_card_full_1_03008-5-uniq-0040-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03008-5-uniq-0040-00.usm/mov_card_sign_03008-5-uniq-0040-00/mov_card_sign_03008-5-uniq-0040-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03008-5-uniq-0040-00.usm/mov_card_sign_03008-5-uniq-0040-00/mov_card_sign_03008-5-uniq-0040-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

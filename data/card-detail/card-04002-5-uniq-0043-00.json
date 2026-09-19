@@ -1,0 +1,320 @@
+{
+    "id": "card-04002-5-uniq-0043-00",
+    "name": "Lovely Phoenix Diner",
+    "character": "Takanashi Kiara",
+    "characterId": "chr-04002",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "performance",
+    "weights": {
+        "performance": 430,
+        "sense": 302,
+        "technique": 268
+    },
+    "levelGroupId": "grp-card-level-rarity_5-05",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04002-5-uniq-0043-00/img_card_full_04002-5-uniq-0043-00",
+    "thumb": "assetbundles/img_card_thumb_04002-5-uniq-0043-00/img_card_thumb_04002-5-uniq-0043-00",
+    "group": {
+        "name": "Myth",
+        "color1": "D6BE78",
+        "color2": "C19D33"
+    },
+    "groups": [
+        {
+            "name": "Myth",
+            "color1": "D6BE78",
+            "color2": "C19D33"
+        }
+    ],
+    "order": 149,
+    "charOrder": 144,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5236,
+        5447,
+        5658,
+        5869,
+        6080,
+        6291,
+        6502,
+        6713,
+        6924,
+        7135,
+        7346,
+        7557,
+        7768,
+        7979,
+        8190,
+        8401,
+        8612,
+        8823,
+        9034,
+        9245,
+        9456,
+        9667,
+        9879,
+        10091,
+        10303,
+        10515,
+        10727,
+        10939,
+        11151,
+        11363,
+        11575,
+        11787,
+        11999,
+        12211,
+        12423,
+        12635,
+        12847,
+        13059,
+        13271,
+        13483,
+        13734,
+        13986,
+        14238,
+        14490,
+        14742,
+        14994,
+        15246,
+        15498,
+        15750,
+        16002,
+        16254,
+        16506,
+        16758,
+        17010,
+        17262,
+        17514,
+        17766,
+        18018,
+        18270,
+        18522,
+        18774,
+        19026,
+        19278,
+        19530,
+        19782,
+        20034,
+        20286,
+        20538,
+        20790,
+        21042,
+        21294,
+        21546,
+        21798,
+        22050,
+        22302,
+        22554,
+        22806,
+        23058,
+        23310,
+        23562
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-05",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=cute]Cute Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=cute]Cute Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 95%. Every 23s with a High Probability chance.",
+                "For 8s, Score UP [highlight]115[/highlight]%. Every 23s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. With a Combo of 100 or more, Skill Activation Rate UP 45%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. With a Combo of 100 or more, Skill Activation Rate UP [highlight]55[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 45,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 55,
+                "actRateUpType": "COMBO",
+                "actRateUpThreshold": 100,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 23,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 1,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-myth"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Everlasting Phoenix",
+            "descriptions": [
+                "With 2 or more [attribute=cute]Cute Type[/attribute] Members, Grants Performance UP 130% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thanks for all your support! \nI love the holo Members and I love my KFPs!",
+            "audio": "resources/vo_live_dial_card_04002_04002-5-uniq-0043-00_myself.acb/vo_live_dial_card_04002_04002-5-uniq-0043-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Kikkeriki! Here's our signature hamburger combo! Sorry for the wait!\n...So?  Quite generous portions, right~?\nEvery dish is made with my affection, so enjoy each bite! Bon appétiiiit~\n...Oh? Ah, my bad. Does it feel awkward to eat when someone's staring at you?\nHehe, I get it. But I really wanna see what kind of expression you'll make, you know?\nMind if I stick around? I wanna see your happy face!",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_situation.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Kiwawa, activate!",
+            "audio": "resources/vo_live_cmn_card_04002_04002-5-uniq-0043-00_skill-card.acb/vo_live_cmn_card_04002_04002-5-uniq-0043-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Welcome! You can spot me easily in this cute uniform. I'm here to help with anything you need.",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-001.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "This chicken was grilled in phoenix flames... I'm just messing with you!",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-002.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Wait, it's tasty?! Aww... I'm so glad you're enjoying it~",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-003.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Actually, we have have some special off-menu items~ Wanna try something exclusive?",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-004.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Leaving so soon? Stop by again sometime, okay? I'll be preparing lots of stuff and waiting for you~",
+            "audio": "resources/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-005.acb/vo_card_cmn_04002_04002-5-uniq-0043-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04002-5-uniq-0043-00.usm/mov_card_full_0_04002-5-uniq-0043-00/mov_card_full_0_04002-5-uniq-0043-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04002-5-uniq-0043-00.usm/mov_card_full_1_04002-5-uniq-0043-00/mov_card_full_1_04002-5-uniq-0043-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04002-5-uniq-0043-00.usm/mov_card_sign_04002-5-uniq-0043-00/mov_card_sign_04002-5-uniq-0043-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04002-5-uniq-0043-00.usm/mov_card_sign_04002-5-uniq-0043-00/mov_card_sign_04002-5-uniq-0043-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

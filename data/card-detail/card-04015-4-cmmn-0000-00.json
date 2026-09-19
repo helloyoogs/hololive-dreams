@@ -1,0 +1,257 @@
+{
+    "id": "card-04015-4-cmmn-0000-00",
+    "name": "Dusk Nightingale",
+    "character": "Nerissa Ravencroft",
+    "characterId": "chr-04015",
+    "rarity": 4,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 248,
+        "sense": 460,
+        "technique": 292
+    },
+    "levelGroupId": "grp-card-level-rarity_4-08",
+    "bloomGroupId": "card_potential_grp-rarity_4",
+    "image": "assetbundles/img_card_full_04015-4-cmmn-0000-00/img_card_full_04015-4-cmmn-0000-00",
+    "thumb": "assetbundles/img_card_thumb_04015-4-cmmn-0000-00/img_card_thumb_04015-4-cmmn-0000-00",
+    "group": {
+        "name": "Advent",
+        "color1": "7C7EC9",
+        "color2": "223C87"
+    },
+    "groups": [
+        {
+            "name": "Advent",
+            "color1": "7C7EC9",
+            "color2": "223C87"
+        }
+    ],
+    "order": 102,
+    "charOrder": 155,
+    "maxLevel": 70,
+    "maxBloom": 5,
+    "levelLimits": [
+        30,
+        40,
+        50,
+        60,
+        70
+    ],
+    "baseTotals": [
+        4422,
+        4635,
+        4848,
+        5061,
+        5274,
+        5487,
+        5700,
+        5913,
+        6126,
+        6339,
+        6552,
+        6765,
+        6978,
+        7191,
+        7404,
+        7617,
+        7831,
+        8045,
+        8259,
+        8473,
+        8687,
+        8901,
+        9115,
+        9329,
+        9543,
+        9757,
+        9971,
+        10185,
+        10399,
+        10613,
+        10845,
+        11077,
+        11309,
+        11541,
+        11773,
+        12005,
+        12237,
+        12469,
+        12701,
+        12933,
+        13165,
+        13397,
+        13629,
+        13861,
+        14093,
+        14325,
+        14557,
+        14789,
+        15021,
+        15253,
+        15485,
+        15717,
+        15949,
+        16181,
+        16413,
+        16645,
+        16877,
+        17109,
+        17341,
+        17573,
+        17805,
+        18037,
+        18270,
+        18503,
+        18736,
+        18969,
+        19202,
+        19435,
+        19668,
+        19901
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_4-08",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Advent Members, Grants Sense UP 23% to 2 Advent Members.",
+                "With 2 or more Advent Members, Grants Sense UP [highlight]34[/highlight]% to 2 Advent Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 35%. Every 28s with a High Probability chance. When LIFE is 600 or higher, Score UP 70%.",
+                "For 9s, Score UP [highlight]45[/highlight]%. Every 28s with a High Probability chance. When LIFE is 600 or higher, Score UP [highlight]90[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 80%. When LIFE is 600 or higher, Restores 300 LIFE.",
+                "For 10s, Grants Score Support Effect of [highlight]100[/highlight]%. When LIFE is 600 or higher, Restores [highlight]400[/highlight] LIFE."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 80,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 100,
+                "duration": 10,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 28,
+                "upScoreUp": 70,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 45,
+                "prob": 55,
+                "duration": 9,
+                "cooldown": 28,
+                "upScoreUp": 90,
+                "upType": "LIFE_GTE",
+                "upThreshold": 600,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 23,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-advent",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-advent"
+            },
+            {
+                "value": 34,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-advent",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-advent"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-advent"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 150% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]200[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Drop",
+            "descriptions": [
+                "Grants Sense UP 100% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": []
+}

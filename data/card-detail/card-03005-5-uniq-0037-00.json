@@ -1,0 +1,320 @@
+{
+    "id": "card-03005-5-uniq-0037-00",
+    "name": "Couch Potato Gamer",
+    "character": "Anya Melfissa",
+    "characterId": "chr-03005",
+    "rarity": 5,
+    "attribute": 1,
+    "attributeName": "Cute",
+    "attributeIcon": "attr-cute",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 278,
+        "sense": 420,
+        "technique": 302
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_03005-5-uniq-0037-00/img_card_full_03005-5-uniq-0037-00",
+    "thumb": "assetbundles/img_card_thumb_03005-5-uniq-0037-00/img_card_thumb_03005-5-uniq-0037-00",
+    "group": {
+        "name": "ID Gen 2",
+        "color1": "06DA9E",
+        "color2": "72F4D0"
+    },
+    "groups": [
+        {
+            "name": "ID Gen 2",
+            "color1": "06DA9E",
+            "color2": "72F4D0"
+        }
+    ],
+    "order": 143,
+    "charOrder": 138,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more ID Gen 2 Members, Grants All Stats UP 25% to self.",
+                "With 2 or more ID Gen 2 Members, Grants All Stats UP [highlight]33[/highlight]% to self."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 10s, Score UP 85%. Every 24s with a Medium Probability chance.",
+                "For 10s, Score UP [highlight]100[/highlight]%. Every 24s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 14s, Grants Score Support Effect of 95%.",
+                "For 14s, Grants Score Support Effect of [highlight]115[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 95,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 115,
+                "duration": 14,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 85,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 100,
+                "prob": 46,
+                "duration": 10,
+                "cooldown": 24,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 25,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_2"
+            },
+            {
+                "value": 33,
+                "stat": "all",
+                "targetType": "SELF",
+                "targetCount": null,
+                "targetAttr": null,
+                "targetGrouping": null,
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-indonesia-gen_2"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-indonesia-gen_2"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Dreamy Breeze Ease",
+            "descriptions": [
+                "With 2 or more ID Gen 2 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thanks for the support, everyone! \nI'll keep doing what I do!",
+            "audio": "resources/vo_live_dial_card_03005_03005-5-uniq-0037-00_myself.acb/vo_live_dial_card_03005_03005-5-uniq-0037-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Oh, hey there. Just make yourself comfortable anywhere.\nAlright, back to the game... Hmm, what's that smell? Could it be...hamburger and fries?!\nYou actually went out and bought these? You're a lifesaver!\nI was gonna be a total hermit today anyway, so this really saves me.\nAs a thank you, wanna give this game a shot? I've got a spare controller, so let's co-op this!\nCome on, don't be so tense. I'll carry us through with my amazing skills. Alright, let's do this!",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_situation.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Behold the power of the ancients!",
+            "audio": "resources/vo_live_cmn_card_03005_03005-5-uniq-0037-00_skill-card.acb/vo_live_cmn_card_03005_03005-5-uniq-0037-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "This hoodie's so comfy...it's making me drowsy...mm...hmm...? Huh! That was close.",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-001.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "So you wanna explore some ruins? Well, I guess I can tag along with you for a bit.",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-002.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Ruins and ancient weapons, doesn't that just hit different? Right?",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-003.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "This game's no joke, one mistake and you're done for... Wait, you're actually pretty skilled. Is this seriously your first time?",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-004.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Next time let's play something different. I wanna see more of what you can do.",
+            "audio": "resources/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-005.acb/vo_card_cmn_03005_03005-5-uniq-0037-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_03005-5-uniq-0037-00.usm/mov_card_full_0_03005-5-uniq-0037-00/mov_card_full_0_03005-5-uniq-0037-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_03005-5-uniq-0037-00.usm/mov_card_full_1_03005-5-uniq-0037-00/mov_card_full_1_03005-5-uniq-0037-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_03005-5-uniq-0037-00.usm/mov_card_sign_03005-5-uniq-0037-00/mov_card_sign_03005-5-uniq-0037-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_03005-5-uniq-0037-00.usm/mov_card_sign_03005-5-uniq-0037-00/mov_card_sign_03005-5-uniq-0037-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

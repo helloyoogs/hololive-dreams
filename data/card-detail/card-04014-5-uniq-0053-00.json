@@ -1,0 +1,320 @@
+{
+    "id": "card-04014-5-uniq-0053-00",
+    "name": "Prism Crystal Realm",
+    "character": "Koseki Bijou",
+    "characterId": "chr-04014",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 263,
+        "sense": 440,
+        "technique": 297
+    },
+    "levelGroupId": "grp-card-level-rarity_5-06",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_04014-5-uniq-0053-00/img_card_full_04014-5-uniq-0053-00",
+    "thumb": "assetbundles/img_card_thumb_04014-5-uniq-0053-00/img_card_thumb_04014-5-uniq-0053-00",
+    "group": {
+        "name": "Advent",
+        "color1": "7C7EC9",
+        "color2": "223C87"
+    },
+    "groups": [
+        {
+            "name": "Advent",
+            "color1": "7C7EC9",
+            "color2": "223C87"
+        }
+    ],
+    "order": 155,
+    "charOrder": 154,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5225,
+        5436,
+        5647,
+        5858,
+        6069,
+        6280,
+        6491,
+        6702,
+        6913,
+        7124,
+        7335,
+        7546,
+        7757,
+        7968,
+        8179,
+        8390,
+        8601,
+        8812,
+        9023,
+        9234,
+        9445,
+        9656,
+        9867,
+        10078,
+        10289,
+        10500,
+        10711,
+        10922,
+        11133,
+        11344,
+        11555,
+        11766,
+        11977,
+        12188,
+        12399,
+        12610,
+        12821,
+        13032,
+        13243,
+        13454,
+        13705,
+        13956,
+        14207,
+        14458,
+        14709,
+        14960,
+        15211,
+        15462,
+        15713,
+        15964,
+        16215,
+        16466,
+        16717,
+        16968,
+        17219,
+        17470,
+        17721,
+        17972,
+        18223,
+        18474,
+        18725,
+        18976,
+        19228,
+        19480,
+        19732,
+        19984,
+        20236,
+        20488,
+        20740,
+        20992,
+        21244,
+        21496,
+        21748,
+        22000,
+        22252,
+        22504,
+        22756,
+        23008,
+        23260,
+        23512
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-06",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "Grants Score Support Effect of 8% to 2 [attribute=pure]Pure Type[/attribute] Members.",
+                "Grants Score Support Effect of [highlight]11[/highlight]% to 2 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 9s, Score UP 55%. Every 27s with a Medium Probability chance. With a Combo of 40 or more, Score UP 110%.",
+                "For 9s, Score UP [highlight]65[/highlight]%. Every 27s with a Medium Probability chance. With a Combo of 40 or more, Score UP [highlight]130[/highlight]%."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 55,
+                "prob": 46,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 110,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 65,
+                "prob": 46,
+                "duration": 9,
+                "cooldown": 27,
+                "upScoreUp": 130,
+                "upType": "COMBO",
+                "upThreshold": 40,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 8,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            },
+            {
+                "value": 11,
+                "stat": null,
+                "targetType": "ATTRIBUTE",
+                "targetCount": 2,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": null,
+                "gateThreshold": 0,
+                "gateAttr": null,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-advent"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 140% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]190[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Radiant Mana Gem",
+            "descriptions": [
+                "Grants Sense UP 120% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Let's Biboo tax them all! Kira Kira Koseki♪",
+            "audio": "resources/vo_live_dial_card_04014_04014-5-uniq-0053-00_myself.acb/vo_live_dial_card_04014_04014-5-uniq-0053-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Ta-daah! Sooo many sparkles, right?\nBiboo found this place all by herself! Pretty awesome, right? Go on, admit it!\nReally?! Yaaay, Biboo did it! Ehehe~\nNow can you pat my head to reward me, pleaaase?!\nThat feels sooo nice! Oh, and hey! This place?\nYou can't tell anyone about it, okay? It's a secret~!\nIt's OUR super special kira kira place!\nSo if you tell anyone...\nYou're gonna get it! Ahahaha!",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_situation.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Pebbles, let's go!",
+            "audio": "resources/vo_live_cmn_card_04014_04014-5-uniq-0053-00_skill-card.acb/vo_live_cmn_card_04014_04014-5-uniq-0053-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Biboo's a princess, for sure!\nDo I look cute in this?",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-001.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "Let's play tag! Okay, Biboo's \"it!\"\nYou'd better be ready, hahaha! ",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-002.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Biboo's tummy is rumbling...\nHey hey, give me some snacks! Hurry up~!",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-003.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "Boo! Surprised?\nNo more time to rest for you! Ahahaha!",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-004.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "If I find more pretty sparkles,\nI'll show you! So, look forward to it!",
+            "audio": "resources/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-005.acb/vo_card_cmn_04014_04014-5-uniq-0053-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_04014-5-uniq-0053-00.usm/mov_card_full_0_04014-5-uniq-0053-00/mov_card_full_0_04014-5-uniq-0053-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_04014-5-uniq-0053-00.usm/mov_card_full_1_04014-5-uniq-0053-00/mov_card_full_1_04014-5-uniq-0053-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_04014-5-uniq-0053-00.usm/mov_card_sign_04014-5-uniq-0053-00/mov_card_sign_04014-5-uniq-0053-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_04014-5-uniq-0053-00.usm/mov_card_sign_04014-5-uniq-0053-00/mov_card_sign_04014-5-uniq-0053-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}

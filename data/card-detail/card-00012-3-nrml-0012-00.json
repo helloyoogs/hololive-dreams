@@ -1,0 +1,228 @@
+{
+    "id": "card-00012-3-nrml-0012-00",
+    "name": "We are hololive!",
+    "character": "Oozora Subaru",
+    "characterId": "chr-00012",
+    "rarity": 3,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "technique",
+    "weights": {
+        "performance": 306,
+        "sense": 294,
+        "technique": 400
+    },
+    "levelGroupId": "grp-card-level-rarity_3-02",
+    "bloomGroupId": "card_potential_grp-rarity_3",
+    "image": "assetbundles/img_card_full_00012-3-nrml-0012-00/img_card_full_00012-3-nrml-0012-00",
+    "thumb": "assetbundles/img_card_thumb_00012-3-nrml-0012-00/img_card_thumb_00012-3-nrml-0012-00",
+    "group": {
+        "name": "Gen 2",
+        "color1": "225AFF",
+        "color2": "7197FF"
+    },
+    "groups": [
+        {
+            "name": "Gen 2",
+            "color1": "225AFF",
+            "color2": "7197FF"
+        }
+    ],
+    "order": 12,
+    "charOrder": 113,
+    "maxLevel": 60,
+    "maxBloom": 5,
+    "levelLimits": [
+        20,
+        30,
+        40,
+        50,
+        60
+    ],
+    "baseTotals": [
+        3425,
+        3614,
+        3803,
+        3992,
+        4181,
+        4370,
+        4559,
+        4748,
+        4937,
+        5126,
+        5315,
+        5504,
+        5693,
+        5882,
+        6071,
+        6261,
+        6451,
+        6641,
+        6831,
+        7021,
+        7230,
+        7439,
+        7648,
+        7857,
+        8066,
+        8275,
+        8484,
+        8693,
+        8902,
+        9112,
+        9322,
+        9532,
+        9742,
+        9952,
+        10162,
+        10372,
+        10582,
+        10792,
+        11002,
+        11212,
+        11422,
+        11632,
+        11842,
+        12052,
+        12262,
+        12472,
+        12682,
+        12892,
+        13102,
+        13312,
+        13522,
+        13732,
+        13942,
+        14152,
+        14362,
+        14572,
+        14782,
+        14992,
+        15202,
+        15412
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        50,
+        50,
+        50,
+        150
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_3-02",
+    "animated": false,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Technique UP 7% to 3 [attribute=pure]Pure Type[/attribute] Members.",
+                "With 2 or more [attribute=pure]Pure Type[/attribute] Members, Grants Technique UP [highlight]14[/highlight]% to 3 [attribute=pure]Pure Type[/attribute] Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 11s, Score UP 35%. Every 30s with a Medium Probability chance.",
+                "For [highlight]13[/highlight]s, Score UP [highlight]40[/highlight]%. Every 30s with a Medium Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 8s, Grants Score Support Effect of 45%. GOOD or higher becomes PERFECT.",
+                "For [highlight]9[/highlight]s, Grants Score Support Effect of [highlight]60[/highlight]%. GOOD or higher becomes PERFECT."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 45,
+                "duration": 8,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 60,
+                "duration": 9,
+                "actRateUp": 0,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 35,
+                "prob": 46,
+                "duration": 11,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 40,
+                "prob": 46,
+                "duration": 13,
+                "cooldown": 30,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 7,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            },
+            {
+                "value": 14,
+                "stat": "technique",
+                "targetType": "ATTRIBUTE",
+                "targetCount": 3,
+                "targetAttr": 2,
+                "targetGrouping": null,
+                "gateType": "ATTRIBUTE",
+                "gateThreshold": 2,
+                "gateAttr": 2,
+                "gateGrouping": null
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_2"
+    ],
+    "otherEffects": [],
+    "voicelines": []
+}

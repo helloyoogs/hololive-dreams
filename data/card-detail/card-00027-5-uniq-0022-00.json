@@ -1,0 +1,320 @@
+{
+    "id": "card-00027-5-uniq-0022-00",
+    "name": "Eternal Night Out",
+    "character": "Tokoyami Towa",
+    "characterId": "chr-00027",
+    "rarity": 5,
+    "attribute": 2,
+    "attributeName": "Pure",
+    "attributeIcon": "attr-pure",
+    "mainStat": "sense",
+    "weights": {
+        "performance": 302,
+        "sense": 420,
+        "technique": 278
+    },
+    "levelGroupId": "grp-card-level-rarity_5-04",
+    "bloomGroupId": "card_potential_grp-rarity_5",
+    "image": "assetbundles/img_card_full_00027-5-uniq-0022-00/img_card_full_00027-5-uniq-0022-00",
+    "thumb": "assetbundles/img_card_thumb_00027-5-uniq-0022-00/img_card_thumb_00027-5-uniq-0022-00",
+    "group": {
+        "name": "Gen 4",
+        "color1": "FFB22F",
+        "color2": "FFDA6A"
+    },
+    "groups": [
+        {
+            "name": "Gen 4",
+            "color1": "FFB22F",
+            "color2": "FFDA6A"
+        }
+    ],
+    "order": 129,
+    "charOrder": 123,
+    "maxLevel": 80,
+    "maxBloom": 5,
+    "levelLimits": [
+        40,
+        50,
+        60,
+        70,
+        80
+    ],
+    "baseTotals": [
+        5247,
+        5458,
+        5669,
+        5880,
+        6091,
+        6303,
+        6515,
+        6727,
+        6939,
+        7151,
+        7363,
+        7575,
+        7787,
+        7999,
+        8211,
+        8423,
+        8635,
+        8847,
+        9059,
+        9271,
+        9483,
+        9695,
+        9907,
+        10119,
+        10331,
+        10543,
+        10755,
+        10967,
+        11179,
+        11391,
+        11603,
+        11815,
+        12027,
+        12239,
+        12451,
+        12663,
+        12875,
+        13087,
+        13299,
+        13511,
+        13763,
+        14015,
+        14267,
+        14519,
+        14771,
+        15023,
+        15275,
+        15527,
+        15779,
+        16031,
+        16283,
+        16535,
+        16787,
+        17039,
+        17291,
+        17543,
+        17795,
+        18047,
+        18299,
+        18551,
+        18804,
+        19057,
+        19310,
+        19563,
+        19816,
+        20069,
+        20322,
+        20575,
+        20828,
+        21081,
+        21334,
+        21587,
+        21840,
+        22093,
+        22346,
+        22599,
+        22852,
+        23105,
+        23358,
+        23611
+    ],
+    "bloomBoosts": [
+        0,
+        0,
+        100,
+        100,
+        100,
+        100
+    ],
+    "cardLevelGroupId": "grp-card-level-rarity_5-04",
+    "animated": true,
+    "skills": [
+        {
+            "type": "passive",
+            "descriptions": [
+                "With 2 or more Gen 4 Members, Grants Sense UP 34% to 2 Gen 4 Members.",
+                "With 2 or more Gen 4 Members, Grants Sense UP [highlight]45[/highlight]% to 2 Gen 4 Members."
+            ],
+            "bloomUnlock": 4,
+            "icon": "assetbundles/img_skill_icon_passive_allparameteruppermilup/img_skill_icon_passive_allparameteruppermilup"
+        },
+        {
+            "type": "active",
+            "descriptions": [
+                "For 8s, Score UP 80%. Every 19s with a High Probability chance.",
+                "For 8s, Score UP [highlight]95[/highlight]%. Every 19s with a High Probability chance."
+            ],
+            "bloomUnlock": 1,
+            "icon": "assetbundles/img_skill_icon_active_scoreuppermilup/img_skill_icon_active_scoreuppermilup"
+        },
+        {
+            "type": "special",
+            "descriptions": [
+                "For 10s, Grants Score Support Effect of 120%. Skill Activation Rate UP 40%.",
+                "For 10s, Grants Score Support Effect of [highlight]145[/highlight]%. Skill Activation Rate UP [highlight]50[/highlight]%."
+            ],
+            "bloomUnlock": 3,
+            "icon": "assetbundles/img_skill_icon_active_scoreupeffectuppermilup/img_skill_icon_active_scoreupeffectuppermilup"
+        }
+    ],
+    "special": {
+        "levels": [
+            {
+                "scoreUp": 120,
+                "duration": 10,
+                "actRateUp": 40,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            },
+            {
+                "scoreUp": 145,
+                "duration": 10,
+                "actRateUp": 50,
+                "actRateUpType": null,
+                "actRateUpThreshold": 0,
+                "actRateUpAttr": null,
+                "actRateUpGrouping": null
+            }
+        ],
+        "bloomUnlock": 3
+    },
+    "active": {
+        "levels": [
+            {
+                "scoreUp": 80,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            },
+            {
+                "scoreUp": 95,
+                "prob": 55,
+                "duration": 8,
+                "cooldown": 19,
+                "upScoreUp": 0,
+                "upType": null,
+                "upThreshold": 0,
+                "upAttr": null,
+                "upGrouping": null
+            }
+        ],
+        "bloomUnlock": 1
+    },
+    "passive": {
+        "levels": [
+            {
+                "value": 34,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_4",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_4"
+            },
+            {
+                "value": 45,
+                "stat": "sense",
+                "targetType": "CHARACTER_GROUPING",
+                "targetCount": 2,
+                "targetAttr": null,
+                "targetGrouping": "grp-gen_4",
+                "gateType": "GROUPING",
+                "gateThreshold": 2,
+                "gateAttr": null,
+                "gateGrouping": "grp-gen_4"
+            }
+        ],
+        "bloomUnlock": 4
+    },
+    "groupingIds": [
+        "grp-gen_4"
+    ],
+    "otherEffects": [
+        {
+            "type": "connect",
+            "descriptions": [
+                "Grants Holomem Board Effect UP 110% for all within range.",
+                "Grants Holomem Board Effect UP [highlight]160[/highlight]% for all within range."
+            ],
+            "bloomUnlock": 5,
+            "icon": ""
+        },
+        {
+            "type": "outfit",
+            "name": "Tactical Little Devil",
+            "descriptions": [
+                "With 2 or more Gen 4 Members, Grants All Stats UP 50% to all."
+            ],
+            "bloomUnlock": 0,
+            "icon": ""
+        }
+    ],
+    "voicelines": [
+        {
+            "type": "card_get",
+            "text": "Thanks a mill, groupies! Let's keep it free and easy!",
+            "audio": "resources/vo_live_dial_card_00027_00027-5-uniq-0022-00_myself.acb/vo_live_dial_card_00027_00027-5-uniq-0022-00_myself.mp3"
+        },
+        {
+            "type": "situation",
+            "text": "Yess!! Number 1, baby! You see that?!\nThat was insane, right? You've never seen god-tier aiming like that before!\nHow'd you do? Hey, not bad!\nYou said this was your first time, right? You're killing it!\nPhew! Okay let's take a breather and then jump right back in!\nYou and I are gonna dominate every last leaderboard!",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_situation.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_situation.mp3"
+        },
+        {
+            "type": "skill",
+            "text": "Succumb to my eternal darkness!",
+            "audio": "resources/vo_live_cmn_card_00027_00027-5-uniq-0022-00_skill-card.acb/vo_live_cmn_card_00027_00027-5-uniq-0022-00_skill-card.mp3"
+        },
+        {
+            "type": "potential_1",
+            "text": "Hey! I'm totally rocking this outfit, right?",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-001.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-001.mp3"
+        },
+        {
+            "type": "potential_2",
+            "text": "What're you staring at? You're asking for a fine!",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-002.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-002.mp3"
+        },
+        {
+            "type": "potential_3",
+            "text": "Oh you wanna play games do you? Bring it on!",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-003.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-003.mp3"
+        },
+        {
+            "type": "potential_4",
+            "text": "GG! Have some water. Let's play again soon.",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-004.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-004.mp3"
+        },
+        {
+            "type": "potential_5",
+            "text": "Thanks for always hanging out... It's...fun.",
+            "audio": "resources/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-005.acb/vo_card_cmn_00027_00027-5-uniq-0022-00_potential-005.mp3"
+        }
+    ],
+    "cardVideo": "resources/mov_card_full_0_00027-5-uniq-0022-00.usm/mov_card_full_0_00027-5-uniq-0022-00/mov_card_full_0_00027-5-uniq-0022-00.mp4",
+    "cardVideoBloom": "resources/mov_card_full_1_00027-5-uniq-0022-00.usm/mov_card_full_1_00027-5-uniq-0022-00/mov_card_full_1_00027-5-uniq-0022-00.mp4",
+    "signatureVideo": [
+        {
+            "src": "resources/mov_card_sign_00027-5-uniq-0022-00.usm/mov_card_sign_00027-5-uniq-0022-00/mov_card_sign_00027-5-uniq-0022-00.hevc.mp4",
+            "type": "video/mp4; codecs=\"hvc1\""
+        },
+        {
+            "src": "resources/mov_card_sign_00027-5-uniq-0022-00.usm/mov_card_sign_00027-5-uniq-0022-00/mov_card_sign_00027-5-uniq-0022-00.h264.mp4",
+            "type": "video/mp4; codecs=\"avc1.42E01E\""
+        }
+    ]
+}
