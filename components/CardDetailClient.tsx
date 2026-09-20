@@ -31,22 +31,33 @@ type CardDetail = {
     levelPotentialStats: Array<{
         level: number;
         potential: number;
-
         baseValue: number;
         potentialBaseValue: number;
-
         performance: number;
         technique: number;
         sense: number;
         total: number;
-
         parameterPermil: number;
         parameterPercent: number;
-
         passiveSkillLevelUp: number;
         activeSkillLevelUp: number;
         specialSkillLevelUp: number;
         skillTreeConnectLevelUp: number;
+
+        passiveSkill: {
+            level: number;
+            description: string;
+        };
+
+        activeSkill: {
+            level: number;
+            description: string;
+        };
+
+        specialSkill: {
+            level: number;
+            description: string;
+        };
     }>;
 
     potentialEffects: Array<{
@@ -168,6 +179,8 @@ export default function CardDetailClient({
     const [potential, setPotential] = useState(
         card.potential,
     );
+
+    console.log("CLIENT potential:", potential);
 
     const current = useMemo(() => {
         return (
@@ -470,38 +483,20 @@ export default function CardDetailClient({
                     <div className="grid gap-4 lg:grid-cols-3">
                         <SkillBox
                             title="패시브 스킬"
-                            level={
-                                card.skills.passive
-                                    .level
-                            }
-                            description={
-                                card.skills.passive
-                                    .description
-                            }
+                            level={current.passiveSkill.level}
+                            description={current.passiveSkill.description}
                         />
 
                         <SkillBox
                             title="액티브 스킬"
-                            level={
-                                card.skills.active
-                                    .level
-                            }
-                            description={
-                                card.skills.active
-                                    .description
-                            }
+                            level={current.activeSkill.level}
+                            description={current.activeSkill.description}
                         />
 
                         <SkillBox
                             title="스페셜 스킬"
-                            level={
-                                card.skills.special
-                                    .level
-                            }
-                            description={
-                                card.skills.special
-                                    .description
-                            }
+                            level={current.specialSkill.level}
+                            description={current.specialSkill.description}
                         />
                     </div>
                 </section>

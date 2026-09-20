@@ -34,6 +34,9 @@ type CardData = {
     cardPotentialGroupId: string;
 
     assetId: string;
+
+    skillTreeConnectEffectId?: string;
+    rewardCostumeId?: string;
 };
 
 type CardLevelData = {
@@ -70,6 +73,12 @@ type LangData = {
 type SkillLevelData = {
     level: number;
     descriptionLangId: string;
+
+    livePassiveSkillId?: string;
+    liveActiveSkillId?: string;
+    liveSpecialSkillId?: string;
+
+    [key: string]: unknown;
 };
 
 function loadJson<T>(filename: string): T {
@@ -252,7 +261,7 @@ function cleanSkillDescription(text: string): string {
 function getSkillInfo(
     skillId: string,
     skillType: "passive" | "active" | "special",
-    level: number,
+    skillLevel: number,
 ) {
     if (!skillId) {
         return null;
@@ -261,55 +270,69 @@ function getSkillInfo(
     let rows: DBRow<SkillLevelData>[];
     let langRows: DBRow<LangData>[];
 
-    if (skillType === "passive") {
-        rows = loadJson<DBRow<SkillLevelData>[]>(
-            "LivePassiveSkillLevel.json",
-        );
+    let idKey:
+        | "livePassiveSkillId"
+        | "liveActiveSkillId"
+        | "liveSpecialSkillId";
 
-        langRows = loadJson<DBRow<LangData>[]>(
-            "LangGeneratedLivePassiveSkillLevel_Kor.json",
-        );
-    } else if (skillType === "active") {
-        rows = loadJson<DBRow<SkillLevelData>[]>(
-            "LiveActiveSkillLevel.json",
-        );
+    switch (skillType) {
+        case "passive":
+            rows = loadJson<DBRow<SkillLevelData>[]>(
+                "LivePassiveSkillLevel.json",
+            );
 
-        langRows = loadJson<DBRow<LangData>[]>(
-            "LangGeneratedLiveActiveSkillLevel_Kor.json",
-        );
-    } else {
-        rows = loadJson<DBRow<SkillLevelData>[]>(
-            "LiveSpecialSkillLevel.json",
-        );
+            langRows = loadJson<DBRow<LangData>[]>(
+                "LangGeneratedLivePassiveSkillLevel_Kor.json",
+            );
 
-        langRows = loadJson<DBRow<LangData>[]>(
-            "LangGeneratedLiveSpecialSkillLevel_Kor.json",
-        );
+            idKey = "livePassiveSkillId";
+            break;
+
+        case "active":
+            rows = loadJson<DBRow<SkillLevelData>[]>(
+                "LiveActiveSkillLevel.json",
+            );
+
+            langRows = loadJson<DBRow<LangData>[]>(
+                "LangGeneratedLiveActiveSkillLevel_Kor.json",
+            );
+
+            idKey = "liveActiveSkillId";
+            break;
+
+        case "special":
+            rows = loadJson<DBRow<SkillLevelData>[]>(
+                "LiveSpecialSkillLevel.json",
+            );
+
+            langRows = loadJson<DBRow<LangData>[]>(
+                "LangGeneratedLiveSpecialSkillLevel_Kor.json",
+            );
+
+            idKey = "liveSpecialSkillId";
+            break;
     }
 
-    const skillRow = rows.find((row) => {
-        const id =
-            skillType === "passive"
-                ? row.data?.["livePassiveSkillId" as keyof SkillLevelData]
-                : skillType === "active"
-                    ? row.data?.["liveActiveSkillId" as keyof SkillLevelData]
-                    : row.data?.["liveSpecialSkillId" as keyof SkillLevelData];
-
-        return id === skillId && row.data.level === level;
-    });
+    const skillRow = rows.find(
+        (row) =>
+            row.data?.[idKey] === skillId &&
+            row.data.level === skillLevel,
+    );
 
     if (!skillRow) {
-        return {
-            level,
-            description: "",
-        };
+        return null;
     }
 
+    const description = getLangText(
+        langRows,
+        skillRow.data.descriptionLangId,
+    );
+
     return {
-        level,
-        description: cleanSkillDescription(
-            getLangText(langRows, skillRow.data.descriptionLangId),
-        ),
+        level: skillLevel,
+        description: cleanSkillDescription(description),
+        descriptionLangId:
+            skillRow.data.descriptionLangId,
     };
 }
 
@@ -463,7 +486,9 @@ export function getCardDetail(
         potential,
         potentialRows,
     );
-
+    console.log("=== CARD DETAIL DEBUG ===");
+    console.log("potential:", potential);
+    console.log("potentialInfo:", potentialInfo);
     /*
      * 현재 레벨
      */
@@ -512,6 +537,51 @@ export function getCardDetail(
                             info,
                         );
 
+                    /*
+                     * 현재 개화 단계에 따른 스킬 레벨
+                     *
+                     * 이 DB에서는 스킬 레벨이 1 / 2만 존재합니다.
+                     * 개화로 해당 스킬 레벨업 효과가 해금되면 Lv 2입니다.
+                     */
+                    const passiveSkillLevel =
+                        info.passiveSkillLevelUp > 0
+                            ? 2
+                            : 1;
+
+                    const activeSkillLevel =
+                        info.activeSkillLevelUp > 0
+                            ? 2
+                            : 1;
+
+                    const specialSkillLevel =
+                        info.specialSkillLevelUp > 0
+                            ? 2
+                            : 1;
+
+                    /*
+                     * 현재 개화 단계에 맞는 실제 스킬 설명
+                     */
+                    const passiveSkill =
+                        getSkillInfo(
+                            card.livePassiveSkillId,
+                            "passive",
+                            passiveSkillLevel,
+                        );
+
+                    const activeSkill =
+                        getSkillInfo(
+                            card.liveActiveSkillId,
+                            "active",
+                            activeSkillLevel,
+                        );
+
+                    const specialSkill =
+                        getSkillInfo(
+                            card.liveSpecialSkillId,
+                            "special",
+                            specialSkillLevel,
+                        );
+
                     return {
                         level: levelRow.data.level,
                         potential: currentPotential,
@@ -535,6 +605,27 @@ export function getCardDetail(
 
                         skillTreeConnectLevelUp:
                             info.skillTreeConnectLevelUp,
+
+                        /*
+                         * 현재 개화 단계의 스킬 정보
+                         */
+                        passiveSkill: {
+                            level: passiveSkillLevel,
+                            description:
+                                passiveSkill?.description ?? "",
+                        },
+
+                        activeSkill: {
+                            level: activeSkillLevel,
+                            description:
+                                activeSkill?.description ?? "",
+                        },
+
+                        specialSkill: {
+                            level: specialSkillLevel,
+                            description:
+                                specialSkill?.description ?? "",
+                        },
                     };
                 },
             ),
@@ -543,7 +634,7 @@ export function getCardDetail(
     /*
      * 개화 효과 설명
      */
-    const potentialEffects = cardPotentialGroupRows
+    const potentialEffects = [...cardPotentialGroupRows]
         .sort(
             (a, b) =>
                 a.data.upgradeCount -
@@ -596,16 +687,20 @@ export function getCardDetail(
      * 기본 Lv 1 + 개화 효과
      */
     const passiveSkillLevel =
-        1 +
-        potentialInfo.passiveSkillLevelUp;
+        potentialInfo.passiveSkillLevelUp > 0 ? 2 : 1;
 
     const activeSkillLevel =
-        1 +
-        potentialInfo.activeSkillLevelUp;
+        potentialInfo.activeSkillLevelUp > 0 ? 2 : 1;
 
     const specialSkillLevel =
-        1 +
-        potentialInfo.specialSkillLevelUp;
+        potentialInfo.specialSkillLevelUp > 0 ? 2 : 1;
+
+
+    console.log("skill levels:", {
+        passiveSkillLevel,
+        activeSkillLevel,
+        specialSkillLevel,
+    });
 
     const passiveSkill = getSkillInfo(
         card.livePassiveSkillId,
