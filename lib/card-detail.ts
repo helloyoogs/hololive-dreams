@@ -195,48 +195,51 @@ function calculateStats(
 ) {
     const baseValue = Number(levelData.parameterBaseValue);
 
-    /*
-     * CardPotential의
-     * ALL_PARAMETER_UP_PERMIL_UP
-     *
-     * 예:
-     * +100 permil = +10%
-     */
-    const potentialBaseValue = Math.round(
-        (baseValue * (1000 + potentialInfo.parameterPermil)) /
-        1000,
+    const multiplier =
+        1000 + potentialInfo.parameterPermil;
+
+    const calcStat = (statPermil: number) => {
+        // 1단계: 카드의 기본 P/T/S를 각각 올림
+        const baseStat = Math.ceil(
+            baseValue * statPermil / 1000,
+        );
+
+        // 2단계: 개화 보너스를 적용한 뒤 다시 올림
+        return Math.ceil(
+            baseStat * multiplier / 1000,
+        );
+    };
+
+    const performance = calcStat(
+        card.performancePermilMultiply,
     );
 
-    const performance = Math.round(
-        (potentialBaseValue *
-            card.performancePermilMultiply) /
-        1000,
+    const technique = calcStat(
+        card.techniquePermilMultiply,
     );
 
-    const technique = Math.round(
-        (potentialBaseValue *
-            card.techniquePermilMultiply) /
-        1000,
-    );
-
-    const sense = Math.round(
-        (potentialBaseValue *
-            card.sensePermilMultiply) /
-        1000,
+    const sense = calcStat(
+        card.sensePermilMultiply,
     );
 
     return {
         baseValue,
-        potentialBaseValue,
+
+        // 참고용 기본 parameter
+        potentialBaseValue: Math.ceil(
+            baseValue * multiplier / 1000,
+        ),
 
         performance,
         technique,
         sense,
 
-        total: performance + technique + sense,
+        total:
+            performance +
+            technique +
+            sense,
     };
 }
-
 function cleanSkillDescription(text: string): string {
     return text
         .replace(/\[highlight\]/g, "")
