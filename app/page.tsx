@@ -1,6 +1,7 @@
 import StarIcon from '@/components/StarIcon';
 import cardsData from '@/data/cards.json';
 import { Card } from '@/types/card';
+import Link from 'next/link';
 
 export default function Home() {
   // JSON 내부의 cards 객체에서 값(카드 객체들)만 배열로 추출합니다.
@@ -54,13 +55,13 @@ export default function Home() {
                 {card.character}
               </span>
               <h3 className="text-sm font-bold truncate w-full text-center mt-0.5 text-black-100" title={card.name}>
-                {card.name}
+                {card.name} {card.id}
               </h3>
 
               {/* 상세 정보 버튼 */}
-              <span className={"card-detail-btn"}>
+              <Link href={`/cards/${card.id}`} className={"card-detail-btn"}>
                 상세 정보
-              </span>
+              </Link>
             </div>
           ))}
         </div>
