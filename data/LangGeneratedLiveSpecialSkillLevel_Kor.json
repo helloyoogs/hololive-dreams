@@ -1,0 +1,2592 @@
+[
+    {
+        "id": "la-generated-live_special_skill-card-00012-5-uniq-0062-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-5-uniq-0062-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-5-uniq-0062-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-5-uniq-0062-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-5-uniq-0064-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-5-uniq-0064-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-5-uniq-0064-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-5-uniq-0064-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-5-uniq-0063-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-5-uniq-0063-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 3기생(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-5-uniq-0063-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-5-uniq-0063-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 3기생(이)가 2명 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-5-uniq-0065-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-5-uniq-0065-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 110% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-5-uniq-0065-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-5-uniq-0065-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]130[/highlight]% 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-5-uniq-0066-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-5-uniq-0066-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-5-uniq-0066-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-5-uniq-0066-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-5-uniq-0067-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-5-uniq-0067-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 120% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-5-uniq-0067-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-5-uniq-0067-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]145[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-5-uniq-0068-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-5-uniq-0068-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 0기생(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-5-uniq-0068-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-5-uniq-0068-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 0기생(이)가 2명 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-5-uniq-0069-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-5-uniq-0069-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 2기생(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-5-uniq-0069-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-5-uniq-0069-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 2기생(이)가 2명 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-5-uniq-0070-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-5-uniq-0070-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 110% 4기생(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-5-uniq-0070-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-5-uniq-0070-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]130[/highlight]% 4기생(이)가 2명 이상이면 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-5-uniq-0073-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-5-uniq-0073-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-5-uniq-0073-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-5-uniq-0073-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-5-uniq-0071-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-5-uniq-0071-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-5-uniq-0071-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-5-uniq-0071-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-5-uniq-0072-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-5-uniq-0072-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% Myth(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-5-uniq-0072-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-5-uniq-0072-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% Myth(이)가 2명 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-5-uniq-0074-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-5-uniq-0074-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-5-uniq-0074-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-5-uniq-0074-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-5-uniq-0075-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-5-uniq-0075-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-5-uniq-0075-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-5-uniq-0075-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-5-uniq-0076-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-5-uniq-0076-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 110% GAMERS(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-5-uniq-0076-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-5-uniq-0076-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]130[/highlight]% GAMERS(이)가 2명 이상이면 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-5-uniq-0077-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-5-uniq-0077-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-5-uniq-0077-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-5-uniq-0077-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-5-uniq-0078-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-5-uniq-0078-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 110% holoX(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-5-uniq-0078-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-5-uniq-0078-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]130[/highlight]% holoX(이)가 2명 이상이면 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-5-uniq-0079-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-5-uniq-0079-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-5-uniq-0079-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-5-uniq-0079-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-5-uniq-0080-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-5-uniq-0080-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-5-uniq-0080-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-5-uniq-0080-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-5-uniq-0081-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-5-uniq-0081-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 1기생(이)가 2명 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-5-uniq-0081-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-5-uniq-0081-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 1기생(이)가 2명 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-5-uniq-0082-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-5-uniq-0082-00.1-description",
+            "text": "15초 동안 스코어 서포트 효과 80% 스킬 발동률이 25% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-5-uniq-0082-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-5-uniq-0082-00.2-description",
+            "text": "15초 동안 스코어 서포트 효과 [highlight]95[/highlight]% 스킬 발동률이 [highlight]35[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-5-uniq-0084-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-5-uniq-0084-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-5-uniq-0084-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-5-uniq-0084-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-5-uniq-0083-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-5-uniq-0083-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-5-uniq-0083-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-5-uniq-0083-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-5-uniq-0029-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-5-uniq-0029-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-5-uniq-0002-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-5-uniq-0002-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% 40콤보 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% 40콤보 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-5-uniq-0003-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-5-uniq-0003-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-3-nrml-0001-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-3-nrml-0001-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]55[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=cute]큐트 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-5-uniq-0044-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-5-uniq-0044-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-5-uniq-0044-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-5-uniq-0044-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-5-uniq-0033-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-5-uniq-0033-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 라이프 1000 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-5-uniq-0033-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-5-uniq-0033-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 라이프 1000 이상이면 스킬 발동률이 [highlight]45[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-5-uniq-0034-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-5-uniq-0034-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-5-uniq-0034-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-5-uniq-0034-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-5-uniq-0035-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-5-uniq-0035-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 100콤보 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-5-uniq-0035-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-5-uniq-0035-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 100콤보 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-5-uniq-0042-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-5-uniq-0042-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-5-uniq-0042-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-5-uniq-0042-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-5-uniq-0047-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-5-uniq-0047-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 라이프 1000 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-5-uniq-0003-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-5-uniq-0003-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-5-uniq-0015-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-5-uniq-0015-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 100콤보 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-5-uniq-0015-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-5-uniq-0015-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 100콤보 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-5-uniq-0019-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-5-uniq-0019-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-5-uniq-0019-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-5-uniq-0019-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-5-uniq-0022-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-5-uniq-0022-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-5-uniq-0022-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-5-uniq-0022-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-5-uniq-0024-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-5-uniq-0024-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-5-uniq-0024-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-5-uniq-0024-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-5-uniq-0027-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-5-uniq-0027-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-5-uniq-0030-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-5-uniq-0030-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 라이프 1000 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-5-uniq-0030-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-5-uniq-0030-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 라이프 1000 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-5-uniq-0032-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-5-uniq-0032-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 라이프 1000 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-5-uniq-0032-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-5-uniq-0032-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 라이프 1000 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-5-uniq-0047-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-5-uniq-0047-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 라이프 1000 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-5-uniq-0052-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-5-uniq-0052-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-5-uniq-0052-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-5-uniq-0052-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-5-uniq-0053-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-5-uniq-0053-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-5-uniq-0061-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-5-uniq-0061-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% 40콤보 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-5-uniq-0008-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-5-uniq-0008-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 [highlight]145[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-5-uniq-0051-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-5-uniq-0051-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-3-nrml-0052-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-3-nrml-0052-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-5-uniq-0001-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-5-uniq-0001-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 라이프 1000 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-5-uniq-0001-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-5-uniq-0001-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 라이프 1000 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-5-uniq-0005-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-5-uniq-0005-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-5-uniq-0005-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-5-uniq-0005-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-4-cmmn-0000-00.2-description",
+            "text": "[highlight]12[/highlight]초 동안 스코어 서포트 효과 [highlight]85[/highlight]% 40콤보 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-3-nrml-0005-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-3-nrml-0005-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-3-nrml-0005-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-3-nrml-0005-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00004-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00004-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-3-nrml-0006-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-3-nrml-0006-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-3-nrml-0006-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-3-nrml-0006-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-5-uniq-0006-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-5-uniq-0006-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00005-5-uniq-0006-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00005-5-uniq-0006-00.2-description",
+            "text": "[highlight]12[/highlight]초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-3-nrml-0007-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-3-nrml-0007-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-3-nrml-0007-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-3-nrml-0007-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-4-cmmn-0000-00.2-description",
+            "text": "[highlight]13[/highlight]초 동안 스코어 서포트 효과 [highlight]85[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-5-uniq-0007-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-5-uniq-0007-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00006-5-uniq-0007-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00006-5-uniq-0007-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-3-nrml-0008-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-3-nrml-0008-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-3-nrml-0008-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-3-nrml-0008-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00007-5-uniq-0008-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00007-5-uniq-0008-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-3-nrml-0010-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-3-nrml-0010-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-5-uniq-0010-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-5-uniq-0010-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-5-uniq-0010-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-5-uniq-0010-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-3-nrml-0011-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-3-nrml-0011-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-3-nrml-0011-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-3-nrml-0011-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-5-uniq-0011-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-5-uniq-0011-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00011-5-uniq-0011-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00011-5-uniq-0011-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-3-nrml-0012-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-3-nrml-0012-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00010-3-nrml-0010-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00010-3-nrml-0010-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-3-nrml-0012-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-3-nrml-0012-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]60[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-3-nrml-0002-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-3-nrml-0002-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-3-nrml-0002-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-3-nrml-0002-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-4-cmmn-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]100[/highlight]% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-3-nrml-0013-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-3-nrml-0013-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-3-nrml-0013-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-3-nrml-0013-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-5-uniq-0013-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-5-uniq-0013-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00014-5-uniq-0013-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00014-5-uniq-0013-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-3-nrml-0003-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-3-nrml-0003-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-3-nrml-0003-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-3-nrml-0003-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00015-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00015-4-cmmn-0000-00.2-description",
+            "text": "[highlight]12[/highlight]초 동안 스코어 서포트 효과 [highlight]85[/highlight]% [attribute=pure]퓨어 타입[/attribute] 2명 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-3-nrml-0014-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-3-nrml-0014-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-5-uniq-0014-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-5-uniq-0014-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-5-uniq-0014-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-5-uniq-0014-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-3-nrml-0015-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-3-nrml-0015-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-3-nrml-0004-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-3-nrml-0004-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-3-nrml-0004-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-3-nrml-0004-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]85[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-3-nrml-0061-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-3-nrml-0061-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-5-uniq-0012-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-5-uniq-0012-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 100% 스킬 발동률이 35% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00012-5-uniq-0012-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00012-5-uniq-0012-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]120[/highlight]% 스킬 발동률이 [highlight]40[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00013-5-uniq-0002-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00013-5-uniq-0002-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-5-uniq-0004-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-5-uniq-0004-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-5-uniq-0004-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-5-uniq-0004-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-5-uniq-0017-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-5-uniq-0017-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-5-uniq-0017-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-5-uniq-0017-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-3-nrml-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-3-nrml-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-3-nrml-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-3-nrml-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-5-uniq-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-5-uniq-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00001-5-uniq-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00001-5-uniq-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00002-3-nrml-0001-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00002-3-nrml-0001-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 40% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% 라이프 600 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00018-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00018-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% 라이프 600 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-3-nrml-0016-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-3-nrml-0016-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-3-nrml-0016-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-3-nrml-0016-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-4-cmmn-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]100[/highlight]% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-5-uniq-0016-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-5-uniq-0016-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00019-5-uniq-0016-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00019-5-uniq-0016-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-3-nrml-0017-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-3-nrml-0017-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-3-nrml-0017-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-3-nrml-0017-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00021-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00021-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-3-nrml-0018-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-3-nrml-0018-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-3-nrml-0018-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-3-nrml-0018-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]60[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-5-uniq-0018-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-5-uniq-0018-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00022-5-uniq-0018-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00022-5-uniq-0018-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-3-nrml-0019-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-3-nrml-0019-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-3-nrml-0019-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-3-nrml-0019-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00023-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00023-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-3-nrml-0033-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-3-nrml-0033-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-4-cmmn-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]100[/highlight]% [attribute=happy]해피 타입[/attribute] 2명 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-3-nrml-0021-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-3-nrml-0021-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-3-nrml-0021-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-3-nrml-0021-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-5-uniq-0021-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-5-uniq-0021-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 120% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00026-5-uniq-0021-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00026-5-uniq-0021-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]145[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-3-nrml-0022-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-3-nrml-0022-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-3-nrml-0022-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-3-nrml-0022-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00027-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00027-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-3-nrml-0023-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-3-nrml-0023-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-3-nrml-0023-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-3-nrml-0023-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-5-uniq-0023-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-5-uniq-0023-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00028-5-uniq-0023-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00028-5-uniq-0023-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-3-nrml-0024-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-3-nrml-0024-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-3-nrml-0024-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-3-nrml-0024-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00030-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00030-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-3-nrml-0025-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-3-nrml-0025-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-3-nrml-0025-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-3-nrml-0025-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-5-uniq-0025-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-5-uniq-0025-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 120% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00031-5-uniq-0025-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00031-5-uniq-0025-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]145[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-3-nrml-0026-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-3-nrml-0026-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00016-3-nrml-0014-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00016-3-nrml-0014-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-5-uniq-0026-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-5-uniq-0026-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-5-uniq-0026-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-5-uniq-0026-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-3-nrml-0027-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-3-nrml-0027-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-3-nrml-0027-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-3-nrml-0027-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00017-3-nrml-0015-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00017-3-nrml-0015-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-3-nrml-0028-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-3-nrml-0028-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-3-nrml-0028-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-3-nrml-0028-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-5-uniq-0028-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-5-uniq-0028-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-3-nrml-0029-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-3-nrml-0029-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-3-nrml-0029-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-3-nrml-0029-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-3-nrml-0030-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-3-nrml-0030-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00037-3-nrml-0030-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00037-3-nrml-0030-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-3-nrml-0032-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-3-nrml-0032-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-3-nrml-0034-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-3-nrml-0034-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-3-nrml-0034-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-3-nrml-0034-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03002-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03002-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-3-nrml-0035-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-3-nrml-0035-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00035-5-uniq-0028-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00035-5-uniq-0028-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00036-5-uniq-0029-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00036-5-uniq-0029-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00034-5-uniq-0027-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00034-5-uniq-0027-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-3-nrml-0036-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-3-nrml-0036-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-3-nrml-0036-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-3-nrml-0036-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-5-uniq-0036-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-5-uniq-0036-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03004-5-uniq-0036-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03004-5-uniq-0036-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-3-nrml-0037-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-3-nrml-0037-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-3-nrml-0037-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-3-nrml-0037-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-5-uniq-0037-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-5-uniq-0037-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-5-uniq-0037-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-5-uniq-0037-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-3-nrml-0038-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-3-nrml-0038-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-3-nrml-0038-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-3-nrml-0038-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-5-uniq-0038-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-5-uniq-0038-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 135% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03006-5-uniq-0038-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03006-5-uniq-0038-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]160[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-3-nrml-0039-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-3-nrml-0039-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-3-nrml-0039-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-3-nrml-0039-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00032-3-nrml-0026-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00032-3-nrml-0026-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-5-uniq-0039-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-5-uniq-0039-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03007-5-uniq-0039-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03007-5-uniq-0039-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-3-nrml-0040-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-3-nrml-0040-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-3-nrml-0040-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-3-nrml-0040-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-5-uniq-0040-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-5-uniq-0040-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03008-5-uniq-0040-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03008-5-uniq-0040-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-3-nrml-0041-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-3-nrml-0041-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-3-nrml-0041-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-3-nrml-0041-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-5-uniq-0041-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-5-uniq-0041-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03009-5-uniq-0041-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03009-5-uniq-0041-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-3-nrml-0042-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-3-nrml-0042-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-3-nrml-0042-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-3-nrml-0042-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04001-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04001-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-3-nrml-0043-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-3-nrml-0043-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 40% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-3-nrml-0043-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-3-nrml-0043-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 85% [attribute=happy]해피 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03005-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03005-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]110[/highlight]% [attribute=happy]해피 타입[/attribute] 2명 이상이면 GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-00039-3-nrml-0032-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-00039-3-nrml-0032-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-3-nrml-0044-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-3-nrml-0044-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 45% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04003-3-nrml-0044-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04003-3-nrml-0044-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-3-nrml-0047-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-3-nrml-0047-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03001-3-nrml-0033-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03001-3-nrml-0033-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04007-3-nrml-0047-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04007-3-nrml-0047-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-3-nrml-0049-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-3-nrml-0049-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-3-nrml-0049-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-3-nrml-0049-00.2-description",
+            "text": "7초 동안 스코어 서포트 효과 [highlight]80[/highlight]% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-5-uniq-0049-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-5-uniq-0049-00.1-description",
+            "text": "14초 동안 스코어 서포트 효과 95% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04010-5-uniq-0049-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04010-5-uniq-0049-00.2-description",
+            "text": "14초 동안 스코어 서포트 효과 [highlight]115[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-03003-3-nrml-0035-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-03003-3-nrml-0035-00.1-description",
+            "text": "7초 동안 스코어 서포트 효과 55% GOOD 이상이 PERFECT가 된다"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-3-nrml-0051-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-3-nrml-0051-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-3-nrml-0051-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-3-nrml-0051-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04012-5-uniq-0051-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04012-5-uniq-0051-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-3-nrml-0052-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-3-nrml-0052-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04013-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04013-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-3-nrml-0053-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-3-nrml-0053-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-3-nrml-0053-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-3-nrml-0053-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-5-uniq-0043-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-5-uniq-0043-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 100콤보 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04002-5-uniq-0043-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04002-5-uniq-0043-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 100콤보 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-3-nrml-0054-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-3-nrml-0054-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-3-nrml-0054-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-3-nrml-0054-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-5-uniq-0054-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-5-uniq-0054-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-5-uniq-0054-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-5-uniq-0054-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-3-nrml-0055-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-3-nrml-0055-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-3-nrml-0055-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-3-nrml-0055-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-3-nrml-0056-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-3-nrml-0056-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-3-nrml-0056-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-3-nrml-0056-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-4-cmmn-0000-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]140[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-5-uniq-0059-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-5-uniq-0059-00.1-description",
+            "text": "12초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-5-uniq-0059-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-5-uniq-0059-00.2-description",
+            "text": "12초 동안 스코어 서포트 효과 [highlight]135[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-3-nrml-0060-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-3-nrml-0060-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 50% 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-3-nrml-0060-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-3-nrml-0060-00.2-description",
+            "text": "8초 동안 스코어 서포트 효과 [highlight]70[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-4-cmmn-0000-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-4-cmmn-0000-00.2-description",
+            "text": "[highlight]14[/highlight]초 동안 스코어 서포트 효과 80% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-3-nrml-0061-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-3-nrml-0061-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]55[/highlight]% 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-4-cmmn-0000-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% 라이프 600 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04015-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04015-4-cmmn-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]100[/highlight]% 라이프 600 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-5-uniq-0055-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-5-uniq-0055-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04016-5-uniq-0055-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04016-5-uniq-0055-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-5-uniq-0060-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-5-uniq-0060-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06004-5-uniq-0060-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06004-5-uniq-0060-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04014-5-uniq-0053-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04014-5-uniq-0053-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06005-5-uniq-0061-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06005-5-uniq-0061-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-4-cmmn-0000-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 80% 40콤보 이상이면 라이프가 300 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-4-cmmn-0000-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]100[/highlight]% 40콤보 이상이면 라이프가 [highlight]400[/highlight] 회복"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-3-nrml-0058-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-3-nrml-0058-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-3-nrml-0058-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-3-nrml-0058-00.2-description",
+            "text": "[highlight]9[/highlight]초 동안 스코어 서포트 효과 [highlight]75[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-4-cmmn-0000-00.1-description",
+            "text": "9초 동안 스코어 서포트 효과 100% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-4-cmmn-0000-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-4-cmmn-0000-00.2-description",
+            "text": "9초 동안 스코어 서포트 효과 [highlight]125[/highlight]% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-3-nrml-0059-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-3-nrml-0059-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-3-nrml-0059-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-3-nrml-0059-00.2-description",
+            "text": "[highlight]11[/highlight]초 동안 스코어 서포트 효과 60% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06003-4-cmmn-0000-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06003-4-cmmn-0000-00.1-description",
+            "text": "8초 동안 스코어 서포트 효과 110% "
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-5-uniq-0056-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-5-uniq-0056-00.1-description",
+            "text": "11초 동안 스코어 서포트 효과 110% 100콤보 이상이면 스킬 발동률이 40% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-04017-5-uniq-0056-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-04017-5-uniq-0056-00.2-description",
+            "text": "11초 동안 스코어 서포트 효과 [highlight]130[/highlight]% 100콤보 이상이면 스킬 발동률이 [highlight]50[/highlight]% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-5-uniq-0058-00.1-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-5-uniq-0058-00.1-description",
+            "text": "10초 동안 스코어 서포트 효과 120% 100콤보 이상이면 스킬 발동률이 45% UP"
+        }
+    },
+    {
+        "id": "la-generated-live_special_skill-card-06002-5-uniq-0058-00.2-description",
+        "data": {
+            "id": "la-generated-live_special_skill-card-06002-5-uniq-0058-00.2-description",
+            "text": "10초 동안 스코어 서포트 효과 [highlight]145[/highlight]% 100콤보 이상이면 스킬 발동률이 [highlight]55[/highlight]% UP"
+        }
+    }
+]

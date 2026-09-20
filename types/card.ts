@@ -34,3 +34,5 @@ export interface CardDataResponse {
   bloomGroups: Record<string, number[]>;
   levelGroups: Record<string, number[]>;
 }
+
+

@@ -1,0 +1,1297 @@
+[
+    {
+        "id": "la-card_flavor-00004-5-uniq-0081-00",
+        "data": {
+            "id": "la-card_flavor-00004-5-uniq-0081-00",
+            "text": "양지의 미스티컬 스윙"
+        }
+    },
+    {
+        "id": "la-card_flavor-00006-5-uniq-0074-00",
+        "data": {
+            "id": "la-card_flavor-00006-5-uniq-0074-00",
+            "text": "물가에서 매료하는 twinkle"
+        }
+    },
+    {
+        "id": "la-card_flavor-00010-5-uniq-0069-00",
+        "data": {
+            "id": "la-card_flavor-00010-5-uniq-0069-00",
+            "text": "귀신류 둥실둥실 리조트"
+        }
+    },
+    {
+        "id": "la-card_flavor-00012-5-uniq-0062-00",
+        "data": {
+            "id": "la-card_flavor-00012-5-uniq-0062-00",
+            "text": "Energetic 스플래시!"
+        }
+    },
+    {
+        "id": "la-card_flavor-00014-5-uniq-0075-00",
+        "data": {
+            "id": "la-card_flavor-00014-5-uniq-0075-00",
+            "text": "나른한 여름날의 Wolf Heart"
+        }
+    },
+    {
+        "id": "la-card_flavor-00015-5-uniq-0067-00",
+        "data": {
+            "id": "la-card_flavor-00015-5-uniq-0067-00",
+            "text": "해변에서 폭발하는 광채 샷!"
+        }
+    },
+    {
+        "id": "la-card_flavor-00016-5-uniq-0076-00",
+        "data": {
+            "id": "la-card_flavor-00016-5-uniq-0076-00",
+            "text": "파라솔 아래 리버티 캣"
+        }
+    },
+    {
+        "id": "la-card_flavor-00017-5-uniq-0077-00",
+        "data": {
+            "id": "la-card_flavor-00017-5-uniq-0077-00",
+            "text": "밀림을 누비는 와일드 서머!"
+        }
+    },
+    {
+        "id": "la-card_flavor-00018-5-uniq-0068-00",
+        "data": {
+            "id": "la-card_flavor-00018-5-uniq-0068-00",
+            "text": "여름의 일격! 물총 아르페지오"
+        }
+    },
+    {
+        "id": "la-card_flavor-00021-5-uniq-0064-00",
+        "data": {
+            "id": "la-card_flavor-00021-5-uniq-0064-00",
+            "text": "sparks sunset"
+        }
+    },
+    {
+        "id": "la-card_flavor-00022-5-uniq-0063-00",
+        "data": {
+            "id": "la-card_flavor-00022-5-uniq-0063-00",
+            "text": "파도를 두른 귀요미 Knight"
+        }
+    },
+    {
+        "id": "la-card_flavor-00026-5-uniq-0065-00",
+        "data": {
+            "id": "la-card_flavor-00026-5-uniq-0065-00",
+            "text": "한여름의 복슬복슬 플로트 타임"
+        }
+    },
+    {
+        "id": "la-card_flavor-00028-5-uniq-0070-00",
+        "data": {
+            "id": "la-card_flavor-00028-5-uniq-0070-00",
+            "text": "느긋한 공주의 응석 해변"
+        }
+    },
+    {
+        "id": "la-card_flavor-00035-5-uniq-0082-00",
+        "data": {
+            "id": "la-card_flavor-00035-5-uniq-0082-00",
+            "text": "총수 전용! 시크릿 풀"
+        }
+    },
+    {
+        "id": "la-card_flavor-00036-5-uniq-0078-00",
+        "data": {
+            "id": "la-card_flavor-00036-5-uniq-0078-00",
+            "text": "파도 소리에 편안해지는 유능한 간부"
+        }
+    },
+    {
+        "id": "la-card_flavor-03004-5-uniq-0073-00",
+        "data": {
+            "id": "la-card_flavor-03004-5-uniq-0073-00",
+            "text": "여름의 Crazy Dive"
+        }
+    },
+    {
+        "id": "la-card_flavor-03005-5-uniq-0084-00",
+        "data": {
+            "id": "la-card_flavor-03005-5-uniq-0084-00",
+            "text": "유유자적 써니 홀리데이"
+        }
+    },
+    {
+        "id": "la-card_flavor-04001-5-uniq-0071-00",
+        "data": {
+            "id": "la-card_flavor-04001-5-uniq-0071-00",
+            "text": "해변에 꽂히는 Reaper's Spike"
+        }
+    },
+    {
+        "id": "la-card_flavor-04003-5-uniq-0072-00",
+        "data": {
+            "id": "la-card_flavor-04003-5-uniq-0072-00",
+            "text": "파도 소리의 기억을 더듬으며"
+        }
+    },
+    {
+        "id": "la-card_flavor-04013-5-uniq-0083-00",
+        "data": {
+            "id": "la-card_flavor-04013-5-uniq-0083-00",
+            "text": "지성을 풍요롭게 하는 나이트 풀"
+        }
+    },
+    {
+        "id": "la-card_flavor-04016-5-uniq-0079-00",
+        "data": {
+            "id": "la-card_flavor-04016-5-uniq-0079-00",
+            "text": "후와와의 Flowing Summer"
+        }
+    },
+    {
+        "id": "la-card_flavor-04017-5-uniq-0080-00",
+        "data": {
+            "id": "la-card_flavor-04017-5-uniq-0080-00",
+            "text": "모코코의 Breezy Summer"
+        }
+    },
+    {
+        "id": "la-card_flavor-06002-5-uniq-0066-00",
+        "data": {
+            "id": "la-card_flavor-06002-5-uniq-0066-00",
+            "text": "바닷바람에 실어 보내는 미소의 하모니"
+        }
+    },
+    {
+        "id": "la-card_name-00001-3-nrml-0000-00",
+        "data": {
+            "id": "la-card_name-00001-3-nrml-0000-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00001-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00001-4-cmmn-0000-00",
+            "text": "하늘까지 닿기를! 올곧은 노랫소리"
+        }
+    },
+    {
+        "id": "la-card_name-00001-5-uniq-0000-00",
+        "data": {
+            "id": "la-card_name-00001-5-uniq-0000-00",
+            "text": "한결같이 그리는 무지개 노래"
+        }
+    },
+    {
+        "id": "la-card_name-00002-3-nrml-0001-00",
+        "data": {
+            "id": "la-card_name-00002-3-nrml-0001-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00002-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00002-4-cmmn-0000-00",
+            "text": "귀요미 윙크 LIVE"
+        }
+    },
+    {
+        "id": "la-card_name-00002-5-uniq-0001-00",
+        "data": {
+            "id": "la-card_name-00002-5-uniq-0001-00",
+            "text": "고성능 V사인"
+        }
+    },
+    {
+        "id": "la-card_name-00004-3-nrml-0005-00",
+        "data": {
+            "id": "la-card_name-00004-3-nrml-0005-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00004-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00004-4-cmmn-0000-00",
+            "text": "노래하는 curious 하프 엘프"
+        }
+    },
+    {
+        "id": "la-card_name-00004-5-uniq-0005-00",
+        "data": {
+            "id": "la-card_name-00004-5-uniq-0005-00",
+            "text": "요염한 하프 엘프"
+        }
+    },
+    {
+        "id": "la-card_name-00005-3-nrml-0006-00",
+        "data": {
+            "id": "la-card_name-00005-3-nrml-0006-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00005-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00005-4-cmmn-0000-00",
+            "text": "마음을 간질이는 자유분방 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-00005-5-uniq-0006-00",
+        "data": {
+            "id": "la-card_name-00005-5-uniq-0006-00",
+            "text": "let's freestyle 간식 시간"
+        }
+    },
+    {
+        "id": "la-card_name-00006-3-nrml-0007-00",
+        "data": {
+            "id": "la-card_name-00006-3-nrml-0007-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00006-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00006-4-cmmn-0000-00",
+            "text": "박차를 가하는 FOX 퍼포먼스"
+        }
+    },
+    {
+        "id": "la-card_name-00006-5-uniq-0007-00",
+        "data": {
+            "id": "la-card_name-00006-5-uniq-0007-00",
+            "text": "여우 사당에서 콘콘콘"
+        }
+    },
+    {
+        "id": "la-card_name-00007-3-nrml-0008-00",
+        "data": {
+            "id": "la-card_name-00007-3-nrml-0008-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00007-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00007-4-cmmn-0000-00",
+            "text": "잔망미 대폭발 심쿵 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-00007-5-uniq-0008-00",
+        "data": {
+            "id": "la-card_name-00007-5-uniq-0008-00",
+            "text": "통통 튀는 생기발랄 치어리더"
+        }
+    },
+    {
+        "id": "la-card_name-00010-3-nrml-0010-00",
+        "data": {
+            "id": "la-card_name-00010-3-nrml-0010-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00010-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00010-4-cmmn-0000-00",
+            "text": "오니 아가씨의 부드러운 앵콜"
+        }
+    },
+    {
+        "id": "la-card_name-00010-5-uniq-0010-00",
+        "data": {
+            "id": "la-card_name-00010-5-uniq-0010-00",
+            "text": "저승에서 유유자적, 자유로운 등불"
+        }
+    },
+    {
+        "id": "la-card_name-00011-3-nrml-0011-00",
+        "data": {
+            "id": "la-card_name-00011-3-nrml-0011-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00011-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00011-4-cmmn-0000-00",
+            "text": "보건교사의 매혹적인 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-00011-5-uniq-0011-00",
+        "data": {
+            "id": "la-card_name-00011-5-uniq-0011-00",
+            "text": "악마 같은 매력에 현혹되어서"
+        }
+    },
+    {
+        "id": "la-card_name-00012-3-nrml-0012-00",
+        "data": {
+            "id": "la-card_name-00012-3-nrml-0012-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00012-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00012-4-cmmn-0000-00",
+            "text": "마음을 비추는 Active Live"
+        }
+    },
+    {
+        "id": "la-card_name-00012-5-uniq-0012-00",
+        "data": {
+            "id": "la-card_name-00012-5-uniq-0012-00",
+            "text": "꽥꽥거리며 노는 오리의 오후"
+        }
+    },
+    {
+        "id": "la-card_name-00013-3-nrml-0002-00",
+        "data": {
+            "id": "la-card_name-00013-3-nrml-0002-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00013-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00013-4-cmmn-0000-00",
+            "text": "부드러운 선율에 실어"
+        }
+    },
+    {
+        "id": "la-card_name-00013-5-uniq-0002-00",
+        "data": {
+            "id": "la-card_name-00013-5-uniq-0002-00",
+            "text": "흐드러지게 핀 일편단심 꽃"
+        }
+    },
+    {
+        "id": "la-card_name-00014-3-nrml-0013-00",
+        "data": {
+            "id": "la-card_name-00014-3-nrml-0013-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00014-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00014-4-cmmn-0000-00",
+            "text": "빛이 비치는 늑대의 노랫소리"
+        }
+    },
+    {
+        "id": "la-card_name-00014-5-uniq-0013-00",
+        "data": {
+            "id": "la-card_name-00014-5-uniq-0013-00",
+            "text": "사르르 녹는 nightscape"
+        }
+    },
+    {
+        "id": "la-card_name-00015-3-nrml-0003-00",
+        "data": {
+            "id": "la-card_name-00015-3-nrml-0003-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00015-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00015-4-cmmn-0000-00",
+            "text": "두 팔 벌리는 Cheerful show"
+        }
+    },
+    {
+        "id": "la-card_name-00015-5-uniq-0003-00",
+        "data": {
+            "id": "la-card_name-00015-5-uniq-0003-00",
+            "text": "벚꽃 Bloom"
+        }
+    },
+    {
+        "id": "la-card_name-00016-3-nrml-0014-00",
+        "data": {
+            "id": "la-card_name-00016-3-nrml-0014-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00016-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00016-4-cmmn-0000-00",
+            "text": "마음을 사로잡는 장난꾸러기 CAT 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-00016-5-uniq-0014-00",
+        "data": {
+            "id": "la-card_name-00016-5-uniq-0014-00",
+            "text": "파티의 끝에 비밀스런 유희"
+        }
+    },
+    {
+        "id": "la-card_name-00017-3-nrml-0015-00",
+        "data": {
+            "id": "la-card_name-00017-3-nrml-0015-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00017-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00017-4-cmmn-0000-00",
+            "text": "farout dog 펀치 라인"
+        }
+    },
+    {
+        "id": "la-card_name-00017-5-uniq-0015-00",
+        "data": {
+            "id": "la-card_name-00017-5-uniq-0015-00",
+            "text": "Go! Go! Laughing Skater"
+        }
+    },
+    {
+        "id": "la-card_name-00018-3-nrml-0004-00",
+        "data": {
+            "id": "la-card_name-00018-3-nrml-0004-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00018-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00018-4-cmmn-0000-00",
+            "text": "플로어를 달구는 눈부신 존재"
+        }
+    },
+    {
+        "id": "la-card_name-00018-5-uniq-0004-00",
+        "data": {
+            "id": "la-card_name-00018-5-uniq-0004-00",
+            "text": "마음을 빼앗는 Comet Tune"
+        }
+    },
+    {
+        "id": "la-card_name-00019-3-nrml-0016-00",
+        "data": {
+            "id": "la-card_name-00019-3-nrml-0016-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00019-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00019-4-cmmn-0000-00",
+            "text": "cheeky 호핑 버니"
+        }
+    },
+    {
+        "id": "la-card_name-00019-5-uniq-0016-00",
+        "data": {
+            "id": "la-card_name-00019-5-uniq-0016-00",
+            "text": "애교 가득 래빗 필드"
+        }
+    },
+    {
+        "id": "la-card_name-00021-3-nrml-0017-00",
+        "data": {
+            "id": "la-card_name-00021-3-nrml-0017-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00021-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00021-4-cmmn-0000-00",
+            "text": "춤으로 전해지는 마음"
+        }
+    },
+    {
+        "id": "la-card_name-00021-5-uniq-0017-00",
+        "data": {
+            "id": "la-card_name-00021-5-uniq-0017-00",
+            "text": "하프 엘프의 바람이 스치는 곤돌라"
+        }
+    },
+    {
+        "id": "la-card_name-00022-3-nrml-0018-00",
+        "data": {
+            "id": "la-card_name-00022-3-nrml-0018-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00022-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00022-4-cmmn-0000-00",
+            "text": "노래하는 무지성 막무가내 나이트"
+        }
+    },
+    {
+        "id": "la-card_name-00022-5-uniq-0018-00",
+        "data": {
+            "id": "la-card_name-00022-5-uniq-0018-00",
+            "text": "향긋한 바람의 온화한 기사"
+        }
+    },
+    {
+        "id": "la-card_name-00023-3-nrml-0019-00",
+        "data": {
+            "id": "la-card_name-00023-3-nrml-0019-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00023-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00023-4-cmmn-0000-00",
+            "text": "♡ 포착하는 해적의 영역"
+        }
+    },
+    {
+        "id": "la-card_name-00023-5-uniq-0019-00",
+        "data": {
+            "id": "la-card_name-00023-5-uniq-0019-00",
+            "text": "요염함이 넘치는 마린블루"
+        }
+    },
+    {
+        "id": "la-card_name-00026-3-nrml-0021-00",
+        "data": {
+            "id": "la-card_name-00026-3-nrml-0021-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00026-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00026-4-cmmn-0000-00",
+            "text": "퍼지는 healing sound"
+        }
+    },
+    {
+        "id": "la-card_name-00026-5-uniq-0021-00",
+        "data": {
+            "id": "la-card_name-00026-5-uniq-0021-00",
+            "text": "Woolly Smile Festival"
+        }
+    },
+    {
+        "id": "la-card_name-00027-3-nrml-0022-00",
+        "data": {
+            "id": "la-card_name-00027-3-nrml-0022-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00027-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00027-4-cmmn-0000-00",
+            "text": "여유만만 나이트 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-00027-5-uniq-0022-00",
+        "data": {
+            "id": "la-card_name-00027-5-uniq-0022-00",
+            "text": "끝날 기미가 안 보이는 편안한 밤놀이"
+        }
+    },
+    {
+        "id": "la-card_name-00028-3-nrml-0023-00",
+        "data": {
+            "id": "la-card_name-00028-3-nrml-0023-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00028-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00028-4-cmmn-0000-00",
+            "text": "폭신폭신 프린세스 스테이지"
+        }
+    },
+    {
+        "id": "la-card_name-00028-5-uniq-0023-00",
+        "data": {
+            "id": "la-card_name-00028-5-uniq-0023-00",
+            "text": "공주에게 충성 애프터눈"
+        }
+    },
+    {
+        "id": "la-card_name-00030-3-nrml-0024-00",
+        "data": {
+            "id": "la-card_name-00030-3-nrml-0024-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00030-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00030-4-cmmn-0000-00",
+            "text": "비추는 snow mood!"
+        }
+    },
+    {
+        "id": "la-card_name-00030-5-uniq-0024-00",
+        "data": {
+            "id": "la-card_name-00030-5-uniq-0024-00",
+            "text": "눈 내리는 밤 외로운 영애"
+        }
+    },
+    {
+        "id": "la-card_name-00031-3-nrml-0025-00",
+        "data": {
+            "id": "la-card_name-00031-3-nrml-0025-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00031-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00031-4-cmmn-0000-00",
+            "text": "get excited 점프!"
+        }
+    },
+    {
+        "id": "la-card_name-00031-5-uniq-0025-00",
+        "data": {
+            "id": "la-card_name-00031-5-uniq-0025-00",
+            "text": "같이 노래하자! 이노센트 리듬"
+        }
+    },
+    {
+        "id": "la-card_name-00032-3-nrml-0026-00",
+        "data": {
+            "id": "la-card_name-00032-3-nrml-0026-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00032-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00032-4-cmmn-0000-00",
+            "text": "매료하는 Laughing Lion"
+        }
+    },
+    {
+        "id": "la-card_name-00032-5-uniq-0026-00",
+        "data": {
+            "id": "la-card_name-00032-5-uniq-0026-00",
+            "text": "시선을 강탈하는 갓 에임! lion’s hunt"
+        }
+    },
+    {
+        "id": "la-card_name-00034-3-nrml-0027-00",
+        "data": {
+            "id": "la-card_name-00034-3-nrml-0027-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00034-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00034-4-cmmn-0000-00",
+            "text": "파티 하드 대폭발 LIVE"
+        }
+    },
+    {
+        "id": "la-card_name-00034-5-uniq-0027-00",
+        "data": {
+            "id": "la-card_name-00034-5-uniq-0027-00",
+            "text": "변환 자재! 폴카 서커스 시작!"
+        }
+    },
+    {
+        "id": "la-card_name-00035-3-nrml-0028-00",
+        "data": {
+            "id": "la-card_name-00035-3-nrml-0028-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00035-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00035-4-cmmn-0000-00",
+            "text": "오늘 밤 라이브, 이 몸이 주인공"
+        }
+    },
+    {
+        "id": "la-card_name-00035-5-uniq-0028-00",
+        "data": {
+            "id": "la-card_name-00035-5-uniq-0028-00",
+            "text": "작전 개시! 총수의 수완을 보여줘라"
+        }
+    },
+    {
+        "id": "la-card_name-00036-3-nrml-0029-00",
+        "data": {
+            "id": "la-card_name-00036-3-nrml-0029-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00036-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00036-4-cmmn-0000-00",
+            "text": "어디에서든 신뢰! 실력자 LIVE"
+        }
+    },
+    {
+        "id": "la-card_name-00036-5-uniq-0029-00",
+        "data": {
+            "id": "la-card_name-00036-5-uniq-0029-00",
+            "text": "조직을 지탱하는 초 엘리트 간부"
+        }
+    },
+    {
+        "id": "la-card_name-00037-3-nrml-0030-00",
+        "data": {
+            "id": "la-card_name-00037-3-nrml-0030-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00037-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00037-4-cmmn-0000-00",
+            "text": "무대에 울려 펴지는 cute howl"
+        }
+    },
+    {
+        "id": "la-card_name-00037-5-uniq-0030-00",
+        "data": {
+            "id": "la-card_name-00037-5-uniq-0030-00",
+            "text": "조수군의 마음을 사로잡는 라이브!"
+        }
+    },
+    {
+        "id": "la-card_name-00039-3-nrml-0032-00",
+        "data": {
+            "id": "la-card_name-00039-3-nrml-0032-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-00039-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-00039-4-cmmn-0000-00",
+            "text": "스테이지에서 방출! 수행의 성과"
+        }
+    },
+    {
+        "id": "la-card_name-00039-5-uniq-0032-00",
+        "data": {
+            "id": "la-card_name-00039-5-uniq-0032-00",
+            "text": "치쿠린 쟈킹! 과 일도양단"
+        }
+    },
+    {
+        "id": "la-card_name-03001-3-nrml-0033-00",
+        "data": {
+            "id": "la-card_name-03001-3-nrml-0033-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03001-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03001-4-cmmn-0000-00",
+            "text": "동그란 꼬리의 큐트 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-03001-5-uniq-0033-00",
+        "data": {
+            "id": "la-card_name-03001-5-uniq-0033-00",
+            "text": "장난을 꾸미는 햇살 가득한 숲"
+        }
+    },
+    {
+        "id": "la-card_name-03002-3-nrml-0034-00",
+        "data": {
+            "id": "la-card_name-03002-3-nrml-0034-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03002-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03002-4-cmmn-0000-00",
+            "text": "달빛에 녹아드는 노래"
+        }
+    },
+    {
+        "id": "la-card_name-03002-5-uniq-0034-00",
+        "data": {
+            "id": "la-card_name-03002-5-uniq-0034-00",
+            "text": "Lunar Songstress"
+        }
+    },
+    {
+        "id": "la-card_name-03003-3-nrml-0035-00",
+        "data": {
+            "id": "la-card_name-03003-3-nrml-0035-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03003-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03003-4-cmmn-0000-00",
+            "text": "화창한 Stage View"
+        }
+    },
+    {
+        "id": "la-card_name-03003-5-uniq-0035-00",
+        "data": {
+            "id": "la-card_name-03003-5-uniq-0035-00",
+            "text": "햇빛이 쏟아지는 Cosmos Palette"
+        }
+    },
+    {
+        "id": "la-card_name-03004-3-nrml-0036-00",
+        "data": {
+            "id": "la-card_name-03004-3-nrml-0036-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03004-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03004-4-cmmn-0000-00",
+            "text": "Deadly Encore"
+        }
+    },
+    {
+        "id": "la-card_name-03004-5-uniq-0036-00",
+        "data": {
+            "id": "la-card_name-03004-5-uniq-0036-00",
+            "text": "Z nonstop talker"
+        }
+    },
+    {
+        "id": "la-card_name-03005-3-nrml-0037-00",
+        "data": {
+            "id": "la-card_name-03005-3-nrml-0037-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03005-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03005-4-cmmn-0000-00",
+            "text": "Little Back 제멋대로 스테이지"
+        }
+    },
+    {
+        "id": "la-card_name-03005-5-uniq-0037-00",
+        "data": {
+            "id": "la-card_name-03005-5-uniq-0037-00",
+            "text": "소파에 파묻혀 느긋하게 게임"
+        }
+    },
+    {
+        "id": "la-card_name-03006-3-nrml-0038-00",
+        "data": {
+            "id": "la-card_name-03006-3-nrml-0038-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03006-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03006-4-cmmn-0000-00",
+            "text": "축복의 럭셔리 나이트"
+        }
+    },
+    {
+        "id": "la-card_name-03006-5-uniq-0038-00",
+        "data": {
+            "id": "la-card_name-03006-5-uniq-0038-00",
+            "text": "새침데기 공작과 즐기는 한잔"
+        }
+    },
+    {
+        "id": "la-card_name-03007-3-nrml-0039-00",
+        "data": {
+            "id": "la-card_name-03007-3-nrml-0039-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03007-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03007-4-cmmn-0000-00",
+            "text": "childlike 즐거운 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-03007-5-uniq-0039-00",
+        "data": {
+            "id": "la-card_name-03007-5-uniq-0039-00",
+            "text": "양지와 고양이와 구성원"
+        }
+    },
+    {
+        "id": "la-card_name-03008-3-nrml-0040-00",
+        "data": {
+            "id": "la-card_name-03008-3-nrml-0040-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03008-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03008-4-cmmn-0000-00",
+            "text": "대장간에 필적! 열광적인 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-03008-5-uniq-0040-00",
+        "data": {
+            "id": "la-card_name-03008-5-uniq-0040-00",
+            "text": "마음의 힘은 대장간에서 연마"
+        }
+    },
+    {
+        "id": "la-card_name-03009-3-nrml-0041-00",
+        "data": {
+            "id": "la-card_name-03009-3-nrml-0041-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-03009-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-03009-4-cmmn-0000-00",
+            "text": "우당탕탕 풀 스로틀 스테이지"
+        }
+    },
+    {
+        "id": "la-card_name-03009-5-uniq-0041-00",
+        "data": {
+            "id": "la-card_name-03009-5-uniq-0041-00",
+            "text": "비 갠 뒤 싱글벙글 샤먼"
+        }
+    },
+    {
+        "id": "la-card_name-04001-3-nrml-0042-00",
+        "data": {
+            "id": "la-card_name-04001-3-nrml-0042-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04001-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04001-4-cmmn-0000-00",
+            "text": "저승 대표! here we go"
+        }
+    },
+    {
+        "id": "la-card_name-04001-5-uniq-0042-00",
+        "data": {
+            "id": "la-card_name-04001-5-uniq-0042-00",
+            "text": "Reaper’s death flow"
+        }
+    },
+    {
+        "id": "la-card_name-04002-3-nrml-0043-00",
+        "data": {
+            "id": "la-card_name-04002-3-nrml-0043-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04002-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04002-4-cmmn-0000-00",
+            "text": "행복한 스테이지에 온 걸 환영해"
+        }
+    },
+    {
+        "id": "la-card_name-04002-5-uniq-0043-00",
+        "data": {
+            "id": "la-card_name-04002-5-uniq-0043-00",
+            "text": "Lovely Phoenix 다이너"
+        }
+    },
+    {
+        "id": "la-card_name-04003-3-nrml-0044-00",
+        "data": {
+            "id": "la-card_name-04003-3-nrml-0044-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04003-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04003-4-cmmn-0000-00",
+            "text": "무대를 장식하는 평온한 미소"
+        }
+    },
+    {
+        "id": "la-card_name-04003-5-uniq-0044-00",
+        "data": {
+            "id": "la-card_name-04003-5-uniq-0044-00",
+            "text": "따끈따끈 충전 시간"
+        }
+    },
+    {
+        "id": "la-card_name-04007-3-nrml-0047-00",
+        "data": {
+            "id": "la-card_name-04007-3-nrml-0047-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04007-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04007-4-cmmn-0000-00",
+            "text": "울려 퍼지는 희망찬 목소리"
+        }
+    },
+    {
+        "id": "la-card_name-04007-5-uniq-0047-00",
+        "data": {
+            "id": "la-card_name-04007-5-uniq-0047-00",
+            "text": "nephilim sonority"
+        }
+    },
+    {
+        "id": "la-card_name-04010-3-nrml-0049-00",
+        "data": {
+            "id": "la-card_name-04010-3-nrml-0049-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04010-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04010-4-cmmn-0000-00",
+            "text": "시간을 잊는 퍼포먼스"
+        }
+    },
+    {
+        "id": "la-card_name-04010-5-uniq-0049-00",
+        "data": {
+            "id": "la-card_name-04010-5-uniq-0049-00",
+            "text": "감시자가 속삭이는 Clock Tower"
+        }
+    },
+    {
+        "id": "la-card_name-04012-3-nrml-0051-00",
+        "data": {
+            "id": "la-card_name-04012-3-nrml-0051-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04012-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04012-4-cmmn-0000-00",
+            "text": "Let's dance more!"
+        }
+    },
+    {
+        "id": "la-card_name-04012-5-uniq-0051-00",
+        "data": {
+            "id": "la-card_name-04012-5-uniq-0051-00",
+            "text": "Chaotic Powerful Rat"
+        }
+    },
+    {
+        "id": "la-card_name-04013-3-nrml-0052-00",
+        "data": {
+            "id": "la-card_name-04013-3-nrml-0052-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04013-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04013-4-cmmn-0000-00",
+            "text": "스테이지에서도 Keep it real"
+        }
+    },
+    {
+        "id": "la-card_name-04013-5-uniq-0052-00",
+        "data": {
+            "id": "la-card_name-04013-5-uniq-0052-00",
+            "text": "서고에서 키우는 탐구심"
+        }
+    },
+    {
+        "id": "la-card_name-04014-3-nrml-0053-00",
+        "data": {
+            "id": "la-card_name-04014-3-nrml-0053-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04014-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04014-4-cmmn-0000-00",
+            "text": "반짝 보여주는 순수한 민낯"
+        }
+    },
+    {
+        "id": "la-card_name-04014-5-uniq-0053-00",
+        "data": {
+            "id": "la-card_name-04014-5-uniq-0053-00",
+            "text": "반짝반짝 Crystal place"
+        }
+    },
+    {
+        "id": "la-card_name-04015-3-nrml-0054-00",
+        "data": {
+            "id": "la-card_name-04015-3-nrml-0054-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04015-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04015-4-cmmn-0000-00",
+            "text": "미성을 전하는 저녁 무렵 스테이지"
+        }
+    },
+    {
+        "id": "la-card_name-04015-5-uniq-0054-00",
+        "data": {
+            "id": "la-card_name-04015-5-uniq-0054-00",
+            "text": "노래에 흔들리는 녹턴"
+        }
+    },
+    {
+        "id": "la-card_name-04016-3-nrml-0055-00",
+        "data": {
+            "id": "la-card_name-04016-3-nrml-0055-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04016-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04016-4-cmmn-0000-00",
+            "text": "마음이 편안해지는 포근포근 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-04016-5-uniq-0055-00",
+        "data": {
+            "id": "la-card_name-04016-5-uniq-0055-00",
+            "text": "화기애애 도넛 파티♪"
+        }
+    },
+    {
+        "id": "la-card_name-04017-3-nrml-0056-00",
+        "data": {
+            "id": "la-card_name-04017-3-nrml-0056-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-04017-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-04017-4-cmmn-0000-00",
+            "text": "활짝 웃는 복슬복슬 라이브"
+        }
+    },
+    {
+        "id": "la-card_name-04017-5-uniq-0056-00",
+        "data": {
+            "id": "la-card_name-04017-5-uniq-0056-00",
+            "text": "유유자적 도넛 파티♪"
+        }
+    },
+    {
+        "id": "la-card_name-06002-3-nrml-0058-00",
+        "data": {
+            "id": "la-card_name-06002-3-nrml-0058-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-06002-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-06002-4-cmmn-0000-00",
+            "text": "닿아라! 뛰어난 하모니"
+        }
+    },
+    {
+        "id": "la-card_name-06002-5-uniq-0058-00",
+        "data": {
+            "id": "la-card_name-06002-5-uniq-0058-00",
+            "text": "퍼레이드로 미소를 전달"
+        }
+    },
+    {
+        "id": "la-card_name-06003-3-nrml-0059-00",
+        "data": {
+            "id": "la-card_name-06003-3-nrml-0059-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-06003-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-06003-4-cmmn-0000-00",
+            "text": "콩닥콩닥 LIVE♡"
+        }
+    },
+    {
+        "id": "la-card_name-06003-5-uniq-0059-00",
+        "data": {
+            "id": "la-card_name-06003-5-uniq-0059-00",
+            "text": "심야의 휴식, CEO의 한계밥"
+        }
+    },
+    {
+        "id": "la-card_name-06004-3-nrml-0060-00",
+        "data": {
+            "id": "la-card_name-06004-3-nrml-0060-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-06004-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-06004-4-cmmn-0000-00",
+            "text": "cultural performer"
+        }
+    },
+    {
+        "id": "la-card_name-06004-5-uniq-0060-00",
+        "data": {
+            "id": "la-card_name-06004-5-uniq-0060-00",
+            "text": "지혜의 불을 밝혀 예술로 인도"
+        }
+    },
+    {
+        "id": "la-card_name-06005-3-nrml-0061-00",
+        "data": {
+            "id": "la-card_name-06005-3-nrml-0061-00",
+            "text": "We are hololive!"
+        }
+    },
+    {
+        "id": "la-card_name-06005-4-cmmn-0000-00",
+        "data": {
+            "id": "la-card_name-06005-4-cmmn-0000-00",
+            "text": "반쵸가 반쵸인 이유"
+        }
+    },
+    {
+        "id": "la-card_name-06005-5-uniq-0061-00",
+        "data": {
+            "id": "la-card_name-06005-5-uniq-0061-00",
+            "text": "걸리 반쵸의 소소한 선물"
+        }
+    }
+]

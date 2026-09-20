@@ -1,0 +1,670 @@
+import fs from "fs";
+import path from "path";
+
+type DBRow<T> = {
+    id?: string;
+    group_id?: string;
+    upgrade_count?: number;
+    live_passive_skill_id?: string;
+    live_active_skill_id?: string;
+    live_special_skill_id?: string;
+    level?: number;
+    data: T;
+};
+
+type CardData = {
+    id: string;
+    characterId: string;
+    nameLangId: string;
+    rarity: string;
+    attributeType: string;
+
+    cardLevelGroupId: string;
+
+    performancePermilMultiply: number;
+    techniquePermilMultiply: number;
+    sensePermilMultiply: number;
+
+    cardLevelLimitGroupId: string;
+
+    livePassiveSkillId: string;
+    liveActiveSkillId: string;
+    liveSpecialSkillId: string;
+
+    cardPotentialGroupId: string;
+
+    assetId: string;
+};
+
+type CardLevelData = {
+    groupId: string;
+    level: number;
+    parameterBaseValue: string;
+    exp: string;
+    liveDeckPowerPermyriadUp: string;
+};
+
+type CardLevelLimitData = {
+    groupId: string;
+    levelLimit: number;
+};
+
+type CardPotentialData = {
+    groupId: string;
+    upgradeCount: number;
+    effectType: string;
+    value: string;
+};
+
+type CharacterData = {
+    id: string;
+    nameLangId: string;
+    shortNameLangId?: string;
+};
+
+type LangData = {
+    id: string;
+    text: string;
+};
+
+type SkillLevelData = {
+    level: number;
+    descriptionLangId: string;
+};
+
+function loadJson<T>(filename: string): T {
+    const filePath = path.join(process.cwd(), "data", filename);
+
+    if (!fs.existsSync(filePath)) {
+        throw new Error(`DB 파일을 찾을 수 없습니다: ${filename}`);
+    }
+
+    return JSON.parse(fs.readFileSync(filePath, "utf8")) as T;
+}
+
+function rarityNumber(rarity: string): number {
+    const match = rarity.match(/RARITY_(\d+)/);
+    return match ? Number(match[1]) : 0;
+}
+
+function attributeNumber(attribute: string): number {
+    const match = attribute.match(/ATTRIBUTE_(\d+)/);
+    return match ? Number(match[1]) : 0;
+}
+
+function getAttributeName(attribute: string): string {
+    switch (attributeNumber(attribute)) {
+        case 1:
+            return "쿨";
+        case 2:
+            return "퓨어";
+        case 3:
+            return "해피";
+        default:
+            return "알 수 없음";
+    }
+}
+
+function getLangText(
+    rows: DBRow<LangData>[],
+    id: string | undefined,
+): string {
+    if (!id) return "";
+
+    const row = rows.find(
+        (item) =>
+            item.id === id ||
+            item.data?.id === id,
+    );
+
+    return row?.data?.text ?? "";
+}
+
+function getPotentialInfo(
+    card: CardData,
+    potential: number,
+    potentialRows: DBRow<CardPotentialData>[],
+) {
+    const rows = potentialRows
+        .filter(
+            (row) =>
+                row.data.groupId === card.cardPotentialGroupId &&
+                row.data.upgradeCount <= potential,
+        )
+        .sort(
+            (a, b) =>
+                a.data.upgradeCount - b.data.upgradeCount,
+        );
+
+    let parameterPermil = 0;
+
+    let activeSkillLevelUp = 0;
+    let passiveSkillLevelUp = 0;
+    let specialSkillLevelUp = 0;
+    let skillTreeConnectLevelUp = 0;
+
+    const effects = rows.map((row) => {
+        const value = Number(row.data.value);
+
+        switch (row.data.effectType) {
+            case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_ALL_PARAMETER_UP_PERMIL_UP":
+                parameterPermil += value;
+                break;
+
+            case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_ACTIVE_SKILL_LEVEL_UP":
+                activeSkillLevelUp += value;
+                break;
+
+            case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_PASSIVE_SKILL_LEVEL_UP":
+                passiveSkillLevelUp += value;
+                break;
+
+            case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_SPECIAL_SKILL_LEVEL_UP":
+                specialSkillLevelUp += value;
+                break;
+
+            case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_SKILL_TREE_CONNECT_EFFECT_LEVEL_UP":
+                skillTreeConnectLevelUp += value;
+                break;
+        }
+
+        return {
+            upgradeCount: row.data.upgradeCount,
+            effectType: row.data.effectType,
+            value,
+        };
+    });
+
+    return {
+        parameterPermil,
+        parameterPercent: parameterPermil / 10,
+
+        activeSkillLevelUp,
+        passiveSkillLevelUp,
+        specialSkillLevelUp,
+        skillTreeConnectLevelUp,
+
+        effects,
+    };
+}
+
+function calculateStats(
+    card: CardData,
+    levelData: CardLevelData,
+    potentialInfo: ReturnType<typeof getPotentialInfo>,
+) {
+    const baseValue = Number(levelData.parameterBaseValue);
+
+    /*
+     * CardPotential의
+     * ALL_PARAMETER_UP_PERMIL_UP
+     *
+     * 예:
+     * +100 permil = +10%
+     */
+    const potentialBaseValue = Math.round(
+        (baseValue * (1000 + potentialInfo.parameterPermil)) /
+        1000,
+    );
+
+    const performance = Math.round(
+        (potentialBaseValue *
+            card.performancePermilMultiply) /
+        1000,
+    );
+
+    const technique = Math.round(
+        (potentialBaseValue *
+            card.techniquePermilMultiply) /
+        1000,
+    );
+
+    const sense = Math.round(
+        (potentialBaseValue *
+            card.sensePermilMultiply) /
+        1000,
+    );
+
+    return {
+        baseValue,
+        potentialBaseValue,
+
+        performance,
+        technique,
+        sense,
+
+        total: performance + technique + sense,
+    };
+}
+
+function cleanSkillDescription(text: string): string {
+    return text
+        .replace(/\[highlight\]/g, "")
+        .replace(/\[\/highlight\]/g, "")
+        .replace(/\[attribute=[^\]]+\]/g, "")
+        .replace(/\[\/attribute\]/g, "")
+        .trim();
+}
+
+function getSkillInfo(
+    skillId: string,
+    skillType: "passive" | "active" | "special",
+    level: number,
+) {
+    if (!skillId) {
+        return null;
+    }
+
+    let rows: DBRow<SkillLevelData>[];
+    let langRows: DBRow<LangData>[];
+
+    if (skillType === "passive") {
+        rows = loadJson<DBRow<SkillLevelData>[]>(
+            "LivePassiveSkillLevel.json",
+        );
+
+        langRows = loadJson<DBRow<LangData>[]>(
+            "LangGeneratedLivePassiveSkillLevel_Kor.json",
+        );
+    } else if (skillType === "active") {
+        rows = loadJson<DBRow<SkillLevelData>[]>(
+            "LiveActiveSkillLevel.json",
+        );
+
+        langRows = loadJson<DBRow<LangData>[]>(
+            "LangGeneratedLiveActiveSkillLevel_Kor.json",
+        );
+    } else {
+        rows = loadJson<DBRow<SkillLevelData>[]>(
+            "LiveSpecialSkillLevel.json",
+        );
+
+        langRows = loadJson<DBRow<LangData>[]>(
+            "LangGeneratedLiveSpecialSkillLevel_Kor.json",
+        );
+    }
+
+    const skillRow = rows.find((row) => {
+        const id =
+            skillType === "passive"
+                ? row.data?.["livePassiveSkillId" as keyof SkillLevelData]
+                : skillType === "active"
+                    ? row.data?.["liveActiveSkillId" as keyof SkillLevelData]
+                    : row.data?.["liveSpecialSkillId" as keyof SkillLevelData];
+
+        return id === skillId && row.data.level === level;
+    });
+
+    if (!skillRow) {
+        return {
+            level,
+            description: "",
+        };
+    }
+
+    return {
+        level,
+        description: cleanSkillDescription(
+            getLangText(langRows, skillRow.data.descriptionLangId),
+        ),
+    };
+}
+
+export function getCardDetail(
+    cardId: string,
+    requestedLevel?: number,
+    requestedPotential?: number,
+) {
+    const cards =
+        loadJson<DBRow<CardData>[]>("Card.json");
+
+    const cardRow = cards.find(
+        (row) =>
+            row.id === cardId ||
+            row.data.id === cardId,
+    );
+
+    if (!cardRow) {
+        throw new Error(`카드를 찾을 수 없습니다: ${cardId}`);
+    }
+
+    const card = cardRow.data;
+
+    const cardLevels =
+        loadJson<DBRow<CardLevelData>[]>("CardLevel.json");
+
+    const cardLevelLimits =
+        loadJson<DBRow<CardLevelLimitData>[]>(
+            "CardLevelLimit.json",
+        );
+
+    const potentialRows =
+        loadJson<DBRow<CardPotentialData>[]>(
+            "CardPotential.json",
+        );
+
+    const characters =
+        loadJson<DBRow<CharacterData>[]>("Character.json");
+
+    const cardLang =
+        loadJson<DBRow<LangData>[]>("LangCard_Kor.json");
+
+    const characterLang =
+        loadJson<DBRow<LangData>[]>(
+            "LangCharacter_Kor.json",
+        );
+
+    /*
+     * 카드 이름
+     */
+    const name =
+        getLangText(cardLang, card.nameLangId) ||
+        "이름 없는 카드";
+
+    /*
+     * 캐릭터
+     */
+    const characterRow = characters.find(
+        (row) =>
+            row.id === card.characterId ||
+            row.data.id === card.characterId,
+    );
+
+    const character = characterRow?.data;
+
+    const characterName =
+        getLangText(
+            characterLang,
+            character?.nameLangId,
+        ) ||
+        character?.id ||
+        card.characterId;
+
+    /*
+     * 최대 레벨
+     */
+    const levelLimitRows =
+        cardLevelLimits.filter(
+            (row) =>
+                row.data.groupId ===
+                card.cardLevelLimitGroupId,
+        );
+
+    const maxLevel = Math.max(
+        ...levelLimitRows.map(
+            (row) => row.data.levelLimit,
+        ),
+    );
+
+    /*
+     * 카드에 연결된 레벨 데이터
+     */
+    const levelRows = cardLevels
+        .filter(
+            (row) =>
+                row.data.groupId ===
+                card.cardLevelGroupId,
+        )
+        .sort(
+            (a, b) =>
+                a.data.level - b.data.level,
+        );
+
+    /*
+     * 최대 개화 단계
+     *
+     * DB를 보고 자동으로 구합니다.
+     */
+    const cardPotentialGroupRows =
+        potentialRows.filter(
+            (row) =>
+                row.data.groupId ===
+                card.cardPotentialGroupId,
+        );
+
+    const maxPotential =
+        cardPotentialGroupRows.length > 0
+            ? Math.max(
+                ...cardPotentialGroupRows.map(
+                    (row) =>
+                        row.data.upgradeCount,
+                ),
+            )
+            : 0;
+
+    const level =
+        Math.min(
+            Math.max(
+                requestedLevel ??
+                maxLevel,
+                1,
+            ),
+            maxLevel,
+        );
+
+    const potential =
+        Math.min(
+            Math.max(
+                requestedPotential ??
+                maxPotential,
+                0,
+            ),
+            maxPotential,
+        );
+
+    /*
+     * 현재 개화 효과
+     */
+    const potentialInfo = getPotentialInfo(
+        card,
+        potential,
+        potentialRows,
+    );
+
+    /*
+     * 현재 레벨
+     */
+    const currentLevelRow =
+        levelRows.find(
+            (row) =>
+                row.data.level === level,
+        ) ?? levelRows[levelRows.length - 1];
+
+    if (!currentLevelRow) {
+        throw new Error(
+            `카드 레벨 데이터를 찾을 수 없습니다: ${card.cardLevelGroupId}`,
+        );
+    }
+
+    const currentStats = calculateStats(
+        card,
+        currentLevelRow.data,
+        potentialInfo,
+    );
+
+    /*
+     * 모든 레벨 × 모든 개화의 스탯을
+     * 서버에서 미리 계산해 둡니다.
+     *
+     * 클라이언트에서는 숫자를 다시 계산하지 않습니다.
+     */
+    const levelPotentialStats = levelRows.flatMap(
+        (levelRow) =>
+            Array.from(
+                {
+                    length: maxPotential + 1,
+                },
+                (_, currentPotential) => {
+                    const info =
+                        getPotentialInfo(
+                            card,
+                            currentPotential,
+                            potentialRows,
+                        );
+
+                    const stats =
+                        calculateStats(
+                            card,
+                            levelRow.data,
+                            info,
+                        );
+
+                    return {
+                        level: levelRow.data.level,
+                        potential: currentPotential,
+
+                        ...stats,
+
+                        parameterPermil:
+                            info.parameterPermil,
+
+                        parameterPercent:
+                            info.parameterPercent,
+
+                        passiveSkillLevelUp:
+                            info.passiveSkillLevelUp,
+
+                        activeSkillLevelUp:
+                            info.activeSkillLevelUp,
+
+                        specialSkillLevelUp:
+                            info.specialSkillLevelUp,
+
+                        skillTreeConnectLevelUp:
+                            info.skillTreeConnectLevelUp,
+                    };
+                },
+            ),
+    );
+
+    /*
+     * 개화 효과 설명
+     */
+    const potentialEffects = cardPotentialGroupRows
+        .sort(
+            (a, b) =>
+                a.data.upgradeCount -
+                b.data.upgradeCount,
+        )
+        .map((row) => {
+            const value =
+                Number(row.data.value);
+
+            let label = "";
+
+            switch (row.data.effectType) {
+                case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_ACTIVE_SKILL_LEVEL_UP":
+                    label = `액티브 스킬 Lv +${value}`;
+                    break;
+
+                case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_PASSIVE_SKILL_LEVEL_UP":
+                    label = `패시브 스킬 Lv +${value}`;
+                    break;
+
+                case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_SPECIAL_SKILL_LEVEL_UP":
+                    label = `스페셜 스킬 Lv +${value}`;
+                    break;
+
+                case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_ALL_PARAMETER_UP_PERMIL_UP":
+                    label = `전체 파라미터 +${value / 10}%`;
+                    break;
+
+                case "CardPotentialEffectType_CARD_POTENTIAL_EFFECT_TYPE_SKILL_TREE_CONNECT_EFFECT_LEVEL_UP":
+                    label = `스킬 트리 연결 효과 Lv +${value}`;
+                    break;
+
+                default:
+                    label = row.data.effectType;
+            }
+
+            return {
+                upgradeCount:
+                    row.data.upgradeCount,
+                label,
+                unlocked:
+                    potential >=
+                    row.data.upgradeCount,
+            };
+        });
+
+    /*
+     * 현재 스킬 레벨
+     *
+     * 기본 Lv 1 + 개화 효과
+     */
+    const passiveSkillLevel =
+        1 +
+        potentialInfo.passiveSkillLevelUp;
+
+    const activeSkillLevel =
+        1 +
+        potentialInfo.activeSkillLevelUp;
+
+    const specialSkillLevel =
+        1 +
+        potentialInfo.specialSkillLevelUp;
+
+    const passiveSkill = getSkillInfo(
+        card.livePassiveSkillId,
+        "passive",
+        passiveSkillLevel,
+    );
+
+    const activeSkill = getSkillInfo(
+        card.liveActiveSkillId,
+        "active",
+        activeSkillLevel,
+    );
+
+    const specialSkill = getSkillInfo(
+        card.liveSpecialSkillId,
+        "special",
+        specialSkillLevel,
+    );
+
+    return {
+        id: card.id,
+
+        name,
+        characterName,
+
+        rarity: rarityNumber(card.rarity),
+        attribute: getAttributeName(
+            card.attributeType,
+        ),
+
+        assetId: card.assetId,
+
+        level,
+        maxLevel,
+
+        potential,
+        maxPotential,
+
+        stats: currentStats,
+
+        levelPotentialStats,
+
+        potentialEffects,
+
+        skills: {
+            passive: {
+                level: passiveSkillLevel,
+                description:
+                    passiveSkill?.description ?? "",
+            },
+
+            active: {
+                level: activeSkillLevel,
+                description:
+                    activeSkill?.description ?? "",
+            },
+
+            special: {
+                level: specialSkillLevel,
+                description:
+                    specialSkill?.description ?? "",
+            },
+        },
+    };
+}
