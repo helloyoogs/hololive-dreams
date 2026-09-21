@@ -81,6 +81,68 @@ type SkillLevelData = {
     [key: string]: unknown;
 };
 
+type ExistingCardDetailData = {
+    animated?: boolean;
+    cardVideo?: string;
+    cardVideoBloom?: string;
+    signatureVideo?: Array<{
+        src: string;
+        type: string;
+    }>;
+    otherEffects?: Array<{
+        type: string;
+        name?: string;
+        descriptions?: string[];
+        bloomUnlock?: number;
+        icon?: string;
+    }>;
+};
+
+function loadExistingCardDetail(
+    cardId: string,
+): ExistingCardDetailData | null {
+    const filePath = path.join(
+        process.cwd(),
+        "data",
+        "card-detail",
+        `${cardId}.json`,
+    );
+
+    if (!fs.existsSync(filePath)) {
+        return null;
+    }
+
+    return JSON.parse(
+        fs.readFileSync(filePath, "utf8"),
+    ) as ExistingCardDetailData;
+}
+
+function toCdnUrl(assetPath?: string): string {
+    if (!assetPath) return "";
+
+    let value = assetPath.trim();
+
+    // 입력이 상대경로/기존 CDN URL 어느 쪽이어도 같은 CDN 구조로 정규화
+    value = value
+        .replace(/^https?:\/\/cdn\.holodori\.dev\//, "")
+        .replace(/^\/?cdn\.holodori\.dev\//, "")
+        .replace(/^\/+/, "");
+
+    // 실제 원본 구조는 /assets/resources 및 /assets/assetbundles
+    if (value.startsWith("assets/")) {
+        return `https://cdn.holodori.dev/${value}`;
+    }
+
+    if (
+        value.startsWith("resources/") ||
+        value.startsWith("assetbundles/")
+    ) {
+        return `https://cdn.holodori.dev/assets/${value}`;
+    }
+
+    return `https://cdn.holodori.dev/assets/${value}`;
+}
+
 function loadJson<T>(filename: string): T {
     const filePath = path.join(process.cwd(), "data", filename);
 
@@ -104,7 +166,7 @@ function attributeNumber(attribute: string): number {
 function getAttributeName(attribute: string): string {
     switch (attributeNumber(attribute)) {
         case 1:
-            return "쿨";
+            return "큐티";
         case 2:
             return "퓨어";
         case 3:
@@ -355,6 +417,7 @@ export function getCardDetail(
     }
 
     const card = cardRow.data;
+    const existingDetail = loadExistingCardDetail(card.id);
 
     const cardLevels =
         loadJson<DBRow<CardLevelData>[]>("CardLevel.json");
@@ -486,9 +549,7 @@ export function getCardDetail(
         potential,
         potentialRows,
     );
-    console.log("=== CARD DETAIL DEBUG ===");
-    console.log("potential:", potential);
-    console.log("potentialInfo:", potentialInfo);
+
     /*
      * 현재 레벨
      */
@@ -696,12 +757,6 @@ export function getCardDetail(
         potentialInfo.specialSkillLevelUp > 0 ? 2 : 1;
 
 
-    console.log("skill levels:", {
-        passiveSkillLevel,
-        activeSkillLevel,
-        specialSkillLevel,
-    });
-
     const passiveSkill = getSkillInfo(
         card.livePassiveSkillId,
         "passive",
@@ -719,6 +774,32 @@ export function getCardDetail(
         "special",
         specialSkillLevel,
     );
+
+    const outfitEffect = existingDetail?.otherEffects?.find(
+        (effect) => effect.type === "outfit",
+    );
+
+    const outfitSkill = outfitEffect
+        ? {
+            name: outfitEffect.name ?? "의상 스킬",
+            description: cleanSkillDescription(
+                outfitEffect.descriptions?.[0] ?? "",
+            ),
+        }
+        : null;
+
+    const media = {
+        animated: existingDetail?.animated ?? false,
+        staticImage: `/cdn.holodori.dev/assets/assetbundles/img_card_full_${card.assetId}/img_card_full_${card.assetId}_unsquished.webp`,
+        cardVideo: toCdnUrl(existingDetail?.cardVideo),
+        cardVideoBloom: toCdnUrl(existingDetail?.cardVideoBloom),
+        signatureVideo: (existingDetail?.signatureVideo ?? []).map(
+            (source) => ({
+                src: toCdnUrl(source.src),
+                type: source.type,
+            }),
+        ),
+    };
 
     return {
         id: card.id,
@@ -744,6 +825,9 @@ export function getCardDetail(
         levelPotentialStats,
 
         potentialEffects,
+
+        media,
+        outfitSkill,
 
         skills: {
             passive: {
