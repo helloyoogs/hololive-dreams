@@ -262,6 +262,18 @@ export default function CardDetailClient({
     ] = useState(true);
 
     /*
+     * 카드 애니메이션의 첫 프레임이 실제 화면에 표시된 뒤
+     * 사인을 시작하기 위한 동기화 상태입니다.
+     *
+     * animation OFF에서는 정적 이미지가 즉시 표시되므로
+     * 사인도 독립적으로 바로 시작할 수 있습니다.
+     */
+    const [
+        cardFirstFrameReady,
+        setCardFirstFrameReady,
+    ] = useState(false);
+
+    /*
      * 카드 영상과 사인 영상은 별도의 video입니다.
      *
      * 카드 영상:
@@ -351,6 +363,17 @@ export default function CardDetailClient({
         const video =
             cardVideoRef.current;
 
+        /*
+         * 카드 애니메이션을 새로 켜거나 소스가 바뀌면
+         * 사인이 먼저 출발하지 않도록 잠급니다.
+         */
+        if (animationEnabled && cardVideoSrc) {
+            setCardFirstFrameReady(false);
+        } else {
+            // 정적 이미지 상태에서는 사인을 독립적으로 재생합니다.
+            setCardFirstFrameReady(true);
+        }
+
         if (
             !video ||
             !animationEnabled ||
@@ -405,40 +428,63 @@ export default function CardDetailClient({
     /*
      * 사인 애니메이션
      *
-     * 원본 사이트와 같은 구조입니다.
-     * - 사인 MP4는 화면에 직접 표시하지 않습니다.
-     * - 숨겨진 video에서 프레임을 읽습니다.
-     * - H.264 fallback 영상은 위쪽 절반이 RGB,
-     *   아래쪽 절반이 alpha mask인 형태입니다.
-     * - 두 절반을 합성해서 투명한 1280x720 canvas에 그립니다.
+     * 사인 영상은 화면에 직접 표시하지 않고 숨겨진 video를
+     * 계속 재생하면서 매 프레임 canvas로 합성합니다.
+     *
+     * 중요:
+     * requestVideoFrameCallback은 일부 브라우저에서 영상이 끝난 뒤
+     * 다시 재생할 때 콜백 체인이 끊길 수 있으므로 사용하지 않습니다.
+     * requestAnimationFrame을 계속 유지하고 ended에서 영상을 수동으로
+     * 0초로 되돌려 재생해 사인과 canvas가 함께 확실히 반복됩니다.
      */
     useEffect(() => {
         const video = signatureVideoRef.current;
         const canvas = signatureCanvasRef.current;
 
-        if (
-            !video ||
-            !canvas ||
-            !signatureEnabled ||
-            signatureVideoSources.length === 0
-        ) {
-            const context = canvas?.getContext("2d");
-            if (context && canvas) {
-                context.clearRect(
-                    0,
-                    0,
-                    canvas.width,
-                    canvas.height,
-                );
-            }
-            return;
-        }
+        if (!video || !canvas) return;
 
         const context = canvas.getContext("2d", {
             willReadFrequently: true,
         });
 
         if (!context) return;
+
+        const clearCanvas = () => {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+        };
+
+        if (
+            !signatureEnabled ||
+            signatureVideoSources.length === 0
+        ) {
+            video.pause();
+            clearCanvas();
+            try {
+                video.currentTime = 0;
+            } catch {
+                // metadata 로드 전에는 currentTime 설정이 실패할 수 있습니다.
+            }
+            return;
+        }
+
+        /*
+         * 카드 애니메이션이 ON이면 카드의 첫 프레임이 실제로
+         * 표시될 때까지 사인 재생/Canvas 합성을 시작하지 않습니다.
+         *
+         * 이 조건 때문에:
+         *   카드 영상 play -> 첫 프레임 표시 -> 사인 시작
+         * 순서가 보장됩니다.
+         */
+        if (animationEnabled && !cardFirstFrameReady) {
+            video.pause();
+            clearCanvas();
+            try {
+                video.currentTime = 0;
+            } catch {
+                // metadata 로드 전에는 currentTime 설정이 실패할 수 있습니다.
+            }
+            return;
+        }
 
         const frameCanvas = document.createElement("canvas");
         const frameContext = frameCanvas.getContext("2d", {
@@ -449,16 +495,7 @@ export default function CardDetailClient({
 
         let stopped = false;
         let animationFrameId = 0;
-        let videoFrameId: number | null = null;
-
-        const clearCanvas = () => {
-            context.clearRect(
-                0,
-                0,
-                canvas.width,
-                canvas.height,
-            );
-        };
+        let restarting = false;
 
         const renderSignatureFrame = () => {
             if (
@@ -472,18 +509,6 @@ export default function CardDetailClient({
 
             const sourceWidth = video.videoWidth;
             const sourceHeight = video.videoHeight;
-
-            /*
-             * H.264 사인 영상은 보통:
-             *   1280 x 1440
-             *   ┌──────────────┐
-             *   │ RGB 1280x720 │
-             *   ├──────────────┤
-             *   │ MASK1280x720 │
-             *   └──────────────┘
-             *
-             * 출력 canvas는 1280 x 720입니다.
-             */
             const packedAlpha = sourceHeight >= sourceWidth;
             const outputHeight = packedAlpha
                 ? Math.floor(sourceHeight / 2)
@@ -500,12 +525,7 @@ export default function CardDetailClient({
             frameCanvas.width = sourceWidth;
             frameCanvas.height = sourceHeight;
 
-            frameContext.clearRect(
-                0,
-                0,
-                sourceWidth,
-                sourceHeight,
-            );
+            frameContext.clearRect(0, 0, sourceWidth, sourceHeight);
             frameContext.drawImage(
                 video,
                 0,
@@ -515,13 +535,7 @@ export default function CardDetailClient({
             );
 
             if (!packedAlpha) {
-                // HEVC alpha가 브라우저에서 실제 투명도로 decode되는 경우.
-                context.clearRect(
-                    0,
-                    0,
-                    sourceWidth,
-                    outputHeight,
-                );
+                context.clearRect(0, 0, sourceWidth, outputHeight);
                 context.drawImage(
                     video,
                     0,
@@ -538,7 +552,6 @@ export default function CardDetailClient({
                 sourceWidth,
                 outputHeight,
             );
-
             const mask = frameContext.getImageData(
                 0,
                 outputHeight,
@@ -549,116 +562,96 @@ export default function CardDetailClient({
             const colorData = color.data;
             const maskData = mask.data;
 
-            for (
-                let index = 0;
-                index < colorData.length;
-                index += 4
-            ) {
-                // mask는 흑백이므로 RGB 중 한 채널만 사용하면 됩니다.
+            for (let index = 0; index < colorData.length; index += 4) {
                 colorData[index + 3] = maskData[index];
             }
 
-            context.clearRect(
-                0,
-                0,
-                sourceWidth,
-                outputHeight,
-            );
+            context.clearRect(0, 0, sourceWidth, outputHeight);
             context.putImageData(color, 0, 0);
         };
 
-        const scheduleFrame = () => {
+        // Canvas 루프는 video의 종료 여부와 관계없이 계속 유지합니다.
+        const renderLoop = () => {
             if (stopped) return;
+            renderSignatureFrame();
+            animationFrameId = requestAnimationFrame(renderLoop);
+        };
 
-            const videoWithFrameCallback = video as HTMLVideoElement & {
-                requestVideoFrameCallback?: (
-                    callback: () => void,
-                ) => number;
-                cancelVideoFrameCallback?: (id: number) => void;
-            };
+        const restartVideo = async () => {
+            if (stopped || restarting) return;
 
-            if (videoWithFrameCallback.requestVideoFrameCallback) {
-                videoFrameId =
-                    videoWithFrameCallback.requestVideoFrameCallback(
-                        () => {
-                            renderSignatureFrame();
-                            scheduleFrame();
-                        },
-                    );
-            } else {
-                animationFrameId = requestAnimationFrame(() => {
-                    renderSignatureFrame();
-                    scheduleFrame();
-                });
+            restarting = true;
+            try {
+                // native loop에 의존하지 않고 직접 처음으로 돌립니다.
+                video.currentTime = 0;
+                await video.play();
+            } catch (error) {
+                console.error("사인 영상 반복 재생 실패:", error);
+            } finally {
+                restarting = false;
             }
         };
 
-        const start = async () => {
+        const startVideo = async () => {
             try {
-                clearCanvas();
                 video.muted = true;
                 video.defaultMuted = true;
+                // ended 이벤트를 확실히 받기 위해 native loop는 끕니다.
                 video.loop = false;
                 video.currentTime = 0;
-
+                clearCanvas();
                 await video.play();
-                scheduleFrame();
             } catch (error) {
-                console.error(
-                    "사인 영상 자동재생 실패:",
-                    error,
-                );
+                console.error("사인 영상 자동재생 실패:", error);
             }
-        };
-
-        const handleLoadedData = () => {
-            void start();
         };
 
         const handleEnded = () => {
-            // 마지막 프레임은 canvas에 남겨서 완성된 사인을 유지합니다.
-            renderSignatureFrame();
+            // 마지막 프레임에서 멈추지 않고 즉시 처음부터 다시 재생합니다.
+            void restartVideo();
         };
 
-        video.addEventListener("loadeddata", handleLoadedData);
-        video.addEventListener("ended", handleEnded);
+        const handleCanPlay = () => {
+            if (video.paused && !stopped) {
+                void video.play().catch(() => { });
+            }
+        };
 
+        video.addEventListener("ended", handleEnded);
+        video.addEventListener("canplay", handleCanPlay);
+
+        // Canvas 렌더링 루프는 한 번만 시작합니다.
+        renderLoop();
+
+        // source가 바뀌었을 수 있으므로 다시 로드한 뒤 처음부터 재생합니다.
         video.load();
 
         if (video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
-            void start();
+            void startVideo();
+        } else {
+            const handleLoadedData = () => {
+                void startVideo();
+            };
+            video.addEventListener("loadeddata", handleLoadedData, {
+                once: true,
+            });
         }
 
         return () => {
             stopped = true;
-
-            video.removeEventListener(
-                "loadeddata",
-                handleLoadedData,
-            );
+            video.pause();
             video.removeEventListener("ended", handleEnded);
-
+            video.removeEventListener("canplay", handleCanPlay);
             if (animationFrameId) {
                 cancelAnimationFrame(animationFrameId);
-            }
-
-            const videoWithFrameCallback = video as HTMLVideoElement & {
-                cancelVideoFrameCallback?: (id: number) => void;
-            };
-
-            if (
-                videoFrameId !== null &&
-                videoWithFrameCallback.cancelVideoFrameCallback
-            ) {
-                videoWithFrameCallback.cancelVideoFrameCallback(
-                    videoFrameId,
-                );
             }
         };
     }, [
         signatureEnabled,
         signatureSourceKey,
         signatureVideoSources.length,
+        animationEnabled,
+        cardFirstFrameReady,
     ]);
 
     if (!current) {
@@ -739,6 +732,48 @@ export default function CardDetailClient({
                                                 .catch(
                                                     () => { },
                                                 );
+                                        }}
+                                        onPlaying={(
+                                            event,
+                                        ) => {
+                                            const video =
+                                                event.currentTarget;
+
+                                            /*
+                                             * playing 이벤트만으로는 사인과 카드가 같은
+                                             * 렌더링 틱에 시작할 수 있으므로, 가능하면
+                                             * requestVideoFrameCallback으로 실제 첫 프레임
+                                             * 표시 직후 사인을 시작합니다.
+                                             */
+                                            const videoWithFrameCallback =
+                                                video as HTMLVideoElement & {
+                                                    requestVideoFrameCallback?: (
+                                                        callback: () => void,
+                                                    ) => number;
+                                                };
+
+                                            if (
+                                                typeof videoWithFrameCallback
+                                                    .requestVideoFrameCallback ===
+                                                "function"
+                                            ) {
+                                                videoWithFrameCallback
+                                                    .requestVideoFrameCallback(
+                                                        () => {
+                                                            setCardFirstFrameReady(
+                                                                true,
+                                                            );
+                                                        },
+                                                    );
+                                            } else {
+                                                requestAnimationFrame(
+                                                    () => {
+                                                        setCardFirstFrameReady(
+                                                            true,
+                                                        );
+                                                    },
+                                                );
+                                            }
                                         }}
                                         style={{
                                             position:
