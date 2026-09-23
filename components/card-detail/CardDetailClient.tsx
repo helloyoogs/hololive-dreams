@@ -1,250 +1,16 @@
 "use client";
 
-import {
-    useEffect,
-    useMemo,
-    useRef,
-    useState,
-} from "react";
-
-type CardDetail = {
-    id: string;
-
-    name: string;
-    characterName: string;
-
-    rarity: number;
-    attribute: string;
-
-    assetId: string;
-
-    level: number;
-    maxLevel: number;
-
-    potential: number;
-    maxPotential: number;
-
-    stats: {
-        baseValue: number;
-        potentialBaseValue: number;
-        performance: number;
-        technique: number;
-        sense: number;
-        total: number;
-    };
-
-    levelPotentialStats: Array<{
-        level: number;
-        potential: number;
-
-        baseValue: number;
-        potentialBaseValue: number;
-
-        performance: number;
-        technique: number;
-        sense: number;
-        total: number;
-
-        parameterPermil: number;
-        parameterPercent: number;
-
-        passiveSkillLevelUp: number;
-        activeSkillLevelUp: number;
-        specialSkillLevelUp: number;
-        skillTreeConnectLevelUp: number;
-
-        passiveSkill: {
-            level: number;
-            description: string;
-        };
-
-        activeSkill: {
-            level: number;
-            description: string;
-        };
-
-        specialSkill: {
-            level: number;
-            description: string;
-        };
-    }>;
-
-    potentialEffects: Array<{
-        upgradeCount: number;
-        label: string;
-        unlocked: boolean;
-    }>;
-
-    media: {
-        animated: boolean;
-
-        staticImage: string;
-
-        cardVideo: string;
-        cardVideoBloom: string;
-
-        signatureVideo: Array<{
-            src: string;
-            type: string;
-        }>;
-    };
-
-    outfitSkill: {
-        name: string;
-        description: string;
-    } | null;
-
-    skills: {
-        passive: {
-            level: number;
-            description: string;
-        };
-
-        active: {
-            level: number;
-            description: string;
-        };
-
-        special: {
-            level: number;
-            description: string;
-        };
-    };
-};
-
-interface Props {
-    card: CardDetail;
-}
-
-/**
- * DB/CDN 경로를 Next.js public 폴더의
- * 로컬 URL로 변환합니다.
- */
-function toLocalAssetUrl(src: string): string {
-    if (!src) return "";
-
-    let value = src.trim();
-
-    // 원격 CDN origin 제거
-    value = value.replace(
-        /^https?:\/\/cdn\.holodori\.dev\//,
-        "",
-    );
-
-    // 이미 로컬용 prefix가 붙어 있어도 다시 정규화
-    value = value.replace(
-        /^\/?cdn\.holodori\.dev\//,
-        "",
-    );
-
-    // 맨 앞 / 제거
-    value = value.replace(/^\/+/, "");
-
-    // assets가 이미 있으면 그대로
-    if (value.startsWith("assets/")) {
-        return `/cdn.holodori.dev/${value}`;
-    }
-
-    // 원본 CDN에서 resources와 assetbundles는 assets 아래에 있음
-    if (
-        value.startsWith("resources/") ||
-        value.startsWith("assetbundles/")
-    ) {
-        return `/cdn.holodori.dev/assets/${value}`;
-    }
-
-    return `/cdn.holodori.dev/assets/${value}`;
-}
-
-function formatNumber(value: number) {
-    return value.toLocaleString("ko-KR");
-}
-
-function Stars({
-    rarity,
-}: {
-    rarity: number;
-}) {
-    return (
-        <div className="flex gap-1">
-            {Array.from(
-                { length: 5 },
-                (_, index) => (
-                    <span
-                        key={index}
-                        className={
-                            index < rarity
-                                ? "text-yellow-300"
-                                : "text-slate-700"
-                        }
-                    >
-                        ★
-                    </span>
-                ),
-            )}
-        </div>
-    );
-}
-
-function StatBox({
-    title,
-    value,
-    description,
-}: {
-    title: string;
-    value: number;
-    description: string;
-}) {
-    return (
-        <div className="rounded-2xl border border-white/10 bg-[#102657] p-5">
-            <div className="mb-2 text-sm font-medium text-slate-400">
-                {title}
-            </div>
-
-            <div className="text-3xl font-black tracking-tight text-white">
-                {formatNumber(value)}
-            </div>
-
-            <div className="mt-1 text-xs text-slate-500">
-                {description}
-            </div>
-        </div>
-    );
-}
-
-function SkillBox({
-    title,
-    level,
-    description,
-}: {
-    title: string;
-    level?: number;
-    description: string;
-}) {
-    return (
-        <div className="rounded-2xl border border-white/10 bg-[#102657] p-5">
-            <div className="flex items-center justify-between gap-4">
-                <h3 className="font-bold text-white">
-                    {title}
-                </h3>
-
-                {level !== undefined && (
-                    <span className="rounded-full bg-blue-500/20 px-3 py-1 text-xs font-bold text-blue-300">
-                        Lv {level}
-                    </span>
-                )}
-            </div>
-
-            <p className="mt-4 text-sm leading-7 text-slate-300">
-                {description || "설명이 없습니다."}
-            </p>
-        </div>
-    );
-}
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Stars } from "./CardStars";
+import { StatBox } from "./CardStat";
+import { SkillBox } from "./CardSkill";
+import { toLocalAssetUrl } from "./card-detail.utils";
+import type { CardDetailClientProps } from "./types";
+import styles from "./card-detail.module.css";
 
 export default function CardDetailClient({
     card,
-}: Props) {
+}: CardDetailClientProps) {
     const [level, setLevel] =
         useState(card.level);
 
@@ -659,35 +425,35 @@ export default function CardDetailClient({
     }
 
     return (
-        <main className="min-h-screen bg-[#07183f] px-4 py-8 text-white md:px-8">
-            <div className="mx-auto max-w-7xl">
+        <main className="min-h-screen px-4 py-10 text-[#62628e] md:px-8">
+            <div className="mx-auto max-w-[1180px]">
                 {/* 상단 */}
-                <div className="mb-8">
-                    <div className="mb-2 text-sm text-blue-300">
+                <div className="mb-7">
+                    <div className="mb-2 text-xs font-bold tracking-[0.12em] text-[#14d0ee]">
                         CARD DETAIL
                     </div>
 
-                    <h1 className="text-3xl font-black md:text-4xl">
+                    <h1 className="text-3xl font-bold text-[#45456c] md:text-4xl">
                         {card.name}
                     </h1>
 
-                    <p className="mt-2 text-slate-400">
+                    <p className="mt-2 text-sm text-[#9696ad]">
                         {card.characterName}
                     </p>
                 </div>
 
                 {/* 카드 기본 정보 */}
-                <section className="grid gap-8 lg:grid-cols-[420px_1fr]">
+                <section className="grid items-start gap-7 lg:grid-cols-[minmax(0,560px)_minmax(320px,1fr)]">
                     {/* 카드 뷰어 */}
-                    <div className="mx-auto w-full max-w-[420px] lg:mx-0">
-                        <div className="overflow-hidden rounded-3xl border border-white/10 bg-[#0c2452] p-3 shadow-2xl shadow-black/20">
+                    <div className="mx-auto w-full max-w-[680px] lg:mx-0">
+                        <div className={styles["card-media"]}>
                             {/*
                              * Tailwind aspect 클래스에
                              * 의존하지 않고 직접 비율을
                              * 지정합니다.
                              */}
                             <div
-                                className="relative w-full overflow-hidden rounded-2xl bg-black"
+                                className={styles["card-stage"]}
                                 style={{
                                     aspectRatio:
                                         "16 / 9",
@@ -870,7 +636,7 @@ export default function CardDetailClient({
                         </div>
 
                         {/* 영상 컨트롤 */}
-                        <div className="mt-3 grid grid-cols-2 gap-3">
+                        <div className="mt-2.5 grid grid-cols-2 gap-2">
                             <button
                                 type="button"
                                 onClick={() => {
@@ -882,11 +648,11 @@ export default function CardDetailClient({
                                     );
                                 }}
                                 className={[
-                                    "rounded-xl border px-4 py-3 text-sm font-bold transition",
+                                    "rounded-[10px] border px-4 py-2.5 text-xs font-bold transition",
 
                                     animationEnabled
-                                        ? "border-blue-400/40 bg-blue-500/20 text-blue-200"
-                                        : "border-white/10 bg-white/5 text-slate-400",
+                                        ? "border-[#a2ecf8] bg-[#f1fcfe] text-[#14d0ee]"
+                                        : "border-[#dce8eb] bg-white/80 text-[#9696ad]",
                                 ].join(" ")}
                             >
                                 애니메이션{" "}
@@ -911,15 +677,15 @@ export default function CardDetailClient({
                                         .length === 0
                                 }
                                 className={[
-                                    "rounded-xl border px-4 py-3 text-sm font-bold transition",
+                                    "rounded-[10px] border px-4 py-2.5 text-xs font-bold transition",
 
                                     card.media
                                         .signatureVideo
                                         .length === 0
-                                        ? "cursor-not-allowed border-white/5 bg-white/[0.03] text-slate-600"
+                                        ? "cursor-not-allowed border-[#e8eeee] bg-white/50 text-[#c1c1cd]"
                                         : signatureEnabled
-                                            ? "border-purple-400/40 bg-purple-500/20 text-purple-200"
-                                            : "border-white/10 bg-white/5 text-slate-400",
+                                            ? "border-[#a2ecf8] bg-[#f1fcfe] text-[#14d0ee]"
+                                            : "border-[#dce8eb] bg-white/80 text-[#9696ad]",
                                 ].join(" ")}
                             >
                                 사인{" "}
@@ -935,7 +701,7 @@ export default function CardDetailClient({
                     </div>
 
                     {/* 정보 */}
-                    <div className="rounded-3xl border border-white/10 bg-[#0c2452] p-6 md:p-8">
+                    <div className={styles["card-panel"]}>
                         <div className="flex flex-wrap items-start justify-between gap-4">
                             <div>
                                 <div className="mb-3">
@@ -946,18 +712,18 @@ export default function CardDetailClient({
                                     />
                                 </div>
 
-                                <h2 className="text-2xl font-black md:text-3xl">
+                                <h2 className="text-2xl font-bold text-[#45456c] md:text-3xl">
                                     {card.name}
                                 </h2>
 
-                                <p className="mt-2 text-slate-400">
+                                <p className="mt-2 text-sm text-[#9696ad]">
                                     {
                                         card.characterName
                                     }
                                 </p>
                             </div>
 
-                            <div className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-bold">
+                            <div className="rounded-full border border-[#a2ecf8] bg-[#f2fcfe] px-3 py-1.5 text-xs font-bold text-[#14d0ee]">
                                 {card.attribute}
                             </div>
                         </div>
@@ -969,7 +735,7 @@ export default function CardDetailClient({
                                     레벨
                                 </span>
 
-                                <span className="font-black text-blue-300">
+                                <span className="font-bold text-[#14d0ee]">
                                     Lv {level} /{" "}
                                     {card.maxLevel}
                                 </span>
@@ -993,10 +759,10 @@ export default function CardDetailClient({
                                         ),
                                     )
                                 }
-                                className="w-full accent-blue-500"
+                                className="w-full accent-[#14d0ee]"
                             />
 
-                            <div className="mt-2 flex justify-between text-xs text-slate-500">
+                            <div className="mt-2 flex justify-between text-xs text-[#b1b1c0]">
                                 <span>
                                     Lv 1
                                 </span>
@@ -1017,7 +783,7 @@ export default function CardDetailClient({
                                     개화
                                 </span>
 
-                                <span className="font-black text-purple-300">
+                                <span className="font-bold text-[#14d0ee]">
                                     {potential} /{" "}
                                     {
                                         card.maxPotential
@@ -1047,12 +813,12 @@ export default function CardDetailClient({
                                                 )
                                             }
                                             className={[
-                                                "rounded-xl py-3 text-sm font-black transition",
+                                                "rounded-[9px] border py-2.5 text-sm font-bold transition",
 
                                                 potential ===
                                                     index
-                                                    ? "bg-purple-500 text-white"
-                                                    : "bg-white/5 text-slate-400 hover:bg-white/10",
+                                                    ? "border-[#14d0ee] bg-[#14d0ee] text-white"
+                                                    : "border-[#e5edef] bg-[#f8fbfc] text-[#9a9aae] hover:border-[#a2ecf8] hover:text-[#14d0ee]",
                                             ].join(
                                                 " ",
                                             )}
@@ -1067,13 +833,13 @@ export default function CardDetailClient({
                         </div>
 
                         {/* 현재 개화 보너스 */}
-                        <div className="mt-8 rounded-2xl border border-purple-400/20 bg-purple-500/10 p-4">
-                            <div className="text-xs font-bold uppercase tracking-wider text-purple-300">
+                        <div className="mt-7 rounded-xl border border-[#cceff5] bg-[#f2fcfe] p-4">
+                            <div className="text-xs font-bold uppercase tracking-wider text-[#62628e]">
                                 현재 개화 스탯
                                 보너스
                             </div>
 
-                            <div className="mt-2 text-2xl font-black">
+                            <div className="mt-2 text-2xl font-bold text-[#14d0ee]">
                                 +
                                 {
                                     current.parameterPercent
@@ -1081,7 +847,7 @@ export default function CardDetailClient({
                                 %
                             </div>
 
-                            <div className="mt-1 text-xs text-slate-400">
+                            <div className="mt-1 text-xs text-[#aaaabd]">
                                 전체 파라미터
                             </div>
                         </div>
@@ -1091,17 +857,17 @@ export default function CardDetailClient({
                 {/* 능력치 */}
                 <section className="mt-8">
                     <div className="mb-4">
-                        <h2 className="text-2xl font-black">
+                        <h2 className="text-xl font-bold text-[#45456c]">
                             능력치
                         </h2>
 
-                        <p className="mt-1 text-sm text-slate-500">
+                        <p className="mt-1 text-xs text-[#aaaabd]">
                             Lv {level} / 개화{" "}
                             {potential}
                         </p>
                     </div>
 
-                    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                         <StatBox
                             title="PERFORMANCE"
                             value={
@@ -1136,79 +902,20 @@ export default function CardDetailClient({
                     </div>
                 </section>
 
-                {/* 개화 효과 */}
-                <section className="mt-10">
-                    <div className="mb-4">
-                        <h2 className="text-2xl font-black">
-                            개화 효과
-                        </h2>
-
-                        <p className="mt-1 text-sm text-slate-500">
-                            개화 단계별 잠재력
-                            효과
-                        </p>
-                    </div>
-
-                    <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-                        {card.potentialEffects.map(
-                            (effect) => (
-                                <div
-                                    key={
-                                        effect.upgradeCount
-                                    }
-                                    className={[
-                                        "rounded-2xl border p-4 transition",
-
-                                        effect.unlocked
-                                            ? "border-purple-400/30 bg-purple-500/10"
-                                            : "border-white/10 bg-[#0c2452] opacity-50",
-                                    ].join(
-                                        " ",
-                                    )}
-                                >
-                                    <div className="flex items-center gap-3">
-                                        <div
-                                            className={[
-                                                "flex h-9 w-9 items-center justify-center rounded-full text-sm font-black",
-
-                                                effect.unlocked
-                                                    ? "bg-purple-500 text-white"
-                                                    : "bg-white/10 text-slate-500",
-                                            ].join(
-                                                " ",
-                                            )}
-                                        >
-                                            {
-                                                effect.upgradeCount
-                                            }
-                                        </div>
-
-                                        <div className="font-bold">
-                                            {
-                                                effect.label
-                                            }
-                                        </div>
-                                    </div>
-                                </div>
-                            ),
-                        )}
-                    </div>
-                </section>
-
                 {/* 스킬 */}
                 <section className="mt-10 pb-12">
                     <div className="mb-4">
-                        <h2 className="text-2xl font-black">
+                        <h2 className="text-xl font-bold text-[#45456c]">
                             스킬
                         </h2>
 
-                        <p className="mt-1 text-sm text-slate-500">
+                        <p className="mt-1 text-xs text-[#aaaabd]">
                             현재 개화 상태가 적용된
                             스킬 레벨
                         </p>
                     </div>
 
-                    <div className="grid gap-4 lg:grid-cols-3">
+                    <div className="grid gap-3 lg:grid-cols-3">
                         <SkillBox
                             title="패시브 스킬"
                             level={

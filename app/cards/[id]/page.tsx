@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getCardDetail } from "@/lib/card-detail";
-import CardDetailClient from "@/components/CardDetailClient";
+import CardDetailClient from "@/components/card-detail/CardDetailClient";
 
 interface PageProps {
     params: Promise<{
