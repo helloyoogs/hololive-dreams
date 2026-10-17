@@ -21,7 +21,7 @@ export default function Home() {
       {/* 배경 이미지 영역 */}
       <div className="card-content-area">
         {/* 카드 그리드 영역 */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-[120rem] mx-auto px-2">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-[1200px] mx-auto px-2">
           {cards.map((card) => (
             <div
               key={card.id}

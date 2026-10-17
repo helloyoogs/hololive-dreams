@@ -860,11 +860,6 @@ export default function CardDetailClient({
                         <h2 className="text-xl font-bold text-[#45456c]">
                             능력치
                         </h2>
-
-                        <p className="mt-1 text-xs text-[#aaaabd]">
-                            Lv {level} / 개화{" "}
-                            {potential}
-                        </p>
                     </div>
 
                     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -908,11 +903,6 @@ export default function CardDetailClient({
                         <h2 className="text-xl font-bold text-[#45456c]">
                             스킬
                         </h2>
-
-                        <p className="mt-1 text-xs text-[#aaaabd]">
-                            현재 개화 상태가 적용된
-                            스킬 레벨
-                        </p>
                     </div>
 
                     <div className="grid gap-3 lg:grid-cols-3">
