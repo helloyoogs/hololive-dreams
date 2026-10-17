@@ -55,7 +55,7 @@ export default function Home() {
                 {card.character}
               </span>
               <h3 className="text-sm font-bold truncate w-full text-center mt-0.5 text-black-100" title={card.name}>
-                {card.name} {card.id}
+                {card.name}
               </h3>
 
               {/* 상세 정보 버튼 */}
